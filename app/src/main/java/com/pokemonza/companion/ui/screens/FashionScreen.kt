@@ -154,11 +154,11 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
     }
 
     selectedItem?.let { item ->
-        val preview = if (useLargePreview) item.largePreviewUrl() else item.imageUrl
         DetailPopup(
             title = item.name,
             onDismiss = { selectedItem = null },
-            imageUrl = preview
+            imageUrl = item.largePreviewUrl() ?: item.imageUrl,
+            imageMaxHeight = 300.dp
         ) {
             FashionDetailBody(item)
         }

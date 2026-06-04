@@ -35,7 +35,6 @@ import androidx.window.layout.WindowInfoTracker
 import com.pokemonza.companion.navigation.CompanionTab
 import com.pokemonza.companion.ui.components.AppUpdateHost
 import com.pokemonza.companion.ui.components.GlassBottomNavBar
-import com.pokemonza.companion.ui.components.NavBarBackdrop
 import com.pokemonza.companion.ui.screens.FashionScreen
 import com.pokemonza.companion.ui.screens.GuidesScreen
 import com.pokemonza.companion.ui.screens.MapScreen
@@ -125,7 +124,7 @@ fun PokemonZACompanionApp(viewModel: CompanionViewModel = viewModel()) {
 
     Scaffold(
         modifier = Modifier.fillMaxSize(),
-        containerColor = NavBarBackdrop,
+        containerColor = Color.Transparent,
         contentWindowInsets = WindowInsets(0, 0, 0, 0),
         bottomBar = {
             GlassBottomNavBar {

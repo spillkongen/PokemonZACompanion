@@ -13,8 +13,12 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material3.FilterChip
@@ -34,6 +38,7 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
@@ -88,29 +93,23 @@ fun BackgroundScaffold(
     }
 }
 
-/** Bottom menu: glass panel only — companion background image is not drawn here. */
+/** Bottom menu — transparent glass only (no wallpaper under the buttons). */
 @Composable
 fun GlassBottomNavBar(
     modifier: Modifier = Modifier,
     content: @Composable () -> Unit
 ) {
-    Column(
+    Box(
         modifier = modifier
             .fillMaxWidth()
-            .background(NavBarBackdrop)
+            .background(GlassNavBar)
+            .border(
+                width = 1.dp,
+                color = Color.White.copy(alpha = 0.12f),
+                shape = RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp)
+            )
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .background(GlassNavBar)
-                .border(
-                    width = 1.dp,
-                    color = Color.White.copy(alpha = 0.1f),
-                    shape = RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp)
-                )
-        ) {
-            content()
-        }
+        content()
     }
 }
 
@@ -232,6 +231,7 @@ fun DetailPopup(
     onDismiss: () -> Unit,
     imageUrl: String? = null,
     @DrawableRes imageRes: Int? = null,
+    imageMaxHeight: Dp = 96.dp,
     body: @Composable () -> Unit
 ) {
     Dialog(
@@ -251,6 +251,7 @@ fun DetailPopup(
             Column(
                 modifier = Modifier
                     .fillMaxWidth(0.92f)
+                    .heightIn(max = 520.dp)
                     .clip(RoundedCornerShape(16.dp))
                     .background(GlassPopup)
                     .border(1.dp, Color.White.copy(alpha = 0.12f), RoundedCornerShape(16.dp))
@@ -258,6 +259,7 @@ fun DetailPopup(
                         indication = null,
                         interactionSource = remember { MutableInteractionSource() }
                     ) { }
+                    .verticalScroll(rememberScrollState())
                     .padding(16.dp)
             ) {
                 Row(
@@ -286,7 +288,8 @@ fun DetailPopup(
                         model = imageUrl,
                         contentDescription = null,
                         modifier = Modifier
-                            .size(96.dp)
+                            .fillMaxWidth()
+                            .height(imageMaxHeight)
                             .padding(vertical = 8.dp)
                             .align(Alignment.CenterHorizontally),
                         contentScale = ContentScale.Fit
@@ -295,9 +298,11 @@ fun DetailPopup(
                         painter = painterResource(imageRes),
                         contentDescription = null,
                         modifier = Modifier
-                            .size(96.dp)
+                            .fillMaxWidth()
+                            .height(imageMaxHeight)
                             .padding(vertical = 8.dp)
-                            .align(Alignment.CenterHorizontally)
+                            .align(Alignment.CenterHorizontally),
+                        contentScale = ContentScale.Fit
                     )
                 }
                 body()
