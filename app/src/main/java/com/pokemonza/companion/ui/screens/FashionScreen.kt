@@ -83,7 +83,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                     modifier = Modifier.weight(1f)
                 )
                 IconButton(onClick = { viewModel.loadFashion(forceRefresh = true) }) {
-                    Icon(Icons.Default.Refresh, "Refresh from Serebii", tint = Color.White)
+                    Icon(Icons.Default.Refresh, "Reload", tint = Color.White)
                 }
             }
 
@@ -121,7 +121,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
             }
 
             Text(
-                "Every outfit works on any character. Women's = blouse/skort/dress sets; Men's = other cuts. Serebii shows one preview model.",
+                "Every outfit works on any character. Women's = blouse/skort/dress sets; Men's = other cuts.",
                 color = Color.White.copy(0.55f),
                 fontSize = 10.sp,
                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 2.dp)

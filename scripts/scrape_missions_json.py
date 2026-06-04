@@ -1,6 +1,6 @@
-"""Regenerate app/src/main/assets/missions_serebii.json from Serebii."""
+"""Regenerate app/src/main/assets/missions_serebii.json from Serebii (build-time only)."""
 import json
-import re
+import time
 import urllib.request
 from bs4 import BeautifulSoup
 
@@ -25,6 +25,32 @@ def abs_url(href: str) -> str:
     if href.startswith("/"):
         return "https://www.serebii.net" + href
     return BASE + href.lstrip("/")
+
+
+def parse_detail(html: str) -> str:
+    soup = BeautifulSoup(html, "html.parser")
+    paragraphs = []
+    seen = set()
+    for p in soup.select("p"):
+        text = p.get_text(" ", strip=True)
+        if len(text) < 35:
+            continue
+        if text.lower().startswith("description :"):
+            continue
+        if text.lower().startswith("unlock criteria"):
+            continue
+        key = text[:120]
+        if key in seen:
+            continue
+        seen.add(key)
+        paragraphs.append(text)
+    if not paragraphs:
+        for cell in soup.select("td.fooinfo"):
+            text = cell.get_text(" ", strip=True)
+            if len(text) > 40 and text[:120] not in seen:
+                seen.add(text[:120])
+                paragraphs.append(text)
+    return "\n\n".join(paragraphs[:8])
 
 
 def parse_list(html: str, mission_type: str) -> list[dict]:
@@ -55,6 +81,7 @@ def parse_list(html: str, mission_type: str) -> list[dict]:
                     "type": mission_type,
                     "description": description,
                     "detailUrl": detail,
+                    "guide": "",
                 }
             )
         if missions:
@@ -72,8 +99,26 @@ def main():
         print(f"  {mtype}: {len(parsed)}")
         all_missions.extend(parsed)
 
+    print("Fetching walkthroughs...")
+    for i, m in enumerate(all_missions):
+        url = m.get("detailUrl") or ""
+        if not url:
+            m["guide"] = m["description"]
+            continue
+        try:
+            html = fetch(url)
+            guide = parse_detail(html)
+            m["guide"] = guide if guide else m["description"]
+        except Exception as e:
+            print(f"  skip {m['title']}: {e}")
+            m["guide"] = m["description"]
+        if (i + 1) % 25 == 0:
+            print(f"  {i + 1}/{len(all_missions)}")
+        time.sleep(0.15)
+
     payload = {
         "source": BASE,
+        "bundledOnly": True,
         "updated": __import__("datetime").date.today().isoformat(),
         "count": len(all_missions),
         "missions": all_missions,

@@ -51,8 +51,8 @@ class PokemonRepository(private val client: BulbapediaClient = BulbapediaClient(
 class GuideRepository {
     fun fetchGuides(): List<GuideEntry> = listOf(
         GuideEntry("Lumiose City Map", "Interactive Map", "MapGenie map with collectibles, missions, and Pokémon.", AppConstants.MAP_GENIE_LUMIOSE),
-        GuideEntry("Trainer Fashion", "In-App", "1,100+ outfits — open the Fashion tab (scraped from Serebii, no browser).", ""),
-        GuideEntry("All Missions", "In-App", "259 missions (main, side, hyperspace) — open the Missions tab.", ""),
+        GuideEntry("Trainer Fashion", "In-App", "1,100+ outfits — open the Fashion tab (offline data).", ""),
+        GuideEntry("All Missions", "In-App", "259 missions (main, side, hyperspace) — open the Missions tab (offline).", ""),
         GuideEntry("Mega Stones", "Items", "Every Mega Stone location on MapGenie.", "${AppConstants.MAP_GENIE_BASE}/guides/mega-stones")
     )
 }

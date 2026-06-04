@@ -66,7 +66,8 @@ class CompanionViewModel(application: Application) : AndroidViewModel(applicatio
         viewModelScope.launch {
             _fashionState.value = _fashionState.value.copy(isLoading = true, error = null)
             try {
-                val data = fashionRepo.fetchFashion(forceLive = forceRefresh)
+                if (forceRefresh) fashionRepo.clearCache()
+                val data = fashionRepo.fetchFashion()
                 _fashionState.value = TabLoadState(data = data, lastUpdated = System.currentTimeMillis())
                 fashionLoaded = true
             } catch (e: Exception) {
@@ -80,7 +81,8 @@ class CompanionViewModel(application: Application) : AndroidViewModel(applicatio
         viewModelScope.launch {
             _missionState.value = _missionState.value.copy(isLoading = true, error = null)
             try {
-                val data = missionRepo.fetchMissions(forceLive = forceRefresh)
+                if (forceRefresh) missionRepo.clearCache()
+                val data = missionRepo.fetchMissions()
                 _missionState.value = TabLoadState(data = data, lastUpdated = System.currentTimeMillis())
                 missionsLoaded = true
             } catch (e: Exception) {

@@ -1,6 +1,6 @@
 {
-  "versionCode": 23,
-  "versionName": "1.2.8",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.2.8/app-release.apk",
-  "releaseNotes": "All 259 Serebii missions (main, side, hyperspace) with scraped walkthroughs. No Serebii iframe in Guides."
+  "versionCode": 24,
+  "versionName": "1.2.9",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.2.9/app-release.apk",
+  "releaseNotes": "All Serebii data is bundled offline — no live Serebii requests from the app."
 }

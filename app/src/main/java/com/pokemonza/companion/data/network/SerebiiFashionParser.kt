@@ -174,25 +174,16 @@ class SerebiiFashionParser {
     private data class Quad(val a: String, val b: String, val c: String, val d: String)
 }
 
-class FashionRepository(
-    private val context: Context,
-    private val parser: SerebiiFashionParser = SerebiiFashionParser()
-) {
-    suspend fun fetchFashion(forceLive: Boolean = false): List<FashionItem> {
-        if (forceLive) {
-            return try {
-                val live = parser.fetchLive()
-                if (live.isNotEmpty()) live else loadBundled()
-            } catch (_: Exception) {
-                loadBundled()
-            }
-        }
-        return try {
-            val live = parser.fetchLive()
-            if (live.size >= 100) live else loadBundled()
-        } catch (_: Exception) {
-            loadBundled()
-        }
+class FashionRepository(private val context: Context) {
+    private var cached: List<FashionItem>? = null
+
+    suspend fun fetchFashion(): List<FashionItem> {
+        cached?.let { return it }
+        return loadBundled().also { cached = it }
+    }
+
+    fun clearCache() {
+        cached = null
     }
 
     private suspend fun loadBundled(): List<FashionItem> = withContext(Dispatchers.IO) {
