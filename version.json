@@ -1,6 +1,6 @@
 {
-  "versionCode": 27,
-  "versionName": "1.3.2",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.3.2/app-release.apk",
-  "releaseNotes": "Map tab: embedded MapGenie only (no popups). Other tabs stay offline. No design changes."
+  "versionCode": 28,
+  "versionName": "1.3.3",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.3.3/app-release.apk",
+  "releaseNotes": "Smoother updates: Update now/Later popup, background install, then Restart now prompt."
 }

@@ -1,11 +1,12 @@
 package com.pokemonza.companion.update
 
+import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageInstaller
 import android.net.Uri
 import android.os.Build
 import android.provider.Settings
-import androidx.core.content.FileProvider
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
@@ -69,15 +70,47 @@ class AppUpdateInstaller(
         outFile
     }
 
-    fun installApk(apkFile: File): Intent {
-        val uri = FileProvider.getUriForFile(
-            context,
-            "${context.packageName}.fileprovider",
-            apkFile
-        )
-        return Intent(Intent.ACTION_VIEW).apply {
-            setDataAndType(uri, "application/vnd.android.package-archive")
-            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_ACTIVITY_NEW_TASK)
+    fun installApkInBackground(apkFile: File) {
+        val packageInstaller = context.packageManager.packageInstaller
+        val params = PackageInstaller.SessionParams(PackageInstaller.SessionParams.MODE_FULL_INSTALL).apply {
+            setSize(apkFile.length())
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                setRequireUserAction(PackageInstaller.SessionParams.USER_ACTION_NOT_REQUIRED)
+            }
         }
+
+        val sessionId = packageInstaller.createSession(params)
+        val session = packageInstaller.openSession(sessionId)
+        try {
+            apkFile.inputStream().use { input ->
+                session.openWrite("app", 0, apkFile.length()).use { output ->
+                    input.copyTo(output)
+                    session.fsync(output)
+                }
+            }
+            val pendingIntent = PendingIntent.getBroadcast(
+                context,
+                sessionId,
+                Intent(context, InstallResultReceiver::class.java).setAction(ACTION_INSTALL_RESULT),
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_MUTABLE
+            )
+            session.commit(pendingIntent.intentSender)
+        } catch (e: Exception) {
+            session.abandon()
+            throw e
+        } finally {
+            session.close()
+        }
+    }
+
+    fun restartApp() {
+        val launch = context.packageManager.getLaunchIntentForPackage(context.packageName) ?: return
+        launch.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+        context.startActivity(launch)
+        Runtime.getRuntime().exit(0)
+    }
+
+    companion object {
+        const val ACTION_INSTALL_RESULT = "com.pokemonza.companion.INSTALL_RESULT"
     }
 }
