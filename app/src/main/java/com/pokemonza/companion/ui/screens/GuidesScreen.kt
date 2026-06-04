@@ -41,10 +41,11 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
+import com.pokemonza.companion.BuildConfig
 import com.pokemonza.companion.data.model.GuideEntry
-import com.pokemonza.companion.data.network.AppConstants
 import com.pokemonza.companion.ui.components.BackgroundScaffold
 import com.pokemonza.companion.ui.components.GlassCard
+import com.pokemonza.companion.update.LocalUpdateActions
 import com.pokemonza.companion.ui.components.LastUpdatedText
 import com.pokemonza.companion.ui.components.glassListContentPadding
 import com.pokemonza.companion.ui.theme.ZAAccent
@@ -54,6 +55,7 @@ import com.pokemonza.companion.ui.viewmodel.CompanionViewModel
 fun GuidesScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) {
     val state by viewModel.guideState.collectAsState()
     var selectedGuide by remember { mutableStateOf<GuideEntry?>(null) }
+    val updateActions = LocalUpdateActions.current
 
     BackgroundScaffold(modifier = modifier) {
         Column(modifier = Modifier.fillMaxSize()) {
@@ -80,6 +82,29 @@ fun GuidesScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) {
                     verticalArrangement = Arrangement.spacedBy(8.dp),
                     contentPadding = glassListContentPadding()
                 ) {
+                    item {
+                        GlassCard(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable(enabled = updateActions != null) {
+                                    updateActions?.checkNow()
+                                }
+                        ) {
+                            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                                Text(
+                                    "App version ${BuildConfig.VERSION_NAME}",
+                                    color = Color.White,
+                                    fontWeight = FontWeight.SemiBold,
+                                    fontSize = 14.sp
+                                )
+                                Text(
+                                    "Tap here to check for updates from GitHub",
+                                    color = ZAAccent,
+                                    fontSize = 12.sp
+                                )
+                            }
+                        }
+                    }
                     items(state.data, key = { it.title }) { guide ->
                         GuideCard(guide) { selectedGuide = guide }
                     }

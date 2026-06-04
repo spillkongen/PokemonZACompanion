@@ -1,5 +1,6 @@
 {
-  "versionCode": 21,
-  "versionName": "1.2.6",
-  "releaseNotes": "Transparent glass bottom menu on every tab — background shows through on Fashion, Pokédex, and more."
+  "versionCode": 22,
+  "versionName": "1.2.7",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.2.7/app-release.apk",
+  "releaseNotes": "Fixes auto-update checks. Go to Guides tab and tap Check for updates if no popup appears."
 }

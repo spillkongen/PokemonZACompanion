@@ -4,6 +4,7 @@ import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
@@ -20,7 +21,10 @@ import com.pokemonza.companion.BuildConfig
 import com.pokemonza.companion.update.AppUpdateChecker
 import com.pokemonza.companion.update.AppUpdateInfo
 import com.pokemonza.companion.update.AppUpdateInstaller
-import com.pokemonza.companion.update.UpdatePreferences
+import com.pokemonza.companion.update.LocalUpdateActions
+import com.pokemonza.companion.update.UpdateActions
+import com.pokemonza.companion.update.UpdateCheckResult
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 @Composable
@@ -29,12 +33,12 @@ fun AppUpdateHost(content: @Composable () -> Unit) {
     val scope = rememberCoroutineScope()
     val checker = remember { AppUpdateChecker() }
     val installer = remember { AppUpdateInstaller(context) }
-    val prefs = remember { UpdatePreferences(context) }
 
     var pendingUpdate by remember { mutableStateOf<AppUpdateInfo?>(null) }
     var isDownloading by remember { mutableStateOf(false) }
     var downloadProgress by remember { mutableFloatStateOf(0f) }
     var errorMessage by remember { mutableStateOf<String?>(null) }
+    var dismissedSessionVersion by remember { mutableIntStateOf(0) }
 
     val installLauncher = rememberLauncherForActivityResult(
         ActivityResultContracts.StartActivityForResult()
@@ -60,31 +64,56 @@ fun AppUpdateHost(content: @Composable () -> Unit) {
         }
     }
 
-    val lifecycleOwner = LocalLifecycleOwner.current
-    var checkTrigger by remember { mutableIntStateOf(0) }
-
-    fun runUpdateCheck() {
-        if (pendingUpdate != null || isDownloading) return
-        scope.launch {
-            if (!checker.isConfigured()) return@launch
-            val update = checker.checkForUpdate(BuildConfig.VERSION_CODE) ?: return@launch
-            if (update.versionCode <= prefs.getDismissedVersionCode()) return@launch
-            pendingUpdate = update
+    fun handleResult(result: UpdateCheckResult, showFeedback: Boolean) {
+        when (result) {
+            is UpdateCheckResult.Available -> {
+                if (result.info.versionCode <= dismissedSessionVersion) return
+                pendingUpdate = result.info
+            }
+            UpdateCheckResult.UpToDate -> if (showFeedback) {
+                Toast.makeText(
+                    context,
+                    "You already have the latest version (${BuildConfig.VERSION_NAME})",
+                    Toast.LENGTH_LONG
+                ).show()
+            }
+            UpdateCheckResult.NotConfigured -> if (showFeedback) {
+                Toast.makeText(context, "This build cannot check for updates", Toast.LENGTH_LONG).show()
+            }
+            is UpdateCheckResult.Failed -> if (showFeedback) {
+                Toast.makeText(context, result.message, Toast.LENGTH_LONG).show()
+            }
         }
     }
 
-    DisposableEffect(lifecycleOwner, checkTrigger) {
+    fun runUpdateCheck(showFeedback: Boolean) {
+        if (pendingUpdate != null || isDownloading) return
+        scope.launch {
+            delay(800)
+            handleResult(checker.checkForUpdate(BuildConfig.VERSION_CODE), showFeedback)
+        }
+    }
+
+    val lifecycleOwner = LocalLifecycleOwner.current
+
+    DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             if (event == Lifecycle.Event.ON_RESUME) {
-                runUpdateCheck()
+                runUpdateCheck(showFeedback = false)
             }
         }
         lifecycleOwner.lifecycle.addObserver(observer)
-        runUpdateCheck()
+        runUpdateCheck(showFeedback = false)
         onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
     }
 
-    content()
+    val updateActions = remember {
+        UpdateActions { runUpdateCheck(showFeedback = true) }
+    }
+
+    CompositionLocalProvider(LocalUpdateActions provides updateActions) {
+        content()
+    }
 
     pendingUpdate?.let { update ->
         UpdateAvailableDialog(
@@ -105,7 +134,7 @@ fun AppUpdateHost(content: @Composable () -> Unit) {
                 beginUpdate(update)
             },
             onDismiss = {
-                prefs.setDismissedVersionCode(update.versionCode)
+                dismissedSessionVersion = update.versionCode
                 pendingUpdate = null
                 errorMessage = null
             }
