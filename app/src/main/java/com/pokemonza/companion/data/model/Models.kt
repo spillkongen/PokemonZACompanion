@@ -24,9 +24,9 @@ enum class FashionOutfitFilter(val label: String) {
 }
 
 enum class FashionPreviewGender(val label: String) {
-    AUTO("Auto preview"),
     FEMALE("Female model"),
-    MALE("Male model")
+    MALE("Male model"),
+    AUTO("Large preview")
 }
 
 data class FashionItem(

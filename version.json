@@ -1,6 +1,6 @@
 {
-  "versionCode": 33,
-  "versionName": "1.4.4",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.4/app-release.apk",
-  "releaseNotes": "Fashion: all 1,262 Serebii items, Women's styles filter (blouse/skort/dress), female preview mode, and clearer style labels."
+  "versionCode": 34,
+  "versionName": "1.4.5",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.5/app-release.apk",
+  "releaseNotes": "Fashion previews now use Serebii large images by default (female model on blouse/skort/dress sets like in-game)."
 }

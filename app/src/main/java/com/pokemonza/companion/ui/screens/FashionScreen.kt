@@ -60,7 +60,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
     var searchQuery by remember { mutableStateOf("") }
     var selectedCategory by remember { mutableStateOf(FashionCategory.TOPS) }
     var outfitFilter by remember { mutableStateOf(FashionOutfitFilter.ALL) }
-    var previewGender by remember { mutableStateOf(FashionPreviewGender.AUTO) }
+    var previewGender by remember { mutableStateOf(FashionPreviewGender.FEMALE) }
     var useLargePreview by remember { mutableStateOf(false) }
     var selectedItem by remember { mutableStateOf<FashionItem?>(null) }
 
@@ -144,7 +144,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
             }
 
             Text(
-                "All outfits work on any character. Tap Women's styles for blouse, skort, dress & similar cuts from Serebii. Use Female model for larger previews.",
+                "All outfits work on any character. Large previews match Serebii (female model for blouse/skort/dress sets). Tap Women's styles to filter.",
                 color = Color.White.copy(0.55f),
                 fontSize = 10.sp,
                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 2.dp)
@@ -198,19 +198,14 @@ private fun fashionPreviewUri(
     useLargePreview: Boolean,
     previewGender: FashionPreviewGender
 ): String? {
-    val preferFemale = when (previewGender) {
-        FashionPreviewGender.FEMALE -> true
-        FashionPreviewGender.MALE -> false
-        FashionPreviewGender.AUTO -> item.feminineCut
+    // Serebii's large custom/{id}.jpg previews show the correct model (e.g. female for Blouse & Skort).
+    // Small th/ images are easy to misread in the list — prefer full unless user picks Male model + compact.
+    val useFull = when (previewGender) {
+        FashionPreviewGender.MALE -> useLargePreview
+        FashionPreviewGender.FEMALE, FashionPreviewGender.AUTO -> true
     }
-    return if (useLargePreview || preferFemale) {
-        if (preferFemale) {
-            OfflineAssets.fashionFemaleThumbUri(
-                context, item.previewKey, item.femaleThumbAsset, item.fullAsset, item.thumbAsset
-            )
-        } else {
-            OfflineAssets.fashionFullUri(context, item.previewKey, item.fullAsset, item.thumbAsset)
-        }
+    return if (useFull) {
+        OfflineAssets.fashionFullUri(context, item.previewKey, item.fullAsset, item.thumbAsset)
     } else {
         OfflineAssets.fashionThumbUri(context, item.previewKey, item.thumbAsset)
     }
@@ -235,7 +230,7 @@ private fun FashionItemCard(
                 AsyncImage(
                     model = previewUrl,
                     contentDescription = null,
-                    modifier = Modifier.size(48.dp),
+                    modifier = Modifier.size(80.dp),
                     contentScale = ContentScale.Fit
                 )
                 Spacer(Modifier.width(10.dp))
