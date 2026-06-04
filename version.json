@@ -1,5 +1,5 @@
 {
-  "versionCode": 17,
-  "versionName": "1.2.2",
-  "releaseNotes": "Larger outfit photos in Fashion popup. Transparent glass bottom menu bar."
+  "versionCode": 18,
+  "versionName": "1.2.3",
+  "releaseNotes": "Update check runs when you open the app (any tab). Install v1.2.2 or newer first if you never saw the update popup."
 }

@@ -4,14 +4,18 @@ import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import com.pokemonza.companion.BuildConfig
 import com.pokemonza.companion.update.AppUpdateChecker
 import com.pokemonza.companion.update.AppUpdateInfo
@@ -56,11 +60,28 @@ fun AppUpdateHost(content: @Composable () -> Unit) {
         }
     }
 
-    LaunchedEffect(Unit) {
-        if (!checker.isConfigured()) return@LaunchedEffect
-        val update = checker.checkForUpdate(BuildConfig.VERSION_CODE) ?: return@LaunchedEffect
-        if (update.versionCode <= prefs.getDismissedVersionCode()) return@LaunchedEffect
-        pendingUpdate = update
+    val lifecycleOwner = LocalLifecycleOwner.current
+    var checkTrigger by remember { mutableIntStateOf(0) }
+
+    fun runUpdateCheck() {
+        if (pendingUpdate != null || isDownloading) return
+        scope.launch {
+            if (!checker.isConfigured()) return@launch
+            val update = checker.checkForUpdate(BuildConfig.VERSION_CODE) ?: return@launch
+            if (update.versionCode <= prefs.getDismissedVersionCode()) return@launch
+            pendingUpdate = update
+        }
+    }
+
+    DisposableEffect(lifecycleOwner, checkTrigger) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                runUpdateCheck()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        runUpdateCheck()
+        onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
     }
 
     content()
