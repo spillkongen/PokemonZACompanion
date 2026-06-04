@@ -1,5 +1,5 @@
 {
-  "versionCode": 18,
-  "versionName": "1.2.3",
-  "releaseNotes": "Update check runs when you open the app (any tab). Install v1.2.2 or newer first if you never saw the update popup."
+  "versionCode": 19,
+  "versionName": "1.2.4",
+  "releaseNotes": "Bottom menu is now real transparent glass — you can see the map and background through it."
 }

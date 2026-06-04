@@ -45,14 +45,16 @@ import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import coil.compose.AsyncImage
 import com.pokemonza.companion.R
+import com.pokemonza.companion.navigation.CompanionTab
+import com.pokemonza.companion.ui.theme.ZAAccent
 import com.pokemonza.companion.ui.theme.ZATypeColors
 
 /** Glass UI — background art stays visible through all panels. */
 val GlassPanel = Color(0xFF1A1A2E).copy(alpha = 0.38f)
 val GlassPanelLight = Color(0xFF1A1A2E).copy(alpha = 0.28f)
-val GlassNavBar = Color(0xFF0F0F23).copy(alpha = 0.52f)
-/** Dark base behind the glass nav — not the companion background image. */
-val NavBarBackdrop = Color(0xFF0A0A14)
+/** Semi-transparent glass for bottom menu — content shows through. */
+val GlassNavBar = Color(0xFF1A1A2E).copy(alpha = 0.38f)
+val GlassNavBarHeight = 72.dp
 val GlassPopup = Color(0xFF1A1A2E).copy(alpha = 0.72f)
 val GlassField = Color(0xFF1A1A2E).copy(alpha = 0.35f)
 val GlassChipSelected = Color(0xFFE94560).copy(alpha = 0.45f)
@@ -93,23 +95,55 @@ fun BackgroundScaffold(
     }
 }
 
-/** Bottom menu — transparent glass only (no wallpaper under the buttons). */
+/** Custom bottom nav — true glass overlay (Material NavigationBar stays opaque). */
 @Composable
-fun GlassBottomNavBar(
-    modifier: Modifier = Modifier,
-    content: @Composable () -> Unit
+fun GlassBottomNavigation(
+    tabs: List<CompanionTab>,
+    selectedIndex: Int,
+    onTabSelected: (Int) -> Unit,
+    modifier: Modifier = Modifier
 ) {
-    Box(
+    Row(
         modifier = modifier
             .fillMaxWidth()
+            .height(GlassNavBarHeight)
             .background(GlassNavBar)
             .border(
                 width = 1.dp,
-                color = Color.White.copy(alpha = 0.12f),
-                shape = RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp)
+                color = Color.White.copy(alpha = 0.15f),
+                shape = RoundedCornerShape(topStart = 14.dp, topEnd = 14.dp)
             )
+            .padding(horizontal = 4.dp, vertical = 6.dp),
+        horizontalArrangement = Arrangement.SpaceEvenly,
+        verticalAlignment = Alignment.CenterVertically
     ) {
-        content()
+        tabs.forEachIndexed { index, tab ->
+            val selected = selectedIndex == index
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .clip(RoundedCornerShape(10.dp))
+                    .background(if (selected) ZAAccent.copy(0.22f) else Color.Transparent)
+                    .clickable { onTabSelected(index) }
+                    .padding(vertical = 4.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center
+            ) {
+                Icon(
+                    imageVector = tab.icon,
+                    contentDescription = tab.title,
+                    tint = if (selected) ZAAccent else Color.White.copy(0.65f),
+                    modifier = Modifier.size(22.dp)
+                )
+                Text(
+                    text = tab.title,
+                    color = if (selected) ZAAccent else Color.White.copy(0.65f),
+                    fontSize = 10.sp,
+                    fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal,
+                    maxLines = 1
+                )
+            }
+        }
     }
 }
 
