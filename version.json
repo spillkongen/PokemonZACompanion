@@ -1,6 +1,6 @@
 {
-  "versionCode": 29,
-  "versionName": "1.4.0",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.0/app-release.apk",
-  "releaseNotes": "All 259 missions, Pokédex weaknesses and mega evolve info, mega stones offline. No Serebii web pages in app."
+  "versionCode": 30,
+  "versionName": "1.4.1",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.1/app-release.apk",
+  "releaseNotes": "Fix install errors: all APKs now use the same signing key. If install fails, uninstall the old app once, then install this build."
 }

@@ -11,12 +11,21 @@ android {
     val githubOwner = (project.findProperty("githubRepoOwner") as String?) ?: "YOUR_GITHUB_USERNAME"
     val githubRepo = (project.findProperty("githubRepoName") as String?) ?: "PokemonZACompanion"
 
+    signingConfigs {
+        create("release") {
+            storeFile = rootProject.file("signing/release.keystore")
+            storePassword = "PokemonZARelease"
+            keyAlias = "release"
+            keyPassword = "PokemonZARelease"
+        }
+    }
+
     defaultConfig {
         applicationId = "com.pokemonza.companion"
         minSdk = 21
         targetSdk = 34
-        versionCode = 29
-        versionName = "1.4.0"
+        versionCode = 30
+        versionName = "1.4.1"
         multiDexEnabled = true
         buildConfigField("String", "GITHUB_REPO_OWNER", "\"$githubOwner\"")
         buildConfigField("String", "GITHUB_REPO_NAME", "\"$githubRepo\"")
@@ -38,7 +47,7 @@ android {
         release {
             isMinifyEnabled = false
             isDebuggable = false
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
