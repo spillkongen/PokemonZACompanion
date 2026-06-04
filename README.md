@@ -18,7 +18,7 @@ Unofficial companion app for **Pokémon Legends: Z-A** — MapGenie map, Pokéde
 Edit `gradle.properties`:
 
 ```properties
-githubRepoOwner=YourGitHubUsername
+githubRepoOwner=spillkongen
 githubRepoName=PokemonZACompanion
 ```
 
@@ -38,7 +38,7 @@ gh repo create PokemonZACompanion --public --source=. --remote=origin --push
 Or create the repo on [github.com/new](https://github.com/new), then:
 
 ```powershell
-git remote add origin https://github.com/YOUR_USERNAME/PokemonZACompanion.git
+git remote add origin https://github.com/spillkongen/PokemonZACompanion.git
 git branch -M main
 git push -u origin main
 ```
