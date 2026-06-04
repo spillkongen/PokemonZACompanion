@@ -1,6 +1,6 @@
 {
-  "versionCode": 25,
-  "versionName": "1.3.0",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.3.0/app-release.apk",
-  "releaseNotes": "Fully offline: bundled missions, fashion, Pokémon, and Lumiose map. Same app design."
+  "versionCode": 26,
+  "versionName": "1.3.1",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.3.1/app-release.apk",
+  "releaseNotes": "Map tab uses MapGenie online again. Missions, fashion, and Pokédex stay fully offline."
 }

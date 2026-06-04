@@ -1,7 +1,8 @@
 package com.pokemonza.companion.data.network
 
 object AppConstants {
-    const val OFFLINE_MAP_URL = "file:///android_asset/map/index.html"
+    const val MAP_GENIE_BASE = "https://mapgenie.io/pokemon-legends-z-a"
+    const val MAP_GENIE_LUMIOSE = "https://mapgenie.io/pokemon-legends-z-a/maps/lumiose-city"
     const val SEREBII_ZA_BASE = "https://www.serebii.net/legendsz-a/"
     const val SEREBII_FASHION_URL = "${SEREBII_ZA_BASE}customisation.shtml"
     const val SEREBII_MAIN_MISSIONS_URL = "${SEREBII_ZA_BASE}mainmissions.shtml"
