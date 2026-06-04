@@ -45,6 +45,7 @@ import com.pokemonza.companion.ui.components.GlassSearchField
 import com.pokemonza.companion.ui.components.glassListContentPadding
 import com.pokemonza.companion.ui.components.LastUpdatedText
 import com.pokemonza.companion.ui.components.TypeBadge
+import com.pokemonza.companion.ui.theme.ZAGold
 import com.pokemonza.companion.ui.viewmodel.CompanionViewModel
 
 @Composable
@@ -113,8 +114,28 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                 Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                     pokemon.types.forEach { TypeBadge(it) }
                 }
+                if (pokemon.canMegaEvolve) {
+                    Text(
+                        "Can Mega Evolve: ${pokemon.megaForms.joinToString()}",
+                        color = ZAGold,
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.SemiBold
+                    )
+                }
                 if (pokemon.lumioseDex != null) {
                     Text("Lumiose Dex #${pokemon.lumioseDex}", color = Color.White.copy(0.7f), fontSize = 12.sp)
+                }
+                if (pokemon.weaknesses.isNotEmpty()) {
+                    Text("Weak to", color = Color.White.copy(0.5f), fontSize = 10.sp)
+                    Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+                        pokemon.weaknesses.forEach { TypeBadge(it) }
+                    }
+                }
+                if (pokemon.resistances.isNotEmpty()) {
+                    Text("Resists", color = Color.White.copy(0.5f), fontSize = 10.sp)
+                    Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+                        pokemon.resistances.take(6).forEach { TypeBadge(it) }
+                    }
                 }
                 Text(
                     detail ?: pokemon.detailSummary,
@@ -140,13 +161,32 @@ private fun PokemonCard(pokemon: PokemonEntry, onClick: () -> Unit) {
             )
             Spacer(Modifier.width(12.dp))
             Column(Modifier.weight(1f)) {
-                Text("#${pokemon.nationalDex} ${pokemon.name}", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 16.sp)
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text("#${pokemon.nationalDex} ${pokemon.name}", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 16.sp)
+                    if (pokemon.canMegaEvolve) {
+                        Text(
+                            " MEGA",
+                            color = ZAGold,
+                            fontSize = 10.sp,
+                            fontWeight = FontWeight.Bold,
+                            modifier = Modifier.padding(start = 4.dp)
+                        )
+                    }
+                }
                 if (pokemon.lumioseDex != null) {
                     Text("Lumiose #${pokemon.lumioseDex}", color = Color.White.copy(0.6f), fontSize = 11.sp)
                 }
                 Spacer(Modifier.height(4.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                     pokemon.types.forEach { TypeBadge(it) }
+                }
+                if (pokemon.weaknesses.isNotEmpty()) {
+                    Text(
+                        "Weak: ${pokemon.weaknesses.joinToString()}",
+                        color = Color.White.copy(0.55f),
+                        fontSize = 10.sp,
+                        maxLines = 1
+                    )
                 }
             }
             Text("›", color = Color.White.copy(0.5f), fontSize = 22.sp)

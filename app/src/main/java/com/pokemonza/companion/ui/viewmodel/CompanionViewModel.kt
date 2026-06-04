@@ -87,7 +87,12 @@ class CompanionViewModel(application: Application) : AndroidViewModel(applicatio
                 _missionState.value = TabLoadState(data = data, lastUpdated = System.currentTimeMillis())
                 missionsLoaded = true
             } catch (e: Exception) {
-                _missionState.value = _missionState.value.copy(isLoading = false, error = e.message)
+                _missionState.value = TabLoadState(
+                    data = emptyList(),
+                    isLoading = false,
+                    error = e.message ?: "Could not load missions"
+                )
+                missionsLoaded = false
             }
         }
     }

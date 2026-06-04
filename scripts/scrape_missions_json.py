@@ -74,8 +74,10 @@ def parse_list(html: str, mission_type: str) -> list[dict]:
                 continue
             description = cells[2].get_text(" ", strip=True)
             detail = abs_url(link[0]["href"]) if link else ""
+            slug = detail.rsplit("/", 1)[-1].replace(".shtml", "") if detail else f"n{number}"
             missions.append(
                 {
+                    "id": f"{mission_type}_{number}_{slug}",
                     "number": number,
                     "title": title,
                     "type": mission_type,

@@ -10,7 +10,11 @@ data class PokemonEntry(
     val spriteAsset: String? = null,
     val normallyAvailable: Boolean,
     val wikiUrl: String = "",
-    val detailSummary: String = ""
+    val detailSummary: String = "",
+    val weaknesses: List<String> = emptyList(),
+    val resistances: List<String> = emptyList(),
+    val canMegaEvolve: Boolean = false,
+    val megaForms: List<String> = emptyList()
 )
 
 enum class FashionOutfitFilter(val label: String) {
@@ -65,6 +69,7 @@ enum class FashionCategory(val id: String, val displayName: String) {
 }
 
 data class MissionEntry(
+    val id: String,
     val number: String,
     val title: String,
     val type: MissionType,
@@ -85,7 +90,19 @@ data class GuideEntry(
     val title: String,
     val category: String,
     val summary: String,
-    val url: String
+    val url: String = "",
+    val guideKind: GuideKind = GuideKind.IN_APP_HINT
+)
+
+enum class GuideKind {
+    IN_APP_HINT,
+    MEGA_STONES
+}
+
+data class MegaStoneEntry(
+    val stone: String,
+    val effect: String,
+    val location: String
 )
 
 data class TabLoadState<T>(

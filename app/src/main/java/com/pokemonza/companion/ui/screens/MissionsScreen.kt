@@ -17,6 +17,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -39,6 +40,7 @@ import com.pokemonza.companion.ui.components.BackgroundScaffold
 import com.pokemonza.companion.ui.components.DetailPopup
 import com.pokemonza.companion.ui.components.GlassCard
 import com.pokemonza.companion.ui.components.GlassFilterChip
+import com.pokemonza.companion.ui.components.GlassSearchField
 import com.pokemonza.companion.ui.components.LastUpdatedText
 import com.pokemonza.companion.ui.components.glassListContentPadding
 import com.pokemonza.companion.ui.theme.ZAAccent
@@ -50,12 +52,34 @@ fun MissionsScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier)
     val state by viewModel.missionState.collectAsState()
     val guideDetail by viewModel.missionDetail.collectAsState()
     var filter by remember { mutableStateOf<MissionType?>(null) }
+    var searchQuery by remember { mutableStateOf("") }
     var selected by remember { mutableStateOf<MissionEntry?>(null) }
 
-    val filtered = state.data.filter { filter == null || it.type == filter }
+    val filtered = state.data.filter { mission ->
+        (filter == null || mission.type == filter) &&
+            (searchQuery.isBlank() ||
+                mission.title.contains(searchQuery, ignoreCase = true) ||
+                mission.description.contains(searchQuery, ignoreCase = true) ||
+                mission.number.contains(searchQuery))
+    }
 
     BackgroundScaffold(modifier = modifier) {
         Column(Modifier.fillMaxSize()) {
+            Row(
+                Modifier.fillMaxWidth().padding(horizontal = 12.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                GlassSearchField(
+                    value = searchQuery,
+                    onValueChange = { searchQuery = it },
+                    placeholder = "Search missions...",
+                    leadingIcon = { Icon(Icons.Default.Search, null, tint = Color.White.copy(0.8f)) },
+                    modifier = Modifier.weight(1f)
+                )
+                IconButton(onClick = { viewModel.loadMissions(forceRefresh = true) }) {
+                    Icon(Icons.Default.Refresh, null, tint = Color.White)
+                }
+            }
             Row(
                 Modifier.fillMaxWidth().padding(horizontal = 12.dp),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -67,13 +91,16 @@ fun MissionsScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier)
                     GlassFilterChip(selected = filter == MissionType.SIDE, onClick = { filter = MissionType.SIDE }, label = { Text("Side") })
                     GlassFilterChip(selected = filter == MissionType.HYPERSPACE, onClick = { filter = MissionType.HYPERSPACE }, label = { Text("Hyper") })
                 }
-                IconButton(onClick = { viewModel.loadMissions(forceRefresh = true) }) {
-                    Icon(Icons.Default.Refresh, null, tint = Color.White)
-                }
             }
-            if (state.data.isNotEmpty()) {
-                Text(
-                    "${state.data.size} missions from Serebii",
+            when {
+                state.error != null -> Text(
+                    state.error!!,
+                    color = Color(0xFFFF8A80),
+                    fontSize = 11.sp,
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 2.dp)
+                )
+                state.data.isNotEmpty() -> Text(
+                    "${filtered.size} shown · ${state.data.size} missions (offline)",
                     color = Color.White.copy(0.55f),
                     fontSize = 11.sp,
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 2.dp)
@@ -89,7 +116,7 @@ fun MissionsScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier)
                     verticalArrangement = Arrangement.spacedBy(8.dp),
                     contentPadding = glassListContentPadding()
                 ) {
-                    items(filtered, key = { it.number + it.title }) { mission ->
+                    items(filtered, key = { it.id }) { mission ->
                         MissionCard(mission) {
                             selected = mission
                             viewModel.loadMissionDetail(mission)

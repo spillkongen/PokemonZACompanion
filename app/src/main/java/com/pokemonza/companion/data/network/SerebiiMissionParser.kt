@@ -32,13 +32,19 @@ class MissionRepository(private val context: Context) {
         buildList {
             for (i in 0 until arr.length()) {
                 val o = arr.getJSONObject(i)
+                val number = o.getString("number")
+                val title = o.getString("title")
+                val type = missionTypeFromString(o.getString("type"))
+                val detailUrl = o.optString("detailUrl", "")
+                val slug = detailUrl.substringAfterLast("/").removeSuffix(".shtml").ifBlank { "n$number" }
                 add(
                     MissionEntry(
-                        number = o.getString("number"),
-                        title = o.getString("title"),
-                        type = missionTypeFromString(o.getString("type")),
+                        id = o.optString("id").ifBlank { "${type.name}_${number}_$slug" },
+                        number = number,
+                        title = title,
+                        type = type,
                         description = o.getString("description"),
-                        detailUrl = o.optString("detailUrl", ""),
+                        detailUrl = detailUrl,
                         guide = o.optString("guide", "").ifBlank { o.getString("description") }
                     )
                 )

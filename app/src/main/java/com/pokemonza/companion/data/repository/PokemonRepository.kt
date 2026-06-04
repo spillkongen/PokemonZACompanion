@@ -5,6 +5,7 @@ import com.pokemonza.companion.data.model.PokemonEntry
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.json.JSONArray
+import org.json.JSONObject
 
 class PokemonRepository(private val context: Context) {
     private var cached: List<PokemonEntry>? = null
@@ -40,10 +41,22 @@ class PokemonRepository(private val context: Context) {
                         types = types,
                         spriteAsset = o.optString("spriteAsset").takeIf { it.isNotBlank() && it != "null" },
                         normallyAvailable = o.optBoolean("normallyAvailable", true),
-                        detailSummary = o.optString("detail", "")
+                        detailSummary = o.optString("detail", ""),
+                        weaknesses = jsonStringArray(o, "weaknesses"),
+                        resistances = jsonStringArray(o, "resistances"),
+                        canMegaEvolve = o.optBoolean("canMegaEvolve", false),
+                        megaForms = jsonStringArray(o, "megaForms")
                     )
                 )
             }
+        }
+    }
+
+    private fun jsonStringArray(o: JSONObject, key: String): List<String> {
+        if (!o.has(key)) return emptyList()
+        val arr = o.optJSONArray(key) ?: return emptyList()
+        return buildList {
+            for (i in 0 until arr.length()) add(arr.getString(i))
         }
     }
 }
