@@ -1,0 +1,5 @@
+{
+  "versionCode": 16,
+  "versionName": "1.2.1",
+  "releaseNotes": "In-app updates from GitHub. Configure your repo in gradle.properties before publishing releases."
+}

@@ -1,0 +1,92 @@
+package com.pokemonza.companion.data.model
+
+data class PokemonEntry(
+    val nationalDex: String,
+    val lumioseDex: String?,
+    val hyperspaceDex: String?,
+    val name: String,
+    val types: List<String>,
+    val imageUrl: String?,
+    val normallyAvailable: Boolean,
+    val wikiUrl: String,
+    val detailSummary: String = ""
+)
+
+enum class FashionOutfitFilter(val label: String) {
+    ALL("All"),
+    WOMENS("Women's"),
+    MENS("Men's")
+}
+
+data class FashionItem(
+    val category: String,
+    val name: String,
+    val style: String,
+    val location: String,
+    val cost: String,
+    val imageUrl: String? = null,
+    val femaleImageUrl: String? = null,
+    val previewKey: String? = null,
+    val feminineCut: Boolean = false,
+    val masculineCut: Boolean = false
+) {
+    val categoryLabel: String
+        get() = FashionCategory.fromId(category).displayName
+
+    /** Full-size Serebii preview (same outfit; often clearer than the thumbnail). */
+    fun largePreviewUrl(): String? = femaleImageUrl ?: imageUrl
+
+    fun matchesOutfitFilter(filter: FashionOutfitFilter): Boolean = when (filter) {
+        FashionOutfitFilter.ALL -> true
+        FashionOutfitFilter.WOMENS -> feminineCut
+        FashionOutfitFilter.MENS -> !feminineCut
+    }
+}
+
+enum class FashionCategory(val id: String, val displayName: String) {
+    ALL_IN_ONE("all-in-one", "All-in-One"),
+    TOPS("tops", "Tops"),
+    BOTTOMS("bottoms", "Bottoms"),
+    HEADWEAR("headwear", "Headwear"),
+    EYEWEAR("eyewear", "Eyewear"),
+    GLOVES("gloves", "Gloves"),
+    LEGWEAR("legwear", "Legwear"),
+    FOOTWEAR("footwear", "Footwear"),
+    SATCHELS("satchels", "Satchels"),
+    EARRINGS("earrings", "Earrings");
+
+    companion object {
+        fun fromId(id: String) = entries.find { it.id == id } ?: TOPS
+        val userCategories = listOf(TOPS, BOTTOMS, HEADWEAR, EYEWEAR, GLOVES, LEGWEAR, FOOTWEAR, SATCHELS, EARRINGS, ALL_IN_ONE)
+    }
+}
+
+data class MissionEntry(
+    val number: String,
+    val title: String,
+    val type: MissionType,
+    val description: String,
+    val wikiUrl: String,
+    val guide: String = ""
+)
+
+enum class MissionType(val label: String) {
+    MAIN("Main Mission"),
+    SIDE("Side Mission"),
+    MEGA("Mega Stone"),
+    TM("TM Location")
+}
+
+data class GuideEntry(
+    val title: String,
+    val category: String,
+    val summary: String,
+    val url: String
+)
+
+data class TabLoadState<T>(
+    val data: List<T> = emptyList(),
+    val isLoading: Boolean = false,
+    val error: String? = null,
+    val lastUpdated: Long? = null
+)
