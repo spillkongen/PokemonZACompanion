@@ -1,6 +1,6 @@
 {
-  "versionCode": 30,
-  "versionName": "1.4.1",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.1/app-release.apk",
-  "releaseNotes": "Fix install errors: all APKs now use the same signing key. If install fails, uninstall the old app once, then install this build."
+  "versionCode": 31,
+  "versionName": "1.4.2",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.2/app-release.apk",
+  "releaseNotes": "Fix mega icons: now uses all Mega Stones from Serebii (Blastoise, Charizard, Venusaur, etc.). 82 species marked."
 }

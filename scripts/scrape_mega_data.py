@@ -1,4 +1,4 @@
-"""Scrape Serebii mega evolution names and enhance pokemon_za.json."""
+"""Scrape mega-capable Pokémon from Serebii mega stones + mega evolution pages."""
 import json
 import re
 import urllib.request
@@ -52,26 +52,25 @@ def calc_weaknesses(types: list[str]) -> tuple[list[str], list[str]]:
     for t in immune:
         weak.discard(t)
         resist.discard(t)
-    final_weak = sorted(weak - resist - immune)
-    final_resist = sorted((resist - weak) - immune)
-    return final_weak, final_resist
+    return sorted(weak - resist - immune), sorted((resist - weak) - immune)
 
 
-def parse_mega_names(html: str) -> dict[str, list[str]]:
-    """Map base pokemon name -> list of mega form labels."""
+def normalize_name(name: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", name.lower())
+
+
+def parse_mega_from_stats_pages(html: str) -> dict[str, list[str]]:
     from bs4 import BeautifulSoup
 
     soup = BeautifulSoup(html, "html.parser")
     result: dict[str, list[str]] = {}
     for table in soup.select("table"):
         for row in table.select("tr"):
-            cells = [c.get_text(" ", strip=True) for c in row.select("td, th")]
-            if len(cells) < 2:
-                continue
-            for cell in cells:
-                if not cell.startswith("Mega "):
+            for cell in row.select("td, th"):
+                text = cell.get_text(" ", strip=True)
+                if not text.startswith("Mega "):
                     continue
-                parts = cell.replace("Mega ", "", 1).strip().split()
+                parts = text.replace("Mega ", "", 1).strip().split()
                 if not parts:
                     continue
                 suffix = ""
@@ -86,29 +85,120 @@ def parse_mega_names(html: str) -> dict[str, list[str]]:
     return result
 
 
-def normalize_name(name: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", name.lower())
+def parse_mega_from_stones(html: str) -> dict[str, list[str]]:
+    """Mega stones page lists species that can mega evolve via stone effect text."""
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "html.parser")
+    result: dict[str, list[str]] = {}
+    for table in soup.select("table"):
+        rows = table.select("tr")
+        if len(rows) < 2:
+            continue
+        hdr = rows[0].get_text(" ", strip=True).lower()
+        if "name" not in hdr or "location" not in hdr:
+            continue
+        for row in rows[1:]:
+            cells = row.select("td")
+            if len(cells) < 2:
+                continue
+            stone = cells[1].get_text(" ", strip=True)
+            effect = cells[2].get_text(" ", strip=True) if len(cells) > 2 else ""
+            pokemon = ""
+            m = re.search(r"A ([A-Za-z][A-Za-z\s\.\-\']+?) holding", effect)
+            if m:
+                pokemon = m.group(1).strip()
+            if not pokemon:
+                pokemon = stone_to_pokemon(stone)
+            if not pokemon:
+                continue
+            form = stone_to_form_label(stone, pokemon)
+            result.setdefault(pokemon, [])
+            if form not in result[pokemon]:
+                result[pokemon].append(form)
+    return result
+
+
+def stone_to_pokemon(stone: str) -> str:
+    if not stone:
+        return ""
+    s = stone.strip()
+    if s.endswith("ite X") or s.endswith("ite Y") or s.endswith("ite Z"):
+        base = s.replace("ite X", "").replace("ite Y", "").replace("ite Z", "")
+        return base
+    if s.endswith("ite"):
+        name = s[:-3]
+        specials = {
+            "Blastois": "Blastoise",
+            "Mewtw": "Mewtwo",
+            "Ampharos": "Ampharos",
+            "Heracross": "Heracross",
+            "Houndoom": "Houndoom",
+            "Tyranitar": "Tyranitar",
+            "Gardevoir": "Gardevoir",
+            "Gallade": "Gallade",
+            "Lucario": "Lucario",
+            "Garchomp": "Garchomp",
+            "Absol": "Absol",
+            "Manectric": "Manectric",
+            "Gengar": "Gengar",
+            "Kangaskhan": "Kangaskhan",
+            "Pinsir": "Pinsir",
+            "Aerodactyl": "Aerodactyl",
+            "Alakazam": "Alakazam",
+            "Slowbro": "Slowbro",
+            "Venusaur": "Venusaur",
+            "Charizard": "Charizard",
+        }
+        return specials.get(name, name)
+    return ""
+
+
+def stone_to_form_label(stone: str, pokemon: str) -> str:
+    if stone.endswith("ite X"):
+        return f"Mega {pokemon} X"
+    if stone.endswith("ite Y"):
+        return f"Mega {pokemon} Y"
+    if stone.endswith("ite Z"):
+        return f"Mega {pokemon} Z"
+    return f"Mega {pokemon}"
+
+
+def merge_mega_maps(*maps: dict[str, list[str]]) -> dict[str, list[str]]:
+    merged: dict[str, list[str]] = {}
+    for m in maps:
+        for pokemon, forms in m.items():
+            merged.setdefault(pokemon, [])
+            for form in forms:
+                if form not in merged[pokemon]:
+                    merged[pokemon].append(form)
+    return merged
 
 
 def main():
-    mega_map: dict[str, list[str]] = {}
-    for page in ["megaevolutions.shtml", "dlc-megaevolutions.shtml"]:
-        mega_map.update(parse_mega_names(fetch(BASE + page)))
+    mega_map = merge_mega_maps(
+        parse_mega_from_stones(fetch(BASE + "megastones.shtml")),
+        parse_mega_from_stats_pages(fetch(BASE + "megaevolutions.shtml")),
+        parse_mega_from_stats_pages(fetch(BASE + "dlc-megaevolutions.shtml")),
+    )
 
     data = json.loads(POKEMON_JSON.read_text(encoding="utf-8"))
-    norm_mega = {normalize_name(k): v for k, v in mega_map.items()}
+    norm_mega = {normalize_name(k): (k, v) for k, v in mega_map.items()}
 
+    matched = 0
     for mon in data["pokemon"]:
         types = mon.get("types", [])
         weak, resist = calc_weaknesses(types)
         mon["weaknesses"] = weak
         mon["resistances"] = resist
-        forms = norm_mega.get(normalize_name(mon["name"]), [])
+        key = normalize_name(mon["name"])
+        forms = norm_mega.get(key, (None, []))[1]
         mon["canMegaEvolve"] = len(forms) > 0
         mon["megaForms"] = forms
         if forms:
+            matched += 1
             mon["detail"] = (
-                f"{mon['name']} can Mega Evolve into: {', '.join(forms)}. "
+                f"{mon['name']} can Mega Evolve: {', '.join(forms)}. "
                 f"Weak to: {', '.join(weak) if weak else '—'}."
             )
         else:
@@ -117,9 +207,13 @@ def main():
                 f"Weak to: {', '.join(weak) if weak else '—'}."
             )
 
-    data["megaSpeciesCount"] = len([m for m in data["pokemon"] if m.get("canMegaEvolve")])
+    data["megaSpeciesCount"] = matched
     POKEMON_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("Enhanced", len(data["pokemon"]), "pokemon,", data["megaSpeciesCount"], "can mega evolve")
+    print("Mega-capable species:", matched)
+    for name in ["Blastoise", "Charizard", "Venusaur", "Pikachu", "Lucario"]:
+        p = next((x for x in data["pokemon"] if x["name"] == name), None)
+        if p:
+            print(f"  {name}: {p['canMegaEvolve']} {p['megaForms']}")
 
 
 if __name__ == "__main__":

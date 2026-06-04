@@ -66,7 +66,7 @@
         "Poison"
       ],
       "normallyAvailable": true,
-      "detail": "Venusaur in Pokémon Legends: Z-A. Weak to: Fire, Flying, Ice, Psychic.",
+      "detail": "Venusaur can Mega Evolve: Mega Venusaur. Weak to: Fire, Flying, Ice, Psychic.",
       "spriteAsset": "pokemon/sprites/0003.png",
       "weaknesses": [
         "Fire",
@@ -80,8 +80,10 @@
         "Fighting",
         "Water"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Venusaur"
+      ]
     },
     {
       "nationalDex": "0004",
@@ -145,7 +147,7 @@
         "Flying"
       ],
       "normallyAvailable": true,
-      "detail": "Charizard in Pokémon Legends: Z-A. Weak to: Electric, Rock, Water.",
+      "detail": "Charizard can Mega Evolve: Mega Charizard X, Mega Charizard Y. Weak to: Electric, Rock, Water.",
       "spriteAsset": "pokemon/sprites/0006.png",
       "weaknesses": [
         "Electric",
@@ -159,8 +161,11 @@
         "Grass",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Charizard X",
+        "Mega Charizard Y"
+      ]
     },
     {
       "nationalDex": "0007",
@@ -217,7 +222,7 @@
         "Water"
       ],
       "normallyAvailable": true,
-      "detail": "Blastoise in Pokémon Legends: Z-A. Weak to: Electric, Grass.",
+      "detail": "Blastoise can Mega Evolve: Mega Blastoise. Weak to: Electric, Grass.",
       "spriteAsset": "pokemon/sprites/0009.png",
       "weaknesses": [
         "Electric",
@@ -228,8 +233,10 @@
         "Ice",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Blastoise"
+      ]
     },
     {
       "nationalDex": "0013",
@@ -293,7 +300,7 @@
         "Poison"
       ],
       "normallyAvailable": true,
-      "detail": "Beedrill in Pokémon Legends: Z-A. Weak to: Fire, Flying, Psychic, Rock.",
+      "detail": "Beedrill can Mega Evolve: Mega Beedrill. Weak to: Fire, Flying, Psychic, Rock.",
       "spriteAsset": "pokemon/sprites/0015.png",
       "weaknesses": [
         "Fire",
@@ -306,8 +313,10 @@
         "Fighting",
         "Grass"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Beedrill"
+      ]
     },
     {
       "nationalDex": "0016",
@@ -367,7 +376,7 @@
         "Flying"
       ],
       "normallyAvailable": true,
-      "detail": "Pidgeot in Pokémon Legends: Z-A. Weak to: Electric, Ice, Rock.",
+      "detail": "Pidgeot can Mega Evolve: Mega Pidgeot. Weak to: Electric, Ice, Rock.",
       "spriteAsset": "pokemon/sprites/0018.png",
       "weaknesses": [
         "Electric",
@@ -378,8 +387,10 @@
         "Bug",
         "Grass"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Pidgeot"
+      ]
     },
     {
       "nationalDex": "0023",
@@ -459,7 +470,7 @@
         "Electric"
       ],
       "normallyAvailable": true,
-      "detail": "Raichu can Mega Evolve into: Mega Raichu X, Mega Raichu Y. Weak to: Ground.",
+      "detail": "Raichu can Mega Evolve: Mega Raichu X, Mega Raichu Y. Weak to: Ground.",
       "spriteAsset": "pokemon/sprites/0026.png",
       "weaknesses": [
         "Ground"
@@ -506,7 +517,7 @@
         "Fairy"
       ],
       "normallyAvailable": true,
-      "detail": "Clefable can Mega Evolve into: Mega Clefable. Weak to: Poison, Steel.",
+      "detail": "Clefable can Mega Evolve: Mega Clefable. Weak to: Poison, Steel.",
       "spriteAsset": "pokemon/sprites/0036.png",
       "weaknesses": [
         "Poison",
@@ -908,7 +919,7 @@
         "Poison"
       ],
       "normallyAvailable": true,
-      "detail": "Victreebel can Mega Evolve into: Mega Victreebel. Weak to: Fire, Flying, Ice, Psychic.",
+      "detail": "Victreebel can Mega Evolve: Mega Victreebel. Weak to: Fire, Flying, Ice, Psychic.",
       "spriteAsset": "pokemon/sprites/0071.png",
       "weaknesses": [
         "Fire",
@@ -965,7 +976,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Slowbro in Pokémon Legends: Z-A. Weak to: Bug, Dark, Electric, Ghost, Grass.",
+      "detail": "Slowbro can Mega Evolve: Mega Slowbro. Weak to: Bug, Dark, Electric, Ghost, Grass.",
       "spriteAsset": "pokemon/sprites/0080.png",
       "weaknesses": [
         "Bug",
@@ -980,8 +991,10 @@
         "Ice",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Slowbro"
+      ]
     },
     {
       "nationalDex": "0083",
@@ -1067,7 +1080,7 @@
         "Poison"
       ],
       "normallyAvailable": true,
-      "detail": "Gengar in Pokémon Legends: Z-A. Weak to: Dark, Ground, Psychic.",
+      "detail": "Gengar can Mega Evolve: Mega Gengar. Weak to: Dark, Ground, Psychic.",
       "spriteAsset": "pokemon/sprites/0094.png",
       "weaknesses": [
         "Dark",
@@ -1079,8 +1092,10 @@
         "Fairy",
         "Grass"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Gengar"
+      ]
     },
     {
       "nationalDex": "0095",
@@ -1165,14 +1180,16 @@
         "Normal"
       ],
       "normallyAvailable": true,
-      "detail": "Kangaskhan in Pokémon Legends: Z-A. Weak to: Fighting.",
+      "detail": "Kangaskhan can Mega Evolve: Mega Kangaskhan. Weak to: Fighting.",
       "spriteAsset": "pokemon/sprites/0115.png",
       "weaknesses": [
         "Fighting"
       ],
       "resistances": [],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Kangaskhan"
+      ]
     },
     {
       "nationalDex": "0120",
@@ -1207,7 +1224,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Starmie can Mega Evolve into: Mega Starmie. Weak to: Bug, Dark, Electric, Ghost, Grass.",
+      "detail": "Starmie can Mega Evolve: Mega Starmie. Weak to: Bug, Dark, Electric, Ghost, Grass.",
       "spriteAsset": "pokemon/sprites/0121.png",
       "weaknesses": [
         "Bug",
@@ -1284,7 +1301,7 @@
         "Bug"
       ],
       "normallyAvailable": true,
-      "detail": "Pinsir in Pokémon Legends: Z-A. Weak to: Fire, Flying, Rock.",
+      "detail": "Pinsir can Mega Evolve: Mega Pinsir. Weak to: Fire, Flying, Rock.",
       "spriteAsset": "pokemon/sprites/0127.png",
       "weaknesses": [
         "Fire",
@@ -1296,8 +1313,10 @@
         "Grass",
         "Ground"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Pinsir"
+      ]
     },
     {
       "nationalDex": "0129",
@@ -1332,7 +1351,7 @@
         "Flying"
       ],
       "normallyAvailable": true,
-      "detail": "Gyarados in Pokémon Legends: Z-A. Weak to: Electric, Rock.",
+      "detail": "Gyarados can Mega Evolve: Mega Gyarados. Weak to: Electric, Rock.",
       "spriteAsset": "pokemon/sprites/0130.png",
       "weaknesses": [
         "Electric",
@@ -1344,8 +1363,10 @@
         "Fire",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Gyarados"
+      ]
     },
     {
       "nationalDex": "0133",
@@ -1463,7 +1484,7 @@
         "Flying"
       ],
       "normallyAvailable": true,
-      "detail": "Aerodactyl in Pokémon Legends: Z-A. Weak to: Electric, Ice, Steel, Water.",
+      "detail": "Aerodactyl can Mega Evolve: Mega Aerodactyl. Weak to: Electric, Ice, Steel, Water.",
       "spriteAsset": "pokemon/sprites/0142.png",
       "weaknesses": [
         "Electric",
@@ -1477,8 +1498,10 @@
         "Normal",
         "Poison"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Aerodactyl"
+      ]
     },
     {
       "nationalDex": "0147",
@@ -1538,7 +1561,7 @@
         "Flying"
       ],
       "normallyAvailable": true,
-      "detail": "Dragonite can Mega Evolve into: Mega Dragonite. Weak to: Fairy, Ice, Rock.",
+      "detail": "Dragonite can Mega Evolve: Mega Dragonite. Weak to: Fairy, Ice, Rock.",
       "spriteAsset": "pokemon/sprites/0149.png",
       "weaknesses": [
         "Fairy",
@@ -1566,7 +1589,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Mewtwo in Pokémon Legends: Z-A. Weak to: Bug, Dark, Ghost.",
+      "detail": "Mewtwo can Mega Evolve: Mega Mewtwo X, Mega Mewtwo Y. Weak to: Bug, Dark, Ghost.",
       "spriteAsset": "pokemon/sprites/0150.png",
       "weaknesses": [
         "Bug",
@@ -1576,8 +1599,11 @@
       "resistances": [
         "Fighting"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Mewtwo X",
+        "Mega Mewtwo Y"
+      ]
     },
     {
       "nationalDex": "0152",
@@ -1640,7 +1666,7 @@
         "Grass"
       ],
       "normallyAvailable": true,
-      "detail": "Meganium can Mega Evolve into: Mega Meganium. Weak to: Bug, Fire, Flying, Ice, Poison.",
+      "detail": "Meganium can Mega Evolve: Mega Meganium. Weak to: Bug, Fire, Flying, Ice, Poison.",
       "spriteAsset": "pokemon/sprites/0154.png",
       "weaknesses": [
         "Bug",
@@ -1714,7 +1740,7 @@
         "Water"
       ],
       "normallyAvailable": true,
-      "detail": "Feraligatr can Mega Evolve into: Mega Feraligatr. Weak to: Electric, Grass.",
+      "detail": "Feraligatr can Mega Evolve: Mega Feraligatr. Weak to: Electric, Grass.",
       "spriteAsset": "pokemon/sprites/0160.png",
       "weaknesses": [
         "Electric",
@@ -1927,7 +1953,7 @@
         "Electric"
       ],
       "normallyAvailable": true,
-      "detail": "Ampharos in Pokémon Legends: Z-A. Weak to: Ground.",
+      "detail": "Ampharos can Mega Evolve: Mega Ampharos. Weak to: Ground.",
       "spriteAsset": "pokemon/sprites/0181.png",
       "weaknesses": [
         "Ground"
@@ -1936,8 +1962,10 @@
         "Flying",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Ampharos"
+      ]
     },
     {
       "nationalDex": "0196",
@@ -2021,7 +2049,7 @@
         "Ground"
       ],
       "normallyAvailable": true,
-      "detail": "Steelix in Pokémon Legends: Z-A. Weak to: Fighting, Fire, Water.",
+      "detail": "Steelix can Mega Evolve: Mega Steelix. Weak to: Fighting, Fire, Water.",
       "spriteAsset": "pokemon/sprites/0208.png",
       "weaknesses": [
         "Fighting",
@@ -2037,8 +2065,10 @@
         "Psychic",
         "Rock"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Steelix"
+      ]
     },
     {
       "nationalDex": "0211",
@@ -2078,7 +2108,7 @@
         "Steel"
       ],
       "normallyAvailable": true,
-      "detail": "Scizor in Pokémon Legends: Z-A. Weak to: Fire.",
+      "detail": "Scizor can Mega Evolve: Mega Scizor. Weak to: Fire.",
       "spriteAsset": "pokemon/sprites/0212.png",
       "weaknesses": [
         "Fire"
@@ -2091,8 +2121,10 @@
         "Normal",
         "Psychic"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Scizor"
+      ]
     },
     {
       "nationalDex": "0214",
@@ -2104,7 +2136,7 @@
         "Fighting"
       ],
       "normallyAvailable": true,
-      "detail": "Heracross in Pokémon Legends: Z-A. Weak to: Fairy, Fire, Flying, Psychic.",
+      "detail": "Heracross can Mega Evolve: Mega Heracross. Weak to: Fairy, Fire, Flying, Psychic.",
       "spriteAsset": "pokemon/sprites/0214.png",
       "weaknesses": [
         "Fairy",
@@ -2117,8 +2149,10 @@
         "Grass",
         "Ground"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Heracross"
+      ]
     },
     {
       "nationalDex": "0225",
@@ -2155,7 +2189,7 @@
         "Flying"
       ],
       "normallyAvailable": true,
-      "detail": "Skarmory can Mega Evolve into: Mega Skarmory. Weak to: Electric, Fire.",
+      "detail": "Skarmory can Mega Evolve: Mega Skarmory. Weak to: Electric, Fire.",
       "spriteAsset": "pokemon/sprites/0227.png",
       "weaknesses": [
         "Electric",
@@ -2211,7 +2245,7 @@
         "Fire"
       ],
       "normallyAvailable": true,
-      "detail": "Houndoom in Pokémon Legends: Z-A. Weak to: Fighting, Ground, Rock, Water.",
+      "detail": "Houndoom can Mega Evolve: Mega Houndoom. Weak to: Fighting, Ground, Rock, Water.",
       "spriteAsset": "pokemon/sprites/0229.png",
       "weaknesses": [
         "Fighting",
@@ -2225,8 +2259,10 @@
         "Ice",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Houndoom"
+      ]
     },
     {
       "nationalDex": "0233",
@@ -2312,7 +2348,7 @@
         "Dark"
       ],
       "normallyAvailable": true,
-      "detail": "Tyranitar in Pokémon Legends: Z-A. Weak to: Bug, Fairy, Fighting, Grass, Ground, Steel, Water.",
+      "detail": "Tyranitar can Mega Evolve: Mega Tyranitar. Weak to: Bug, Fairy, Fighting, Grass, Ground, Steel, Water.",
       "spriteAsset": "pokemon/sprites/0248.png",
       "weaknesses": [
         "Bug",
@@ -2330,8 +2366,10 @@
         "Normal",
         "Poison"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Tyranitar"
+      ]
     },
     {
       "nationalDex": "0252",
@@ -2394,7 +2432,7 @@
         "Grass"
       ],
       "normallyAvailable": true,
-      "detail": "Sceptile in Pokémon Legends: Z-A. Weak to: Bug, Fire, Flying, Ice, Poison.",
+      "detail": "Sceptile can Mega Evolve: Mega Sceptile. Weak to: Bug, Fire, Flying, Ice, Poison.",
       "spriteAsset": "pokemon/sprites/0254.png",
       "weaknesses": [
         "Bug",
@@ -2408,8 +2446,10 @@
         "Ground",
         "Water"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Sceptile"
+      ]
     },
     {
       "nationalDex": "0255",
@@ -2475,7 +2515,7 @@
         "Fighting"
       ],
       "normallyAvailable": true,
-      "detail": "Blaziken in Pokémon Legends: Z-A. Weak to: Flying, Ground, Psychic, Water.",
+      "detail": "Blaziken can Mega Evolve: Mega Blaziken. Weak to: Flying, Ground, Psychic, Water.",
       "spriteAsset": "pokemon/sprites/0257.png",
       "weaknesses": [
         "Flying",
@@ -2490,8 +2530,10 @@
         "Ice",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Blaziken"
+      ]
     },
     {
       "nationalDex": "0258",
@@ -2550,7 +2592,7 @@
         "Ground"
       ],
       "normallyAvailable": true,
-      "detail": "Swampert in Pokémon Legends: Z-A. Weak to: Grass.",
+      "detail": "Swampert can Mega Evolve: Mega Swampert. Weak to: Grass.",
       "spriteAsset": "pokemon/sprites/0260.png",
       "weaknesses": [
         "Grass"
@@ -2561,8 +2603,10 @@
         "Rock",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Swampert"
+      ]
     },
     {
       "nationalDex": "0280",
@@ -2620,7 +2664,7 @@
         "Fairy"
       ],
       "normallyAvailable": true,
-      "detail": "Gardevoir in Pokémon Legends: Z-A. Weak to: Ghost, Poison, Steel.",
+      "detail": "Gardevoir can Mega Evolve: Mega Gardevoir. Weak to: Ghost, Poison, Steel.",
       "spriteAsset": "pokemon/sprites/0282.png",
       "weaknesses": [
         "Ghost",
@@ -2630,8 +2674,10 @@
       "resistances": [
         "Fighting"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Gardevoir"
+      ]
     },
     {
       "nationalDex": "0302",
@@ -2643,7 +2689,7 @@
         "Ghost"
       ],
       "normallyAvailable": true,
-      "detail": "Sableye in Pokémon Legends: Z-A. Weak to: Fairy.",
+      "detail": "Sableye can Mega Evolve: Mega Sableye. Weak to: Fairy.",
       "spriteAsset": "pokemon/sprites/0302.png",
       "weaknesses": [
         "Fairy"
@@ -2651,8 +2697,10 @@
       "resistances": [
         "Poison"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Sableye"
+      ]
     },
     {
       "nationalDex": "0303",
@@ -2664,7 +2712,7 @@
         "Fairy"
       ],
       "normallyAvailable": true,
-      "detail": "Mawile in Pokémon Legends: Z-A. Weak to: Fire, Ground.",
+      "detail": "Mawile can Mega Evolve: Mega Mawile. Weak to: Fire, Ground.",
       "spriteAsset": "pokemon/sprites/0303.png",
       "weaknesses": [
         "Fire",
@@ -2680,8 +2728,10 @@
         "Psychic",
         "Rock"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Mawile"
+      ]
     },
     {
       "nationalDex": "0304",
@@ -2751,7 +2801,7 @@
         "Rock"
       ],
       "normallyAvailable": true,
-      "detail": "Aggron in Pokémon Legends: Z-A. Weak to: Fighting, Ground, Water.",
+      "detail": "Aggron can Mega Evolve: Mega Aggron. Weak to: Fighting, Ground, Water.",
       "spriteAsset": "pokemon/sprites/0306.png",
       "weaknesses": [
         "Fighting",
@@ -2767,8 +2817,10 @@
         "Normal",
         "Psychic"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Aggron"
+      ]
     },
     {
       "nationalDex": "0307",
@@ -2803,7 +2855,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Medicham in Pokémon Legends: Z-A. Weak to: Fairy, Flying, Ghost.",
+      "detail": "Medicham can Mega Evolve: Mega Medicham. Weak to: Fairy, Flying, Ghost.",
       "spriteAsset": "pokemon/sprites/0308.png",
       "weaknesses": [
         "Fairy",
@@ -2813,8 +2865,10 @@
       "resistances": [
         "Rock"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Medicham"
+      ]
     },
     {
       "nationalDex": "0309",
@@ -2846,7 +2900,7 @@
         "Electric"
       ],
       "normallyAvailable": true,
-      "detail": "Manectric in Pokémon Legends: Z-A. Weak to: Ground.",
+      "detail": "Manectric can Mega Evolve: Mega Manectric. Weak to: Ground.",
       "spriteAsset": "pokemon/sprites/0310.png",
       "weaknesses": [
         "Ground"
@@ -2855,8 +2909,10 @@
         "Flying",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Manectric"
+      ]
     },
     {
       "nationalDex": "0315",
@@ -2971,7 +3027,7 @@
         "Dark"
       ],
       "normallyAvailable": true,
-      "detail": "Sharpedo in Pokémon Legends: Z-A. Weak to: Bug, Electric, Fairy, Fighting, Grass.",
+      "detail": "Sharpedo can Mega Evolve: Mega Sharpedo. Weak to: Bug, Electric, Fairy, Fighting, Grass.",
       "spriteAsset": "pokemon/sprites/0319.png",
       "weaknesses": [
         "Bug",
@@ -2986,8 +3042,10 @@
         "Ice",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Sharpedo"
+      ]
     },
     {
       "nationalDex": "0322",
@@ -3023,7 +3081,7 @@
         "Ground"
       ],
       "normallyAvailable": true,
-      "detail": "Camerupt in Pokémon Legends: Z-A. Weak to: Water.",
+      "detail": "Camerupt can Mega Evolve: Mega Camerupt. Weak to: Water.",
       "spriteAsset": "pokemon/sprites/0323.png",
       "weaknesses": [
         "Water"
@@ -3034,8 +3092,10 @@
         "Poison",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Camerupt"
+      ]
     },
     {
       "nationalDex": "0325",
@@ -3268,7 +3328,7 @@
         "Ghost"
       ],
       "normallyAvailable": true,
-      "detail": "Banette in Pokémon Legends: Z-A. Weak to: Dark.",
+      "detail": "Banette can Mega Evolve: Mega Banette. Weak to: Dark.",
       "spriteAsset": "pokemon/sprites/0354.png",
       "weaknesses": [
         "Dark"
@@ -3277,8 +3337,10 @@
         "Bug",
         "Poison"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Banette"
+      ]
     },
     {
       "nationalDex": "0358",
@@ -3289,7 +3351,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Chimecho can Mega Evolve into: Mega Chimecho. Weak to: Bug, Dark, Ghost.",
+      "detail": "Chimecho can Mega Evolve: Mega Chimecho. Weak to: Bug, Dark, Ghost.",
       "spriteAsset": "pokemon/sprites/0358.png",
       "weaknesses": [
         "Bug",
@@ -3313,7 +3375,7 @@
         "Dark"
       ],
       "normallyAvailable": true,
-      "detail": "Absol can Mega Evolve into: Mega Absol Z. Weak to: Bug, Fairy, Fighting.",
+      "detail": "Absol can Mega Evolve: Mega Absol, Mega Absol Z. Weak to: Bug, Fairy, Fighting.",
       "spriteAsset": "pokemon/sprites/0359.png",
       "weaknesses": [
         "Bug",
@@ -3325,6 +3387,7 @@
       ],
       "canMegaEvolve": true,
       "megaForms": [
+        "Mega Absol",
         "Mega Absol Z"
       ]
     },
@@ -3358,7 +3421,7 @@
         "Ice"
       ],
       "normallyAvailable": true,
-      "detail": "Glalie in Pokémon Legends: Z-A. Weak to: Fighting, Fire, Rock, Steel.",
+      "detail": "Glalie can Mega Evolve: Mega Glalie. Weak to: Fighting, Fire, Rock, Steel.",
       "spriteAsset": "pokemon/sprites/0362.png",
       "weaknesses": [
         "Fighting",
@@ -3367,8 +3430,10 @@
         "Steel"
       ],
       "resistances": [],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Glalie"
+      ]
     },
     {
       "nationalDex": "0371",
@@ -3428,7 +3493,7 @@
         "Flying"
       ],
       "normallyAvailable": true,
-      "detail": "Salamence in Pokémon Legends: Z-A. Weak to: Fairy, Ice, Rock.",
+      "detail": "Salamence can Mega Evolve: Mega Salamence. Weak to: Fairy, Ice, Rock.",
       "spriteAsset": "pokemon/sprites/0373.png",
       "weaknesses": [
         "Fairy",
@@ -3442,8 +3507,10 @@
         "Grass",
         "Water"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Salamence"
+      ]
     },
     {
       "nationalDex": "0374",
@@ -3515,7 +3582,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Metagross in Pokémon Legends: Z-A. Weak to: Dark, Fire, Ghost, Ground.",
+      "detail": "Metagross can Mega Evolve: Mega Metagross. Weak to: Dark, Fire, Ghost, Ground.",
       "spriteAsset": "pokemon/sprites/0376.png",
       "weaknesses": [
         "Dark",
@@ -3532,8 +3599,10 @@
         "Normal",
         "Rock"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Metagross"
+      ]
     },
     {
       "nationalDex": "0380",
@@ -3545,7 +3614,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Latias in Pokémon Legends: Z-A. Weak to: Bug, Dark, Fairy, Ghost, Ice.",
+      "detail": "Latias can Mega Evolve: Mega Latias. Weak to: Bug, Dark, Fairy, Ghost, Ice.",
       "spriteAsset": "pokemon/sprites/0380.png",
       "weaknesses": [
         "Bug",
@@ -3561,8 +3630,10 @@
         "Grass",
         "Water"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Latias"
+      ]
     },
     {
       "nationalDex": "0381",
@@ -3574,7 +3645,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Latios in Pokémon Legends: Z-A. Weak to: Bug, Dark, Fairy, Ghost, Ice.",
+      "detail": "Latios can Mega Evolve: Mega Latios. Weak to: Bug, Dark, Fairy, Ghost, Ice.",
       "spriteAsset": "pokemon/sprites/0381.png",
       "weaknesses": [
         "Bug",
@@ -3590,8 +3661,10 @@
         "Grass",
         "Water"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Latios"
+      ]
     },
     {
       "nationalDex": "0382",
@@ -3724,7 +3797,7 @@
         "Flying"
       ],
       "normallyAvailable": true,
-      "detail": "Staraptor can Mega Evolve into: Mega Staraptor. Weak to: Electric, Ice, Rock.",
+      "detail": "Staraptor can Mega Evolve: Mega Staraptor. Weak to: Electric, Ice, Rock.",
       "spriteAsset": "pokemon/sprites/0398.png",
       "weaknesses": [
         "Electric",
@@ -3821,14 +3894,16 @@
         "Normal"
       ],
       "normallyAvailable": true,
-      "detail": "Lopunny in Pokémon Legends: Z-A. Weak to: Fighting.",
+      "detail": "Lopunny can Mega Evolve: Mega Lopunny. Weak to: Fighting.",
       "spriteAsset": "pokemon/sprites/0428.png",
       "weaknesses": [
         "Fighting"
       ],
       "resistances": [],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Lopunny"
+      ]
     },
     {
       "nationalDex": "0433",
@@ -3933,7 +4008,7 @@
         "Ground"
       ],
       "normallyAvailable": true,
-      "detail": "Garchomp can Mega Evolve into: Mega Garchomp Z. Weak to: Fairy, Ice.",
+      "detail": "Garchomp can Mega Evolve: Mega Garchomp, Mega Garchomp Z. Weak to: Fairy, Ice.",
       "spriteAsset": "pokemon/sprites/0445.png",
       "weaknesses": [
         "Fairy",
@@ -3946,6 +4021,7 @@
       ],
       "canMegaEvolve": true,
       "megaForms": [
+        "Mega Garchomp",
         "Mega Garchomp Z"
       ]
     },
@@ -3983,7 +4059,7 @@
         "Steel"
       ],
       "normallyAvailable": true,
-      "detail": "Lucario can Mega Evolve into: Mega Lucario Z. Weak to: Fire, Ground.",
+      "detail": "Lucario can Mega Evolve: Mega Lucario, Mega Lucario Z. Weak to: Fire, Ground.",
       "spriteAsset": "pokemon/sprites/0448.png",
       "weaknesses": [
         "Fire",
@@ -4000,6 +4076,7 @@
       ],
       "canMegaEvolve": true,
       "megaForms": [
+        "Mega Lucario",
         "Mega Lucario Z"
       ]
     },
@@ -4182,7 +4259,7 @@
         "Fighting"
       ],
       "normallyAvailable": true,
-      "detail": "Gallade in Pokémon Legends: Z-A. Weak to: Fairy, Flying, Ghost.",
+      "detail": "Gallade can Mega Evolve: Mega Gallade. Weak to: Fairy, Flying, Ghost.",
       "spriteAsset": "pokemon/sprites/0475.png",
       "weaknesses": [
         "Fairy",
@@ -4192,8 +4269,10 @@
       "resistances": [
         "Rock"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Gallade"
+      ]
     },
     {
       "nationalDex": "0478",
@@ -4205,7 +4284,7 @@
         "Ghost"
       ],
       "normallyAvailable": true,
-      "detail": "Froslass can Mega Evolve into: Mega Froslass. Weak to: Dark, Fire, Rock, Steel.",
+      "detail": "Froslass can Mega Evolve: Mega Froslass. Weak to: Dark, Fire, Rock, Steel.",
       "spriteAsset": "pokemon/sprites/0478.png",
       "weaknesses": [
         "Dark",
@@ -4257,7 +4336,7 @@
         "Steel"
       ],
       "normallyAvailable": true,
-      "detail": "Heatran can Mega Evolve into: Mega Heatran. Weak to: Fighting, Ground, Water.",
+      "detail": "Heatran can Mega Evolve: Mega Heatran. Weak to: Fighting, Ground, Water.",
       "spriteAsset": "pokemon/sprites/0485.png",
       "weaknesses": [
         "Fighting",
@@ -4288,7 +4367,7 @@
         "Dark"
       ],
       "normallyAvailable": true,
-      "detail": "Darkrai can Mega Evolve into: Mega Darkrai. Weak to: Bug, Fairy, Fighting.",
+      "detail": "Darkrai can Mega Evolve: Mega Darkrai. Weak to: Bug, Fairy, Fighting.",
       "spriteAsset": "pokemon/sprites/0491.png",
       "weaknesses": [
         "Bug",
@@ -4367,7 +4446,7 @@
         "Fighting"
       ],
       "normallyAvailable": true,
-      "detail": "Emboar can Mega Evolve into: Mega Emboar. Weak to: Flying, Ground, Psychic, Water.",
+      "detail": "Emboar can Mega Evolve: Mega Emboar. Weak to: Flying, Ground, Psychic, Water.",
       "spriteAsset": "pokemon/sprites/0500.png",
       "weaknesses": [
         "Flying",
@@ -4694,7 +4773,7 @@
         "Steel"
       ],
       "normallyAvailable": true,
-      "detail": "Excadrill can Mega Evolve into: Mega Excadrill. Weak to: Fighting, Fire, Water.",
+      "detail": "Excadrill can Mega Evolve: Mega Excadrill. Weak to: Fighting, Fire, Water.",
       "spriteAsset": "pokemon/sprites/0530.png",
       "weaknesses": [
         "Fighting",
@@ -4843,7 +4922,7 @@
         "Poison"
       ],
       "normallyAvailable": true,
-      "detail": "Scolipede can Mega Evolve into: Mega Scolipede. Weak to: Fire, Flying, Psychic, Rock.",
+      "detail": "Scolipede can Mega Evolve: Mega Scolipede. Weak to: Fire, Flying, Psychic, Rock.",
       "spriteAsset": "pokemon/sprites/0545.png",
       "weaknesses": [
         "Fire",
@@ -4978,7 +5057,7 @@
         "Fighting"
       ],
       "normallyAvailable": true,
-      "detail": "Scrafty can Mega Evolve into: Mega Scrafty. Weak to: Fairy, Flying.",
+      "detail": "Scrafty can Mega Evolve: Mega Scrafty. Weak to: Fairy, Flying.",
       "spriteAsset": "pokemon/sprites/0560.png",
       "weaknesses": [
         "Fairy",
@@ -5276,7 +5355,7 @@
         "Electric"
       ],
       "normallyAvailable": true,
-      "detail": "Eelektross can Mega Evolve into: Mega Eelektross. Weak to: Ground.",
+      "detail": "Eelektross can Mega Evolve: Mega Eelektross. Weak to: Ground.",
       "spriteAsset": "pokemon/sprites/0604.png",
       "weaknesses": [
         "Ground"
@@ -5358,7 +5437,7 @@
         "Fire"
       ],
       "normallyAvailable": true,
-      "detail": "Chandelure can Mega Evolve into: Mega Chandelure. Weak to: Dark, Ground, Rock, Water.",
+      "detail": "Chandelure can Mega Evolve: Mega Chandelure. Weak to: Dark, Ground, Rock, Water.",
       "spriteAsset": "pokemon/sprites/0609.png",
       "weaknesses": [
         "Dark",
@@ -5462,7 +5541,7 @@
         "Ghost"
       ],
       "normallyAvailable": true,
-      "detail": "Golurk can Mega Evolve into: Mega Golurk. Weak to: Dark, Grass, Ice, Water.",
+      "detail": "Golurk can Mega Evolve: Mega Golurk. Weak to: Dark, Grass, Ice, Water.",
       "spriteAsset": "pokemon/sprites/0623.png",
       "weaknesses": [
         "Dark",
@@ -5706,7 +5785,7 @@
         "Fighting"
       ],
       "normallyAvailable": true,
-      "detail": "Chesnaught can Mega Evolve into: Mega Chesnaught. Weak to: Fairy, Fire, Flying, Ice, Poison, Psychic.",
+      "detail": "Chesnaught can Mega Evolve: Mega Chesnaught. Weak to: Fairy, Fire, Flying, Ice, Poison, Psychic.",
       "spriteAsset": "pokemon/sprites/0652.png",
       "weaknesses": [
         "Fairy",
@@ -5790,7 +5869,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Delphox can Mega Evolve into: Mega Delphox. Weak to: Dark, Ghost, Ground, Rock, Water.",
+      "detail": "Delphox can Mega Evolve: Mega Delphox. Weak to: Dark, Ghost, Ground, Rock, Water.",
       "spriteAsset": "pokemon/sprites/0655.png",
       "weaknesses": [
         "Dark",
@@ -5867,7 +5946,7 @@
         "Dark"
       ],
       "normallyAvailable": true,
-      "detail": "Greninja can Mega Evolve into: Mega Greninja. Weak to: Bug, Electric, Fairy, Fighting, Grass.",
+      "detail": "Greninja can Mega Evolve: Mega Greninja. Weak to: Bug, Electric, Fairy, Fighting, Grass.",
       "spriteAsset": "pokemon/sprites/0658.png",
       "weaknesses": [
         "Bug",
@@ -6119,7 +6198,7 @@
         "Normal"
       ],
       "normallyAvailable": true,
-      "detail": "Pyroar can Mega Evolve into: Mega Pyroar. Weak to: Fighting, Ground, Rock, Water.",
+      "detail": "Pyroar can Mega Evolve: Mega Pyroar. Weak to: Fighting, Ground, Rock, Water.",
       "spriteAsset": "pokemon/sprites/0668.png",
       "weaknesses": [
         "Fighting",
@@ -6171,7 +6250,7 @@
         "Fairy"
       ],
       "normallyAvailable": true,
-      "detail": "Floette can Mega Evolve into: Mega Floette. Weak to: Poison, Steel.",
+      "detail": "Floette can Mega Evolve: Mega Floette. Weak to: Poison, Steel.",
       "spriteAsset": "pokemon/sprites/0670.png",
       "weaknesses": [
         "Poison",
@@ -6358,7 +6437,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Meowstic can Mega Evolve into: Mega Meowstic. Weak to: Bug, Dark, Ghost.",
+      "detail": "Meowstic can Mega Evolve: Mega Meowstic. Weak to: Bug, Dark, Ghost.",
       "spriteAsset": "pokemon/sprites/0678.png",
       "weaknesses": [
         "Bug",
@@ -6585,7 +6664,7 @@
         "Psychic"
       ],
       "normallyAvailable": true,
-      "detail": "Malamar can Mega Evolve into: Mega Malamar. Weak to: Bug, Fairy.",
+      "detail": "Malamar can Mega Evolve: Mega Malamar. Weak to: Bug, Fairy.",
       "spriteAsset": "pokemon/sprites/0687.png",
       "weaknesses": [
         "Bug",
@@ -6635,7 +6714,7 @@
         "Water"
       ],
       "normallyAvailable": true,
-      "detail": "Barbaracle can Mega Evolve into: Mega Barbaracle. Weak to: Electric, Fighting, Grass, Ground.",
+      "detail": "Barbaracle can Mega Evolve: Mega Barbaracle. Weak to: Electric, Fighting, Grass, Ground.",
       "spriteAsset": "pokemon/sprites/0689.png",
       "weaknesses": [
         "Electric",
@@ -6693,7 +6772,7 @@
         "Dragon"
       ],
       "normallyAvailable": true,
-      "detail": "Dragalge can Mega Evolve into: Mega Dragalge. Weak to: Ground, Ice, Psychic.",
+      "detail": "Dragalge can Mega Evolve: Mega Dragalge. Weak to: Ground, Ice, Psychic.",
       "spriteAsset": "pokemon/sprites/0691.png",
       "weaknesses": [
         "Ground",
@@ -6950,7 +7029,7 @@
         "Flying"
       ],
       "normallyAvailable": true,
-      "detail": "Hawlucha can Mega Evolve into: Mega Hawlucha. Weak to: Electric, Fairy, Ice, Psychic.",
+      "detail": "Hawlucha can Mega Evolve: Mega Hawlucha. Weak to: Electric, Fairy, Ice, Psychic.",
       "spriteAsset": "pokemon/sprites/0701.png",
       "weaknesses": [
         "Electric",
@@ -7380,7 +7459,7 @@
         "Ground"
       ],
       "normallyAvailable": true,
-      "detail": "Zygarde can Mega Evolve into: Mega Zygarde. Weak to: Fairy, Ice.",
+      "detail": "Zygarde can Mega Evolve: Mega Zygarde. Weak to: Fairy, Ice.",
       "spriteAsset": "pokemon/sprites/0718.png",
       "weaknesses": [
         "Fairy",
@@ -7406,7 +7485,7 @@
         "Fairy"
       ],
       "normallyAvailable": true,
-      "detail": "Diancie in Pokémon Legends: Z-A. Weak to: Grass, Ground, Steel, Water.",
+      "detail": "Diancie can Mega Evolve: Mega Diancie. Weak to: Grass, Ground, Steel, Water.",
       "spriteAsset": "pokemon/sprites/0719.png",
       "weaknesses": [
         "Grass",
@@ -7421,8 +7500,10 @@
         "Flying",
         "Normal"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Diancie"
+      ]
     },
     {
       "nationalDex": "0720",
@@ -7505,7 +7586,7 @@
         "Ice"
       ],
       "normallyAvailable": true,
-      "detail": "Crabominable can Mega Evolve into: Mega Crabominable. Weak to: Fairy, Fire, Flying, Psychic, Steel.",
+      "detail": "Crabominable can Mega Evolve: Mega Crabominable. Weak to: Fairy, Fire, Flying, Psychic, Steel.",
       "spriteAsset": "pokemon/sprites/0740.png",
       "weaknesses": [
         "Fairy",
@@ -7559,7 +7640,7 @@
         "Water"
       ],
       "normallyAvailable": true,
-      "detail": "Golisopod can Mega Evolve into: Mega Golisopod. Weak to: Electric, Flying, Rock.",
+      "detail": "Golisopod can Mega Evolve: Mega Golisopod. Weak to: Electric, Flying, Rock.",
       "spriteAsset": "pokemon/sprites/0768.png",
       "weaknesses": [
         "Electric",
@@ -7660,7 +7741,7 @@
         "Dragon"
       ],
       "normallyAvailable": true,
-      "detail": "Drampa can Mega Evolve into: Mega Drampa. Weak to: Fairy, Fighting, Ice.",
+      "detail": "Drampa can Mega Evolve: Mega Drampa. Weak to: Fairy, Fighting, Ice.",
       "spriteAsset": "pokemon/sprites/0780.png",
       "weaknesses": [
         "Fairy",
@@ -7688,7 +7769,7 @@
         "Fairy"
       ],
       "normallyAvailable": true,
-      "detail": "Magearna can Mega Evolve into: Mega Magearna. Weak to: Fire, Ground.",
+      "detail": "Magearna can Mega Evolve: Mega Magearna. Weak to: Fire, Ground.",
       "spriteAsset": "pokemon/sprites/0801.png",
       "weaknesses": [
         "Fire",
@@ -7743,7 +7824,7 @@
         "Electric"
       ],
       "normallyAvailable": true,
-      "detail": "Zeraora can Mega Evolve into: Mega Zeraora. Weak to: Ground.",
+      "detail": "Zeraora can Mega Evolve: Mega Zeraora. Weak to: Ground.",
       "spriteAsset": "pokemon/sprites/0807.png",
       "weaknesses": [
         "Ground"
@@ -8151,7 +8232,7 @@
         "Fighting"
       ],
       "normallyAvailable": true,
-      "detail": "Falinks can Mega Evolve into: Mega Falinks. Weak to: Fairy, Flying, Psychic.",
+      "detail": "Falinks can Mega Evolve: Mega Falinks. Weak to: Fairy, Flying, Psychic.",
       "spriteAsset": "pokemon/sprites/0870.png",
       "weaknesses": [
         "Fairy",
@@ -8622,7 +8703,7 @@
         "Fire"
       ],
       "normallyAvailable": true,
-      "detail": "Scovillain can Mega Evolve into: Mega Scovillain. Weak to: Flying, Poison, Rock.",
+      "detail": "Scovillain can Mega Evolve: Mega Scovillain. Weak to: Flying, Poison, Rock.",
       "spriteAsset": "pokemon/sprites/0952.png",
       "weaknesses": [
         "Flying",
@@ -8790,7 +8871,7 @@
         "Poison"
       ],
       "normallyAvailable": true,
-      "detail": "Glimmora can Mega Evolve into: Mega Glimmora. Weak to: Ground, Psychic, Steel, Water.",
+      "detail": "Glimmora can Mega Evolve: Mega Glimmora. Weak to: Ground, Psychic, Steel, Water.",
       "spriteAsset": "pokemon/sprites/0970.png",
       "weaknesses": [
         "Ground",
@@ -8911,7 +8992,7 @@
         "Water"
       ],
       "normallyAvailable": true,
-      "detail": "Tatsugiri in Pokémon Legends: Z-A. Weak to: Fairy.",
+      "detail": "Tatsugiri can Mega Evolve: Mega Tatsugiri. Weak to: Fairy.",
       "spriteAsset": "pokemon/sprites/0978.png",
       "weaknesses": [
         "Fairy"
@@ -8920,8 +9001,10 @@
         "Fire",
         "Steel"
       ],
-      "canMegaEvolve": false,
-      "megaForms": []
+      "canMegaEvolve": true,
+      "megaForms": [
+        "Mega Tatsugiri"
+      ]
     },
     {
       "nationalDex": "0979",
@@ -9010,7 +9093,7 @@
         "Ice"
       ],
       "normallyAvailable": true,
-      "detail": "Baxcalibur can Mega Evolve into: Mega Baxcalibur. Weak to: Fairy, Fighting, Rock, Steel.",
+      "detail": "Baxcalibur can Mega Evolve: Mega Baxcalibur. Weak to: Fairy, Fighting, Rock, Steel.",
       "spriteAsset": "pokemon/sprites/0998.png",
       "weaknesses": [
         "Fairy",
@@ -9080,5 +9163,5 @@
       "megaForms": []
     }
   ],
-  "megaSpeciesCount": 43
+  "megaSpeciesCount": 82
 }
