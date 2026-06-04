@@ -1,6 +1,6 @@
 {
-  "versionCode": 35,
-  "versionName": "1.4.6",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.6/app-release.apk",
-  "releaseNotes": "Women's wardrobe now lists all 1,173 girl-friendly items (gloves, earrings, shoes, etc.) — fixes filter bug that hid most female clothes."
+  "versionCode": 36,
+  "versionName": "1.4.7",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.7/app-release.apk",
+  "releaseNotes": "Pokédex: new Mega only filter to show just Mega Evolve Pokémon (82 species)."
 }

@@ -4,6 +4,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -13,6 +14,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Refresh
@@ -36,11 +38,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.pokemonza.companion.data.model.PokemonDexFilter
 import com.pokemonza.companion.data.model.PokemonEntry
 import com.pokemonza.companion.data.network.OfflineAssets
 import com.pokemonza.companion.ui.components.BackgroundScaffold
 import com.pokemonza.companion.ui.components.DetailPopup
 import com.pokemonza.companion.ui.components.GlassCard
+import com.pokemonza.companion.ui.components.GlassFilterChip
 import com.pokemonza.companion.ui.components.GlassSearchField
 import com.pokemonza.companion.ui.components.glassListContentPadding
 import com.pokemonza.companion.ui.components.LastUpdatedText
@@ -53,13 +57,15 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
     val state by viewModel.pokemonState.collectAsState()
     val detail by viewModel.pokemonDetail.collectAsState()
     var searchQuery by remember { mutableStateOf("") }
+    var dexFilter by remember { mutableStateOf(PokemonDexFilter.ALL) }
     var selected by remember { mutableStateOf<PokemonEntry?>(null) }
 
-    val filtered = state.data.filter {
-        searchQuery.isBlank() ||
-            it.name.contains(searchQuery, ignoreCase = true) ||
-            it.types.any { t -> t.contains(searchQuery, ignoreCase = true) } ||
-            it.nationalDex.contains(searchQuery)
+    val filtered = state.data.filter { pokemon ->
+        (dexFilter != PokemonDexFilter.MEGA_ONLY || pokemon.canMegaEvolve) &&
+            (searchQuery.isBlank() ||
+                pokemon.name.contains(searchQuery, ignoreCase = true) ||
+                pokemon.types.any { t -> t.contains(searchQuery, ignoreCase = true) } ||
+                pokemon.nationalDex.contains(searchQuery))
     }
 
     BackgroundScaffold(modifier = modifier) {
@@ -79,6 +85,19 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                     Icon(Icons.Default.Refresh, null, tint = Color.White)
                 }
             }
+            LazyRow(
+                contentPadding = PaddingValues(horizontal = 8.dp, vertical = 4.dp),
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                items(PokemonDexFilter.entries) { filter ->
+                    GlassFilterChip(
+                        selected = dexFilter == filter,
+                        onClick = { dexFilter = filter },
+                        label = { Text(filter.label, fontSize = 11.sp) }
+                    )
+                }
+            }
+
             LastUpdatedText(state.lastUpdated)
             when {
                 state.isLoading && state.data.isEmpty() -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
@@ -89,6 +108,18 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                     verticalArrangement = Arrangement.spacedBy(8.dp),
                     contentPadding = glassListContentPadding()
                 ) {
+                    item {
+                        val label = when (dexFilter) {
+                            PokemonDexFilter.MEGA_ONLY -> "${filtered.size} Mega Evolve"
+                            PokemonDexFilter.ALL -> "${filtered.size} Pokémon"
+                        }
+                        Text(
+                            label,
+                            color = Color.White.copy(0.7f),
+                            fontSize = 12.sp,
+                            modifier = Modifier.padding(bottom = 4.dp)
+                        )
+                    }
                     items(filtered, key = { it.nationalDex + it.name }) { pokemon ->
                         PokemonCard(pokemon) {
                             selected = pokemon

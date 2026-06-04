@@ -17,6 +17,11 @@ data class PokemonEntry(
     val megaForms: List<String> = emptyList()
 )
 
+enum class PokemonDexFilter(val label: String) {
+    ALL("All"),
+    MEGA_ONLY("Mega only")
+}
+
 enum class FashionOutfitFilter(val label: String) {
     ALL("All styles"),
     WOMENS("Women's wardrobe"),
