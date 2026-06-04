@@ -1,6 +1,7 @@
 package com.pokemonza.companion.data.network
 
 import android.content.Context
+import com.pokemonza.companion.data.FashionGenderRules
 import com.pokemonza.companion.data.model.FashionItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -122,34 +123,12 @@ class SerebiiFashionParser {
                     imageUrl = img,
                     femaleImageUrl = femalePreviewUrl(img),
                     previewKey = previewKey,
-                    feminineCut = isFeminineCut(name),
-                    masculineCut = isMasculineCut(name)
+                    feminineCut = FashionGenderRules.isFeminineCut(name),
+                    masculineCut = FashionGenderRules.isMasculineCut(name),
+                    femaleWardrobe = FashionGenderRules.isFemaleWardrobe(name)
                 )
             )
         }
-    }
-
-    private fun isFeminineCut(name: String): Boolean {
-        val n = name.lowercase()
-        val markers = listOf(
-            "blouse", "skort", "dress", "skirt", "romper", "jumpsuit",
-            "off shoulder", "off-shoulder", "crop top", "tube top", "ribbon blouse",
-            "halter", "camisole", "bodysuit", "peplum", "wrap top", "corset",
-            "pinafore", "tiered skirt", "pleated skirt", "maxi skirt", "miniskirt",
-            "hot pants", "culottes", "overalls set"
-        )
-        return markers.any { n.contains(it) }
-    }
-
-    private fun isMasculineCut(name: String): Boolean {
-        if (isFeminineCut(name)) return false
-        val n = name.lowercase()
-        val markers = listOf(
-            "biker jacket", "cargo pants", "blazer & shirt", "cardigan & shirt",
-            "shacket", "hoodie set", "track jacket", "polo", "suit pants",
-            "dress shirt", "denim jacket set"
-        )
-        return markers.any { n.contains(it) }
     }
 
     private fun femalePreviewUrl(maleUrl: String?): String? {
@@ -217,7 +196,11 @@ class FashionRepository(private val context: Context) {
                         femaleThumbAsset = o.optString("femaleThumbAsset").takeIf { it.isNotBlank() && it != "null" },
                         previewKey = o.optString("previewKey").takeIf { it.isNotBlank() && it != "null" },
                         feminineCut = o.optBoolean("feminineCut", false),
-                        masculineCut = o.optBoolean("masculineCut", false)
+                        masculineCut = o.optBoolean("masculineCut", false),
+                        femaleWardrobe = o.optBoolean(
+                            "femaleWardrobe",
+                            !o.optBoolean("masculineCut", false)
+                        )
                     )
                 )
             }

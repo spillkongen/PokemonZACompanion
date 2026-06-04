@@ -59,7 +59,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
     val state by viewModel.fashionState.collectAsState()
     var searchQuery by remember { mutableStateOf("") }
     var selectedCategory by remember { mutableStateOf(FashionCategory.TOPS) }
-    var outfitFilter by remember { mutableStateOf(FashionOutfitFilter.ALL) }
+    var outfitFilter by remember { mutableStateOf(FashionOutfitFilter.WOMENS) }
     var previewGender by remember { mutableStateOf(FashionPreviewGender.FEMALE) }
     var useLargePreview by remember { mutableStateOf(false) }
     var selectedItem by remember { mutableStateOf<FashionItem?>(null) }
@@ -144,7 +144,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
             }
 
             Text(
-                "All outfits work on any character. Large previews match Serebii (female model for blouse/skort/dress sets). Tap Women's styles to filter.",
+                "Women's wardrobe = all girl-friendly items (tops, gloves, earrings, shoes, etc.) with Serebii female previews. Men's styles = jacket/cargo sets only.",
                 color = Color.White.copy(0.55f),
                 fontSize = 10.sp,
                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 2.dp)

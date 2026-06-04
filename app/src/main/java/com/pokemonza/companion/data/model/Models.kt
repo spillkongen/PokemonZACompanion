@@ -19,7 +19,7 @@ data class PokemonEntry(
 
 enum class FashionOutfitFilter(val label: String) {
     ALL("All styles"),
-    WOMENS("Women's styles"),
+    WOMENS("Women's wardrobe"),
     MENS("Men's styles")
 }
 
@@ -42,7 +42,9 @@ data class FashionItem(
     val femaleThumbAsset: String? = null,
     val previewKey: String? = null,
     val feminineCut: Boolean = false,
-    val masculineCut: Boolean = false
+    val masculineCut: Boolean = false,
+    /** All items wearable on a female character (excludes men's-cut jacket/cargo sets only). */
+    val femaleWardrobe: Boolean = true
 ) {
     val categoryLabel: String
         get() = FashionCategory.fromId(category).displayName
@@ -52,8 +54,8 @@ data class FashionItem(
 
     fun matchesOutfitFilter(filter: FashionOutfitFilter): Boolean = when (filter) {
         FashionOutfitFilter.ALL -> true
-        FashionOutfitFilter.WOMENS -> feminineCut
-        FashionOutfitFilter.MENS -> !feminineCut
+        FashionOutfitFilter.WOMENS -> femaleWardrobe
+        FashionOutfitFilter.MENS -> masculineCut
     }
 }
 

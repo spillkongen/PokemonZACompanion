@@ -1,0 +1,131 @@
+"""Shared rules for women's vs men's outfit cuts (used by scrape + Kotlin)."""
+
+FEMININE_MARKERS = (
+    "blouse",
+    "skort",
+    "dress",
+    "skirt",
+    "romper",
+    "jumpsuit",
+    "off shoulder",
+    "off-shoulder",
+    "crop top",
+    "tube top",
+    "ribbon blouse",
+    "halter",
+    "camisole",
+    "bodysuit",
+    "peplum",
+    "wrap top",
+    "corset",
+    "pinafore",
+    "tiered skirt",
+    "pleated skirt",
+    "pleated skort",
+    "maxi skirt",
+    "miniskirt",
+    "hot pants",
+    "culottes",
+    "overalls set",
+    "fur coat",
+    "suspender pants",
+    "blouson",
+    "v-neck set",
+    "tights",
+    "leggings",
+    "knee-high sock",
+    "thigh-high sock",
+    "mary jane",
+    "pumps",
+    "pump",
+    "heel",
+    "loafer",
+    "frilly",
+    "flower earring",
+    "bow-and-bone",
+    "bow and bone",
+    "lace-up shoe",
+    "lace-up show",
+    "beribboned",
+    "bejeweled",
+    "mesh tight",
+    "knit tight",
+    "patterned tight",
+    "floral tight",
+    "gradient cropped",
+    "simple cropped",
+    "asymmetrical tight",
+    "polka dot ribbon",
+    "lacy ribbon",
+    "crisscross ribbon",
+    "flower-stitch",
+    "chignon",
+    "bob",
+    "pixie",
+    "ponytail",
+    "pigtail",
+    "satchel",
+    "clutch",
+    "tote",
+    "ribbon sock",
+    "fishnet",
+    "platform",
+    "wedge",
+    "ballet",
+    "ankle strap",
+    "jacinthe",
+    "liepard pump",
+    "elbow-patch sweater",
+    "cardigan & blouse",
+    "sweater vest & blouse",
+    "vest & ribbon",
+    "belted romper",
+    "big-logo overalls",
+    "wrap skort",
+    "pleated skort",
+    "plaid pleated",
+    "holo-x blouson",
+    "holo-y blouson",
+    "chef top",  # Grisham's - unisex but feminine presentation
+)
+
+MASCULINE_MARKERS = (
+    "biker jacket",
+    "cargo pants",
+    "blazer & shirt",
+    "cardigan & shirt",
+    "shacket",
+    "hoodie set",
+    "track jacket",
+    "polo",
+    "suit pants",
+    "dress shirt",
+    "denim jacket set",
+    "blazer & shirt",
+    "graphic t-shirt and shacket",
+    "two-tone turtleneck",
+    "frog-button jacket",
+    "leather mix pullover",
+    "cinematic pullover",
+    "logo pullover",
+    "simple pullover",
+    "patterned pullover",
+    "puffer vest and hoodie",
+)
+
+
+def is_feminine_cut(name: str) -> bool:
+    n = name.lower()
+    return any(m in n for m in FEMININE_MARKERS)
+
+
+def is_masculine_cut(name: str) -> bool:
+    n = name.lower()
+    if is_feminine_cut(name):
+        return False
+    return any(m in n for m in MASCULINE_MARKERS)
+
+
+def is_female_wardrobe(name: str) -> bool:
+    """Full women's wardrobe in Z-A: everything except clearly men's-cut sets."""
+    return not is_masculine_cut(name)

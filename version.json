@@ -1,6 +1,6 @@
 {
-  "versionCode": 34,
-  "versionName": "1.4.5",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.5/app-release.apk",
-  "releaseNotes": "Fashion previews now use Serebii large images by default (female model on blouse/skort/dress sets like in-game)."
+  "versionCode": 35,
+  "versionName": "1.4.6",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.6/app-release.apk",
+  "releaseNotes": "Women's wardrobe now lists all 1,173 girl-friendly items (gloves, earrings, shoes, etc.) — fixes filter bug that hid most female clothes."
 }
