@@ -1,6 +1,6 @@
 {
-  "versionCode": 36,
-  "versionName": "1.4.7",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.7/app-release.apk",
-  "releaseNotes": "Pokédex: new Mega only filter to show just Mega Evolve Pokémon (82 species)."
+  "versionCode": 37,
+  "versionName": "1.4.8",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.8/app-release.apk",
+  "releaseNotes": "More reliable in-app updates: if a release APK is still building, the app falls back to the latest GitHub release automatically."
 }

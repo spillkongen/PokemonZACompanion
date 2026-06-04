@@ -40,8 +40,11 @@ class AppUpdateChecker(
                 if (remoteCode <= currentVersionCode) {
                     return@withContext UpdateCheckResult.UpToDate
                 }
-                val apkUrl = versionJson.optString("apkUrl").takeIf { it.isNotBlank() }
-                    ?: fetchLatestApkUrl(owner, repo)
+                val apkUrl = resolveApkUrl(
+                    owner = owner,
+                    repo = repo,
+                    preferredUrl = versionJson.optString("apkUrl").takeIf { it.isNotBlank() }
+                )
                 if (apkUrl == null) {
                     return@withContext UpdateCheckResult.Failed("No APK found on GitHub release")
                 }
@@ -63,6 +66,24 @@ class AppUpdateChecker(
         val cacheBust = System.currentTimeMillis()
         val url = "https://raw.githubusercontent.com/$owner/$repo/main/version.json?t=$cacheBust"
         return fetchJson(url, githubApi = false)
+    }
+
+    private fun resolveApkUrl(owner: String, repo: String, preferredUrl: String?): String? {
+        if (preferredUrl != null && urlExists(preferredUrl)) return preferredUrl
+        return fetchLatestApkUrl(owner, repo)
+    }
+
+    private fun urlExists(url: String): Boolean {
+        val request = Request.Builder()
+            .url(url)
+            .head()
+            .header("User-Agent", "PokemonZACompanion/${BuildConfig.VERSION_NAME}")
+            .build()
+        return try {
+            client.newCall(request).execute().use { it.isSuccessful }
+        } catch (_: Exception) {
+            false
+        }
     }
 
     private fun fetchLatestApkUrl(owner: String, repo: String): String? {
