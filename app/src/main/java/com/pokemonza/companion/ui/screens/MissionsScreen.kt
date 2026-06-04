@@ -73,7 +73,7 @@ fun MissionsScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier)
             }
             if (state.data.isNotEmpty()) {
                 Text(
-                    "${state.data.size} missions (offline)",
+                    "${state.data.size} missions from Serebii",
                     color = Color.White.copy(0.55f),
                     fontSize = 11.sp,
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 2.dp)

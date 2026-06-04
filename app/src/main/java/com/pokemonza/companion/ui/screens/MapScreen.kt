@@ -3,7 +3,6 @@ package com.pokemonza.companion.ui.screens
 import android.annotation.SuppressLint
 import android.graphics.Bitmap
 import android.webkit.WebChromeClient
-import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.compose.foundation.layout.Box
@@ -28,7 +27,7 @@ import com.pokemonza.companion.ui.components.BackgroundScaffold
 @Composable
 fun MapScreen(modifier: Modifier = Modifier) {
     var isLoading by remember { mutableStateOf(true) }
-    var currentUrl by remember { mutableStateOf(AppConstants.MAP_GENIE_LUMIOSE) }
+    var currentUrl by remember { mutableStateOf(AppConstants.OFFLINE_MAP_URL) }
 
     BackgroundScaffold(modifier = modifier) {
         Box(modifier = Modifier.fillMaxSize()) {
@@ -56,25 +55,14 @@ fun MapScreen(modifier: Modifier = Modifier) {
                                 currentUrl = url ?: currentUrl
                             }
 
-                            override fun shouldOverrideUrlLoading(
-                                view: WebView?,
-                                request: WebResourceRequest?
-                            ): Boolean {
-                                val url = request?.url?.toString() ?: return false
-                                if (url.contains("mapgenie.io")) {
-                                    view?.loadUrl(url)
-                                    return true
-                                }
-                                return false
-                            }
                         }
                         webChromeClient = WebChromeClient()
-                        loadUrl(AppConstants.MAP_GENIE_LUMIOSE)
+                        loadUrl(AppConstants.OFFLINE_MAP_URL)
                     }
                 },
                 update = { webView ->
                     if (webView.url == null) {
-                        webView.loadUrl(AppConstants.MAP_GENIE_LUMIOSE)
+                        webView.loadUrl(AppConstants.OFFLINE_MAP_URL)
                     }
                 }
             )
@@ -87,7 +75,7 @@ fun MapScreen(modifier: Modifier = Modifier) {
             }
 
             Text(
-                text = "MapGenie",
+                text = "Lumiose Map",
                 color = Color.White.copy(alpha = 0.4f),
                 modifier = Modifier
                     .align(Alignment.BottomCenter)

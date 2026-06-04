@@ -15,8 +15,8 @@ android {
         applicationId = "com.pokemonza.companion"
         minSdk = 21
         targetSdk = 34
-        versionCode = 24
-        versionName = "1.2.9"
+        versionCode = 25
+        versionName = "1.3.0"
         multiDexEnabled = true
         buildConfigField("String", "GITHUB_REPO_OWNER", "\"$githubOwner\"")
         buildConfigField("String", "GITHUB_REPO_NAME", "\"$githubRepo\"")

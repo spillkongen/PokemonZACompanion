@@ -29,6 +29,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
@@ -36,6 +37,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.pokemonza.companion.data.model.PokemonEntry
+import com.pokemonza.companion.data.network.OfflineAssets
 import com.pokemonza.companion.ui.components.BackgroundScaffold
 import com.pokemonza.companion.ui.components.DetailPopup
 import com.pokemonza.companion.ui.components.GlassCard
@@ -89,7 +91,7 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                     items(filtered, key = { it.nationalDex + it.name }) { pokemon ->
                         PokemonCard(pokemon) {
                             selected = pokemon
-                            viewModel.loadPokemonDetail(pokemon.name)
+                            viewModel.loadPokemonDetail(pokemon)
                         }
                     }
                 }
@@ -97,6 +99,7 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
         }
     }
 
+    val context = LocalContext.current
     selected?.let { pokemon ->
         DetailPopup(
             title = "#${pokemon.nationalDex} ${pokemon.name}",
@@ -104,7 +107,7 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                 selected = null
                 viewModel.clearPokemonDetail()
             },
-            imageUrl = pokemon.imageUrl
+            imageUrl = OfflineAssets.pokemonSpriteUri(context, pokemon.spriteAsset, pokemon.nationalDex)
         ) {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -114,15 +117,10 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                     Text("Lumiose Dex #${pokemon.lumioseDex}", color = Color.White.copy(0.7f), fontSize = 12.sp)
                 }
                 Text(
-                    detail ?: "Loading...",
+                    detail ?: pokemon.detailSummary,
                     color = Color.White.copy(0.85f),
                     fontSize = 13.sp,
                     lineHeight = 18.sp
-                )
-                Text(
-                    "Tap for full Bulbapedia article in browser from Guides tab.",
-                    color = Color.White.copy(0.5f),
-                    fontSize = 10.sp
                 )
             }
         }
@@ -131,10 +129,11 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
 
 @Composable
 private fun PokemonCard(pokemon: PokemonEntry, onClick: () -> Unit) {
+    val context = LocalContext.current
     GlassCard(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             AsyncImage(
-                model = pokemon.imageUrl,
+                model = OfflineAssets.pokemonSpriteUri(context, pokemon.spriteAsset, pokemon.nationalDex),
                 contentDescription = pokemon.name,
                 modifier = Modifier.size(56.dp),
                 contentScale = ContentScale.Fit

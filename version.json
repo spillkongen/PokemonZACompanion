@@ -1,6 +1,6 @@
 {
-  "versionCode": 24,
-  "versionName": "1.2.9",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.2.9/app-release.apk",
-  "releaseNotes": "All Serebii data is bundled offline — no live Serebii requests from the app."
+  "versionCode": 25,
+  "versionName": "1.3.0",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.3.0/app-release.apk",
+  "releaseNotes": "Fully offline: bundled missions, fashion, Pokémon, and Lumiose map. Same app design."
 }

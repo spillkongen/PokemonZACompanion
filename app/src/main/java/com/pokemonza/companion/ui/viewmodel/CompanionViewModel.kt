@@ -19,7 +19,7 @@ import kotlinx.coroutines.launch
 
 class CompanionViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val pokemonRepo = PokemonRepository()
+    private val pokemonRepo = PokemonRepository(application)
     private val fashionRepo = FashionRepository(application)
     private val missionRepo = MissionRepository(application)
     private val guideRepo = GuideRepository()
@@ -52,6 +52,7 @@ class CompanionViewModel(application: Application) : AndroidViewModel(applicatio
         viewModelScope.launch {
             _pokemonState.value = _pokemonState.value.copy(isLoading = true, error = null)
             try {
+                if (forceRefresh) pokemonRepo.clearCache()
                 val data = pokemonRepo.fetchPokemon()
                 _pokemonState.value = TabLoadState(data = data, lastUpdated = System.currentTimeMillis())
                 pokemonLoaded = true
@@ -105,11 +106,8 @@ class CompanionViewModel(application: Application) : AndroidViewModel(applicatio
         }
     }
 
-    fun loadPokemonDetail(name: String) {
-        viewModelScope.launch {
-            _pokemonDetail.value = "Loading..."
-            _pokemonDetail.value = pokemonRepo.fetchPokemonDetail(name)
-        }
+    fun loadPokemonDetail(entry: PokemonEntry) {
+        _pokemonDetail.value = pokemonRepo.fetchPokemonDetail(entry)
     }
 
     fun clearPokemonDetail() {

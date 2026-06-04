@@ -1,0 +1,4568 @@
+{
+  "bundledOnly": true,
+  "count": 364,
+  "pokemon": [
+    {
+      "nationalDex": "0001",
+      "lumioseDex": "148",
+      "hyperspaceDex": null,
+      "name": "Bulbasaur",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Bulbasaur appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0001.png"
+    },
+    {
+      "nationalDex": "0002",
+      "lumioseDex": "149",
+      "hyperspaceDex": null,
+      "name": "Ivysaur",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Ivysaur appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0002.png"
+    },
+    {
+      "nationalDex": "0003",
+      "lumioseDex": "150",
+      "hyperspaceDex": null,
+      "name": "Venusaur",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Venusaur appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0003.png"
+    },
+    {
+      "nationalDex": "0004",
+      "lumioseDex": "151",
+      "hyperspaceDex": null,
+      "name": "Charmander",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Charmander appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0004.png"
+    },
+    {
+      "nationalDex": "0005",
+      "lumioseDex": "152",
+      "hyperspaceDex": null,
+      "name": "Charmeleon",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Charmeleon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0005.png"
+    },
+    {
+      "nationalDex": "0006",
+      "lumioseDex": "153",
+      "hyperspaceDex": null,
+      "name": "Charizard",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Charizard appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0006.png"
+    },
+    {
+      "nationalDex": "0007",
+      "lumioseDex": "154",
+      "hyperspaceDex": null,
+      "name": "Squirtle",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Squirtle appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0007.png"
+    },
+    {
+      "nationalDex": "0008",
+      "lumioseDex": "155",
+      "hyperspaceDex": null,
+      "name": "Wartortle",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Wartortle appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0008.png"
+    },
+    {
+      "nationalDex": "0009",
+      "lumioseDex": "156",
+      "hyperspaceDex": null,
+      "name": "Blastoise",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Blastoise appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0009.png"
+    },
+    {
+      "nationalDex": "0013",
+      "lumioseDex": "018",
+      "hyperspaceDex": null,
+      "name": "Weedle",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Weedle appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0013.png"
+    },
+    {
+      "nationalDex": "0014",
+      "lumioseDex": "019",
+      "hyperspaceDex": null,
+      "name": "Kakuna",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Kakuna appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0014.png"
+    },
+    {
+      "nationalDex": "0015",
+      "lumioseDex": "020",
+      "hyperspaceDex": null,
+      "name": "Beedrill",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Beedrill appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0015.png"
+    },
+    {
+      "nationalDex": "0016",
+      "lumioseDex": "021",
+      "hyperspaceDex": null,
+      "name": "Pidgey",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pidgey appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0016.png"
+    },
+    {
+      "nationalDex": "0017",
+      "lumioseDex": "022",
+      "hyperspaceDex": null,
+      "name": "Pidgeotto",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pidgeotto appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0017.png"
+    },
+    {
+      "nationalDex": "0018",
+      "lumioseDex": "023",
+      "hyperspaceDex": null,
+      "name": "Pidgeot",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pidgeot appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0018.png"
+    },
+    {
+      "nationalDex": "0023",
+      "lumioseDex": "060",
+      "hyperspaceDex": null,
+      "name": "Ekans",
+      "types": [
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Ekans appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0023.png"
+    },
+    {
+      "nationalDex": "0024",
+      "lumioseDex": "061",
+      "hyperspaceDex": null,
+      "name": "Arbok",
+      "types": [
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Arbok appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0024.png"
+    },
+    {
+      "nationalDex": "0025",
+      "lumioseDex": "053",
+      "hyperspaceDex": null,
+      "name": "Pikachu",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pikachu appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0025.png"
+    },
+    {
+      "nationalDex": "0026",
+      "lumioseDex": "054",
+      "hyperspaceDex": null,
+      "name": "Raichu",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Raichu appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0026.png"
+    },
+    {
+      "nationalDex": "0035",
+      "lumioseDex": "056",
+      "hyperspaceDex": null,
+      "name": "Clefairy",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Clefairy appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0035.png"
+    },
+    {
+      "nationalDex": "0036",
+      "lumioseDex": "057",
+      "hyperspaceDex": null,
+      "name": "Clefable",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Clefable appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0036.png"
+    },
+    {
+      "nationalDex": "0039",
+      "lumioseDex": null,
+      "hyperspaceDex": "077",
+      "name": "Jigglypuff",
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Jigglypuff appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0039.png"
+    },
+    {
+      "nationalDex": "0040",
+      "lumioseDex": null,
+      "hyperspaceDex": "078",
+      "name": "Wigglytuff",
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Wigglytuff appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0040.png"
+    },
+    {
+      "nationalDex": "0041",
+      "lumioseDex": null,
+      "hyperspaceDex": "094",
+      "name": "Zubat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Zubat appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0041.png"
+    },
+    {
+      "nationalDex": "0042",
+      "lumioseDex": null,
+      "hyperspaceDex": "095",
+      "name": "Golbat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Golbat appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0042.png"
+    },
+    {
+      "nationalDex": "0052",
+      "lumioseDex": null,
+      "hyperspaceDex": "004",
+      "name": "Meowth",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Meowth appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0052.png"
+    },
+    {
+      "nationalDex": "0053",
+      "lumioseDex": null,
+      "hyperspaceDex": "005",
+      "name": "Persian",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Persian appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0053.png"
+    },
+    {
+      "nationalDex": "0056",
+      "lumioseDex": null,
+      "hyperspaceDex": "001",
+      "name": "Mankey",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mankey appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0056.png"
+    },
+    {
+      "nationalDex": "0057",
+      "lumioseDex": null,
+      "hyperspaceDex": "002",
+      "name": "Primeape",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Primeape appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0057.png"
+    },
+    {
+      "nationalDex": "0063",
+      "lumioseDex": "062",
+      "hyperspaceDex": null,
+      "name": "Abra",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Abra appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0063.png"
+    },
+    {
+      "nationalDex": "0064",
+      "lumioseDex": "063",
+      "hyperspaceDex": null,
+      "name": "Kadabra",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Kadabra appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0064.png"
+    },
+    {
+      "nationalDex": "0065",
+      "lumioseDex": "064",
+      "hyperspaceDex": null,
+      "name": "Alakazam",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Alakazam appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0065.png"
+    },
+    {
+      "nationalDex": "0066",
+      "lumioseDex": "125",
+      "hyperspaceDex": null,
+      "name": "Machop",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Machop appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0066.png"
+    },
+    {
+      "nationalDex": "0067",
+      "lumioseDex": "126",
+      "hyperspaceDex": null,
+      "name": "Machoke",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Machoke appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0067.png"
+    },
+    {
+      "nationalDex": "0068",
+      "lumioseDex": "127",
+      "hyperspaceDex": null,
+      "name": "Machamp",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Machamp appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0068.png"
+    },
+    {
+      "nationalDex": "0069",
+      "lumioseDex": "074",
+      "hyperspaceDex": null,
+      "name": "Bellsprout",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Bellsprout appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0069.png"
+    },
+    {
+      "nationalDex": "0070",
+      "lumioseDex": "075",
+      "hyperspaceDex": null,
+      "name": "Weepinbell",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Weepinbell appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0070.png"
+    },
+    {
+      "nationalDex": "0071",
+      "lumioseDex": "076",
+      "hyperspaceDex": null,
+      "name": "Victreebel",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Victreebel appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0071.png"
+    },
+    {
+      "nationalDex": "0079",
+      "lumioseDex": "137",
+      "hyperspaceDex": null,
+      "name": "Slowpoke",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Slowpoke appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0079.png"
+    },
+    {
+      "nationalDex": "0080",
+      "lumioseDex": "138",
+      "hyperspaceDex": null,
+      "name": "Slowbro",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Slowbro appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0080.png"
+    },
+    {
+      "nationalDex": "0083",
+      "lumioseDex": null,
+      "hyperspaceDex": "007",
+      "name": "Farfetch'd",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Farfetch'd appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0083.png"
+    },
+    {
+      "nationalDex": "0092",
+      "lumioseDex": "065",
+      "hyperspaceDex": null,
+      "name": "Gastly",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gastly appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0092.png"
+    },
+    {
+      "nationalDex": "0093",
+      "lumioseDex": "066",
+      "hyperspaceDex": null,
+      "name": "Haunter",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Haunter appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0093.png"
+    },
+    {
+      "nationalDex": "0094",
+      "lumioseDex": "067",
+      "hyperspaceDex": null,
+      "name": "Gengar",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gengar appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0094.png"
+    },
+    {
+      "nationalDex": "0095",
+      "lumioseDex": "197",
+      "hyperspaceDex": null,
+      "name": "Onix",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Onix appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0095.png"
+    },
+    {
+      "nationalDex": "0104",
+      "lumioseDex": null,
+      "hyperspaceDex": "009",
+      "name": "Cubone",
+      "types": [
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Cubone appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0104.png"
+    },
+    {
+      "nationalDex": "0105",
+      "lumioseDex": null,
+      "hyperspaceDex": "010",
+      "name": "Marowak",
+      "types": [
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Marowak appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0105.png"
+    },
+    {
+      "nationalDex": "0115",
+      "lumioseDex": "223",
+      "hyperspaceDex": null,
+      "name": "Kangaskhan",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Kangaskhan appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0115.png"
+    },
+    {
+      "nationalDex": "0120",
+      "lumioseDex": "036",
+      "hyperspaceDex": null,
+      "name": "Staryu",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Staryu appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0120.png"
+    },
+    {
+      "nationalDex": "0121",
+      "lumioseDex": "037",
+      "hyperspaceDex": null,
+      "name": "Starmie",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Starmie appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0121.png"
+    },
+    {
+      "nationalDex": "0122",
+      "lumioseDex": null,
+      "hyperspaceDex": "109",
+      "name": "Mr. Mime",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mr. Mime appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0122.png"
+    },
+    {
+      "nationalDex": "0123",
+      "lumioseDex": "176",
+      "hyperspaceDex": null,
+      "name": "Scyther",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Scyther appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0123.png"
+    },
+    {
+      "nationalDex": "0127",
+      "lumioseDex": "178",
+      "hyperspaceDex": null,
+      "name": "Pinsir",
+      "types": [
+        "Bug"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pinsir appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0127.png"
+    },
+    {
+      "nationalDex": "0129",
+      "lumioseDex": "032",
+      "hyperspaceDex": null,
+      "name": "Magikarp",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Magikarp appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0129.png"
+    },
+    {
+      "nationalDex": "0130",
+      "lumioseDex": "033",
+      "hyperspaceDex": null,
+      "name": "Gyarados",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gyarados appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0130.png"
+    },
+    {
+      "nationalDex": "0133",
+      "lumioseDex": "100",
+      "hyperspaceDex": null,
+      "name": "Eevee",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Eevee appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0133.png"
+    },
+    {
+      "nationalDex": "0134",
+      "lumioseDex": "101",
+      "hyperspaceDex": null,
+      "name": "Vaporeon",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Vaporeon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0134.png"
+    },
+    {
+      "nationalDex": "0135",
+      "lumioseDex": "102",
+      "hyperspaceDex": null,
+      "name": "Jolteon",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Jolteon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0135.png"
+    },
+    {
+      "nationalDex": "0136",
+      "lumioseDex": "103",
+      "hyperspaceDex": null,
+      "name": "Flareon",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Flareon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0136.png"
+    },
+    {
+      "nationalDex": "0137",
+      "lumioseDex": null,
+      "hyperspaceDex": "011",
+      "name": "Porygon",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Porygon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0137.png"
+    },
+    {
+      "nationalDex": "0142",
+      "lumioseDex": "192",
+      "hyperspaceDex": null,
+      "name": "Aerodactyl",
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Aerodactyl appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0142.png"
+    },
+    {
+      "nationalDex": "0147",
+      "lumioseDex": "145",
+      "hyperspaceDex": null,
+      "name": "Dratini",
+      "types": [
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Dratini appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0147.png"
+    },
+    {
+      "nationalDex": "0148",
+      "lumioseDex": "146",
+      "hyperspaceDex": null,
+      "name": "Dragonair",
+      "types": [
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Dragonair appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0148.png"
+    },
+    {
+      "nationalDex": "0149",
+      "lumioseDex": "147",
+      "hyperspaceDex": null,
+      "name": "Dragonite",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Dragonite appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0149.png"
+    },
+    {
+      "nationalDex": "0150",
+      "lumioseDex": "232",
+      "hyperspaceDex": null,
+      "name": "Mewtwo",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mewtwo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0150.png"
+    },
+    {
+      "nationalDex": "0152",
+      "lumioseDex": "001",
+      "hyperspaceDex": null,
+      "name": "Chikorita",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Chikorita appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0152.png"
+    },
+    {
+      "nationalDex": "0153",
+      "lumioseDex": "002",
+      "hyperspaceDex": null,
+      "name": "Bayleef",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Bayleef appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0153.png"
+    },
+    {
+      "nationalDex": "0154",
+      "lumioseDex": "003",
+      "hyperspaceDex": null,
+      "name": "Meganium",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Meganium appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0154.png"
+    },
+    {
+      "nationalDex": "0158",
+      "lumioseDex": "007",
+      "hyperspaceDex": null,
+      "name": "Totodile",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Totodile appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0158.png"
+    },
+    {
+      "nationalDex": "0159",
+      "lumioseDex": "008",
+      "hyperspaceDex": null,
+      "name": "Croconaw",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Croconaw appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0159.png"
+    },
+    {
+      "nationalDex": "0160",
+      "lumioseDex": "009",
+      "hyperspaceDex": null,
+      "name": "Feraligatr",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Feraligatr appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0160.png"
+    },
+    {
+      "nationalDex": "0167",
+      "lumioseDex": "058",
+      "hyperspaceDex": null,
+      "name": "Spinarak",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Spinarak appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0167.png"
+    },
+    {
+      "nationalDex": "0168",
+      "lumioseDex": "059",
+      "hyperspaceDex": null,
+      "name": "Ariados",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Ariados appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0168.png"
+    },
+    {
+      "nationalDex": "0169",
+      "lumioseDex": null,
+      "hyperspaceDex": "096",
+      "name": "Crobat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Crobat appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0169.png"
+    },
+    {
+      "nationalDex": "0172",
+      "lumioseDex": "052",
+      "hyperspaceDex": null,
+      "name": "Pichu",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pichu appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0172.png"
+    },
+    {
+      "nationalDex": "0173",
+      "lumioseDex": "055",
+      "hyperspaceDex": null,
+      "name": "Cleffa",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Cleffa appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0173.png"
+    },
+    {
+      "nationalDex": "0174",
+      "lumioseDex": null,
+      "hyperspaceDex": "076",
+      "name": "Igglybuff",
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Igglybuff appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0174.png"
+    },
+    {
+      "nationalDex": "0179",
+      "lumioseDex": "024",
+      "hyperspaceDex": null,
+      "name": "Mareep",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mareep appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0179.png"
+    },
+    {
+      "nationalDex": "0180",
+      "lumioseDex": "025",
+      "hyperspaceDex": null,
+      "name": "Flaaffy",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Flaaffy appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0180.png"
+    },
+    {
+      "nationalDex": "0181",
+      "lumioseDex": "026",
+      "hyperspaceDex": null,
+      "name": "Ampharos",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Ampharos appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0181.png"
+    },
+    {
+      "nationalDex": "0196",
+      "lumioseDex": "104",
+      "hyperspaceDex": null,
+      "name": "Espeon",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Espeon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0196.png"
+    },
+    {
+      "nationalDex": "0197",
+      "lumioseDex": "105",
+      "hyperspaceDex": null,
+      "name": "Umbreon",
+      "types": [
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Umbreon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0197.png"
+    },
+    {
+      "nationalDex": "0199",
+      "lumioseDex": "139",
+      "hyperspaceDex": null,
+      "name": "Slowking",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Slowking appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0199.png"
+    },
+    {
+      "nationalDex": "0208",
+      "lumioseDex": "198",
+      "hyperspaceDex": null,
+      "name": "Steelix",
+      "types": [
+        "Steel",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Steelix appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0208.png"
+    },
+    {
+      "nationalDex": "0211",
+      "lumioseDex": null,
+      "hyperspaceDex": "037",
+      "name": "Qwilfish",
+      "types": [
+        "Water",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Qwilfish appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0211.png"
+    },
+    {
+      "nationalDex": "0212",
+      "lumioseDex": "177",
+      "hyperspaceDex": null,
+      "name": "Scizor",
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Scizor appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0212.png"
+    },
+    {
+      "nationalDex": "0214",
+      "lumioseDex": "179",
+      "hyperspaceDex": null,
+      "name": "Heracross",
+      "types": [
+        "Bug",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Heracross appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0214.png"
+    },
+    {
+      "nationalDex": "0225",
+      "lumioseDex": "168",
+      "hyperspaceDex": null,
+      "name": "Delibird",
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Delibird appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0225.png"
+    },
+    {
+      "nationalDex": "0227",
+      "lumioseDex": "216",
+      "hyperspaceDex": null,
+      "name": "Skarmory",
+      "types": [
+        "Steel",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Skarmory appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0227.png"
+    },
+    {
+      "nationalDex": "0228",
+      "lumioseDex": "091",
+      "hyperspaceDex": null,
+      "name": "Houndour",
+      "types": [
+        "Dark",
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Houndour appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0228.png"
+    },
+    {
+      "nationalDex": "0229",
+      "lumioseDex": "092",
+      "hyperspaceDex": null,
+      "name": "Houndoom",
+      "types": [
+        "Dark",
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Houndoom appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0229.png"
+    },
+    {
+      "nationalDex": "0233",
+      "lumioseDex": null,
+      "hyperspaceDex": "012",
+      "name": "Porygon2",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Porygon2 appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0233.png"
+    },
+    {
+      "nationalDex": "0246",
+      "lumioseDex": "206",
+      "hyperspaceDex": null,
+      "name": "Larvitar",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Larvitar appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0246.png"
+    },
+    {
+      "nationalDex": "0247",
+      "lumioseDex": "207",
+      "hyperspaceDex": null,
+      "name": "Pupitar",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pupitar appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0247.png"
+    },
+    {
+      "nationalDex": "0248",
+      "lumioseDex": "208",
+      "hyperspaceDex": null,
+      "name": "Tyranitar",
+      "types": [
+        "Rock",
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Tyranitar appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0248.png"
+    },
+    {
+      "nationalDex": "0252",
+      "lumioseDex": null,
+      "hyperspaceDex": "039",
+      "name": "Treecko",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Treecko appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0252.png"
+    },
+    {
+      "nationalDex": "0253",
+      "lumioseDex": null,
+      "hyperspaceDex": "040",
+      "name": "Grovyle",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Grovyle appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0253.png"
+    },
+    {
+      "nationalDex": "0254",
+      "lumioseDex": null,
+      "hyperspaceDex": "041",
+      "name": "Sceptile",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Sceptile appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0254.png"
+    },
+    {
+      "nationalDex": "0255",
+      "lumioseDex": null,
+      "hyperspaceDex": "042",
+      "name": "Torchic",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Torchic appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0255.png"
+    },
+    {
+      "nationalDex": "0256",
+      "lumioseDex": null,
+      "hyperspaceDex": "043",
+      "name": "Combusken",
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Combusken appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0256.png"
+    },
+    {
+      "nationalDex": "0257",
+      "lumioseDex": null,
+      "hyperspaceDex": "044",
+      "name": "Blaziken",
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Blaziken appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0257.png"
+    },
+    {
+      "nationalDex": "0258",
+      "lumioseDex": null,
+      "hyperspaceDex": "045",
+      "name": "Mudkip",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mudkip appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0258.png"
+    },
+    {
+      "nationalDex": "0259",
+      "lumioseDex": null,
+      "hyperspaceDex": "046",
+      "name": "Marshtomp",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Marshtomp appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0259.png"
+    },
+    {
+      "nationalDex": "0260",
+      "lumioseDex": null,
+      "hyperspaceDex": "047",
+      "name": "Swampert",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Swampert appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0260.png"
+    },
+    {
+      "nationalDex": "0280",
+      "lumioseDex": "087",
+      "hyperspaceDex": null,
+      "name": "Ralts",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Ralts appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0280.png"
+    },
+    {
+      "nationalDex": "0281",
+      "lumioseDex": "088",
+      "hyperspaceDex": null,
+      "name": "Kirlia",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Kirlia appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0281.png"
+    },
+    {
+      "nationalDex": "0282",
+      "lumioseDex": "089",
+      "hyperspaceDex": null,
+      "name": "Gardevoir",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gardevoir appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0282.png"
+    },
+    {
+      "nationalDex": "0302",
+      "lumioseDex": "132",
+      "hyperspaceDex": null,
+      "name": "Sableye",
+      "types": [
+        "Dark",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Sableye appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0302.png"
+    },
+    {
+      "nationalDex": "0303",
+      "lumioseDex": "133",
+      "hyperspaceDex": null,
+      "name": "Mawile",
+      "types": [
+        "Steel",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mawile appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0303.png"
+    },
+    {
+      "nationalDex": "0304",
+      "lumioseDex": "199",
+      "hyperspaceDex": null,
+      "name": "Aron",
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "normallyAvailable": true,
+      "detail": "Aron appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0304.png"
+    },
+    {
+      "nationalDex": "0305",
+      "lumioseDex": "200",
+      "hyperspaceDex": null,
+      "name": "Lairon",
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "normallyAvailable": true,
+      "detail": "Lairon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0305.png"
+    },
+    {
+      "nationalDex": "0306",
+      "lumioseDex": "201",
+      "hyperspaceDex": null,
+      "name": "Aggron",
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "normallyAvailable": true,
+      "detail": "Aggron appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0306.png"
+    },
+    {
+      "nationalDex": "0307",
+      "lumioseDex": "083",
+      "hyperspaceDex": null,
+      "name": "Meditite",
+      "types": [
+        "Fighting",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Meditite appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0307.png"
+    },
+    {
+      "nationalDex": "0308",
+      "lumioseDex": "084",
+      "hyperspaceDex": null,
+      "name": "Medicham",
+      "types": [
+        "Fighting",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Medicham appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0308.png"
+    },
+    {
+      "nationalDex": "0309",
+      "lumioseDex": "085",
+      "hyperspaceDex": null,
+      "name": "Electrike",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Electrike appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0309.png"
+    },
+    {
+      "nationalDex": "0310",
+      "lumioseDex": "086",
+      "hyperspaceDex": null,
+      "name": "Manectric",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Manectric appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0310.png"
+    },
+    {
+      "nationalDex": "0315",
+      "lumioseDex": "030",
+      "hyperspaceDex": null,
+      "name": "Roselia",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Roselia appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0315.png"
+    },
+    {
+      "nationalDex": "0316",
+      "lumioseDex": null,
+      "hyperspaceDex": "092",
+      "name": "Gulpin",
+      "types": [
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gulpin appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0316.png"
+    },
+    {
+      "nationalDex": "0317",
+      "lumioseDex": null,
+      "hyperspaceDex": "093",
+      "name": "Swalot",
+      "types": [
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Swalot appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0317.png"
+    },
+    {
+      "nationalDex": "0318",
+      "lumioseDex": "140",
+      "hyperspaceDex": null,
+      "name": "Carvanha",
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Carvanha appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0318.png"
+    },
+    {
+      "nationalDex": "0319",
+      "lumioseDex": "141",
+      "hyperspaceDex": null,
+      "name": "Sharpedo",
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Sharpedo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0319.png"
+    },
+    {
+      "nationalDex": "0322",
+      "lumioseDex": "116",
+      "hyperspaceDex": null,
+      "name": "Numel",
+      "types": [
+        "Fire",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Numel appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0322.png"
+    },
+    {
+      "nationalDex": "0323",
+      "lumioseDex": "117",
+      "hyperspaceDex": null,
+      "name": "Camerupt",
+      "types": [
+        "Fire",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Camerupt appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0323.png"
+    },
+    {
+      "nationalDex": "0325",
+      "lumioseDex": null,
+      "hyperspaceDex": "084",
+      "name": "Spoink",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Spoink appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0325.png"
+    },
+    {
+      "nationalDex": "0326",
+      "lumioseDex": null,
+      "hyperspaceDex": "085",
+      "name": "Grumpig",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Grumpig appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0326.png"
+    },
+    {
+      "nationalDex": "0333",
+      "lumioseDex": "093",
+      "hyperspaceDex": null,
+      "name": "Swablu",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Swablu appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0333.png"
+    },
+    {
+      "nationalDex": "0334",
+      "lumioseDex": "094",
+      "hyperspaceDex": null,
+      "name": "Altaria",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Altaria appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0334.png"
+    },
+    {
+      "nationalDex": "0335",
+      "lumioseDex": null,
+      "hyperspaceDex": "106",
+      "name": "Zangoose",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Zangoose appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0335.png"
+    },
+    {
+      "nationalDex": "0336",
+      "lumioseDex": null,
+      "hyperspaceDex": "107",
+      "name": "Seviper",
+      "types": [
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Seviper appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0336.png"
+    },
+    {
+      "nationalDex": "0349",
+      "lumioseDex": null,
+      "hyperspaceDex": "048",
+      "name": "Feebas",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Feebas appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0349.png"
+    },
+    {
+      "nationalDex": "0350",
+      "lumioseDex": null,
+      "hyperspaceDex": "049",
+      "name": "Milotic",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Milotic appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0350.png"
+    },
+    {
+      "nationalDex": "0352",
+      "lumioseDex": null,
+      "hyperspaceDex": "027",
+      "name": "Kecleon",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Kecleon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0352.png"
+    },
+    {
+      "nationalDex": "0353",
+      "lumioseDex": "111",
+      "hyperspaceDex": null,
+      "name": "Shuppet",
+      "types": [
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Shuppet appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0353.png"
+    },
+    {
+      "nationalDex": "0354",
+      "lumioseDex": "112",
+      "hyperspaceDex": null,
+      "name": "Banette",
+      "types": [
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Banette appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0354.png"
+    },
+    {
+      "nationalDex": "0358",
+      "lumioseDex": null,
+      "hyperspaceDex": "051",
+      "name": "Chimecho",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Chimecho appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0358.png"
+    },
+    {
+      "nationalDex": "0359",
+      "lumioseDex": "134",
+      "hyperspaceDex": null,
+      "name": "Absol",
+      "types": [
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Absol appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0359.png"
+    },
+    {
+      "nationalDex": "0361",
+      "lumioseDex": "169",
+      "hyperspaceDex": null,
+      "name": "Snorunt",
+      "types": [
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Snorunt appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0361.png"
+    },
+    {
+      "nationalDex": "0362",
+      "lumioseDex": "170",
+      "hyperspaceDex": null,
+      "name": "Glalie",
+      "types": [
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Glalie appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0362.png"
+    },
+    {
+      "nationalDex": "0371",
+      "lumioseDex": "220",
+      "hyperspaceDex": null,
+      "name": "Bagon",
+      "types": [
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Bagon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0371.png"
+    },
+    {
+      "nationalDex": "0372",
+      "lumioseDex": "221",
+      "hyperspaceDex": null,
+      "name": "Shelgon",
+      "types": [
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Shelgon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0372.png"
+    },
+    {
+      "nationalDex": "0373",
+      "lumioseDex": "222",
+      "hyperspaceDex": null,
+      "name": "Salamence",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Salamence appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0373.png"
+    },
+    {
+      "nationalDex": "0374",
+      "lumioseDex": "225",
+      "hyperspaceDex": null,
+      "name": "Beldum",
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Beldum appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0374.png"
+    },
+    {
+      "nationalDex": "0375",
+      "lumioseDex": "226",
+      "hyperspaceDex": null,
+      "name": "Metang",
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Metang appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0375.png"
+    },
+    {
+      "nationalDex": "0376",
+      "lumioseDex": "227",
+      "hyperspaceDex": null,
+      "name": "Metagross",
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Metagross appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0376.png"
+    },
+    {
+      "nationalDex": "0380",
+      "lumioseDex": null,
+      "hyperspaceDex": "126",
+      "name": "Latias",
+      "types": [
+        "Dragon",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Latias appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0380.png"
+    },
+    {
+      "nationalDex": "0381",
+      "lumioseDex": null,
+      "hyperspaceDex": "127",
+      "name": "Latios",
+      "types": [
+        "Dragon",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Latios appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0381.png"
+    },
+    {
+      "nationalDex": "0382",
+      "lumioseDex": null,
+      "hyperspaceDex": "128",
+      "name": "Kyogre",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Kyogre appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0382.png"
+    },
+    {
+      "nationalDex": "0383",
+      "lumioseDex": null,
+      "hyperspaceDex": "129",
+      "name": "Groudon",
+      "types": [
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Groudon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0383.png"
+    },
+    {
+      "nationalDex": "0384",
+      "lumioseDex": null,
+      "hyperspaceDex": "130",
+      "name": "Rayquaza",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Rayquaza appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0384.png"
+    },
+    {
+      "nationalDex": "0396",
+      "lumioseDex": null,
+      "hyperspaceDex": "081",
+      "name": "Starly",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Starly appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0396.png"
+    },
+    {
+      "nationalDex": "0397",
+      "lumioseDex": null,
+      "hyperspaceDex": "082",
+      "name": "Staravia",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Staravia appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0397.png"
+    },
+    {
+      "nationalDex": "0398",
+      "lumioseDex": null,
+      "hyperspaceDex": "083",
+      "name": "Staraptor",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Staraptor appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0398.png"
+    },
+    {
+      "nationalDex": "0406",
+      "lumioseDex": "029",
+      "hyperspaceDex": null,
+      "name": "Budew",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Budew appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0406.png"
+    },
+    {
+      "nationalDex": "0407",
+      "lumioseDex": "031",
+      "hyperspaceDex": null,
+      "name": "Roserade",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Roserade appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0407.png"
+    },
+    {
+      "nationalDex": "0427",
+      "lumioseDex": "109",
+      "hyperspaceDex": null,
+      "name": "Buneary",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Buneary appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0427.png"
+    },
+    {
+      "nationalDex": "0428",
+      "lumioseDex": "110",
+      "hyperspaceDex": null,
+      "name": "Lopunny",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Lopunny appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0428.png"
+    },
+    {
+      "nationalDex": "0433",
+      "lumioseDex": null,
+      "hyperspaceDex": "050",
+      "name": "Chingling",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Chingling appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0433.png"
+    },
+    {
+      "nationalDex": "0439",
+      "lumioseDex": null,
+      "hyperspaceDex": "108",
+      "name": "Mime Jr.",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mime Jr. appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0439.png"
+    },
+    {
+      "nationalDex": "0443",
+      "lumioseDex": "128",
+      "hyperspaceDex": null,
+      "name": "Gible",
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gible appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0443.png"
+    },
+    {
+      "nationalDex": "0444",
+      "lumioseDex": "129",
+      "hyperspaceDex": null,
+      "name": "Gabite",
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gabite appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0444.png"
+    },
+    {
+      "nationalDex": "0445",
+      "lumioseDex": "130",
+      "hyperspaceDex": null,
+      "name": "Garchomp",
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Garchomp appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0445.png"
+    },
+    {
+      "nationalDex": "0447",
+      "lumioseDex": "135",
+      "hyperspaceDex": null,
+      "name": "Riolu",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Riolu appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0447.png"
+    },
+    {
+      "nationalDex": "0448",
+      "lumioseDex": "136",
+      "hyperspaceDex": null,
+      "name": "Lucario",
+      "types": [
+        "Fighting",
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Lucario appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0448.png"
+    },
+    {
+      "nationalDex": "0449",
+      "lumioseDex": "118",
+      "hyperspaceDex": null,
+      "name": "Hippopotas",
+      "types": [
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Hippopotas appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0449.png"
+    },
+    {
+      "nationalDex": "0450",
+      "lumioseDex": "119",
+      "hyperspaceDex": null,
+      "name": "Hippowdon",
+      "types": [
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Hippowdon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0450.png"
+    },
+    {
+      "nationalDex": "0459",
+      "lumioseDex": "172",
+      "hyperspaceDex": null,
+      "name": "Snover",
+      "types": [
+        "Grass",
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Snover appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0459.png"
+    },
+    {
+      "nationalDex": "0460",
+      "lumioseDex": "173",
+      "hyperspaceDex": null,
+      "name": "Abomasnow",
+      "types": [
+        "Grass",
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Abomasnow appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0460.png"
+    },
+    {
+      "nationalDex": "0470",
+      "lumioseDex": "106",
+      "hyperspaceDex": null,
+      "name": "Leafeon",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Leafeon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0470.png"
+    },
+    {
+      "nationalDex": "0471",
+      "lumioseDex": "107",
+      "hyperspaceDex": null,
+      "name": "Glaceon",
+      "types": [
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Glaceon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0471.png"
+    },
+    {
+      "nationalDex": "0474",
+      "lumioseDex": null,
+      "hyperspaceDex": "013",
+      "name": "Porygon-Z",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Porygon-Z appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0474.png"
+    },
+    {
+      "nationalDex": "0475",
+      "lumioseDex": "090",
+      "hyperspaceDex": null,
+      "name": "Gallade",
+      "types": [
+        "Psychic",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gallade appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0475.png"
+    },
+    {
+      "nationalDex": "0478",
+      "lumioseDex": "171",
+      "hyperspaceDex": null,
+      "name": "Froslass",
+      "types": [
+        "Ice",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Froslass appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0478.png"
+    },
+    {
+      "nationalDex": "0479",
+      "lumioseDex": null,
+      "hyperspaceDex": "022",
+      "name": "Rotom",
+      "types": [
+        "Electric",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Rotom appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0479.png"
+    },
+    {
+      "nationalDex": "0485",
+      "lumioseDex": null,
+      "hyperspaceDex": "113",
+      "name": "Heatran",
+      "types": [
+        "Fire",
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Heatran appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0485.png"
+    },
+    {
+      "nationalDex": "0491",
+      "lumioseDex": null,
+      "hyperspaceDex": "125",
+      "name": "Darkrai",
+      "types": [
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Darkrai appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0491.png"
+    },
+    {
+      "nationalDex": "0498",
+      "lumioseDex": "004",
+      "hyperspaceDex": null,
+      "name": "Tepig",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Tepig appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0498.png"
+    },
+    {
+      "nationalDex": "0499",
+      "lumioseDex": "005",
+      "hyperspaceDex": null,
+      "name": "Pignite",
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pignite appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0499.png"
+    },
+    {
+      "nationalDex": "0500",
+      "lumioseDex": "006",
+      "hyperspaceDex": null,
+      "name": "Emboar",
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Emboar appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0500.png"
+    },
+    {
+      "nationalDex": "0504",
+      "lumioseDex": "027",
+      "hyperspaceDex": null,
+      "name": "Patrat",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Patrat appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0504.png"
+    },
+    {
+      "nationalDex": "0505",
+      "lumioseDex": "028",
+      "hyperspaceDex": null,
+      "name": "Watchog",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Watchog appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0505.png"
+    },
+    {
+      "nationalDex": "0509",
+      "lumioseDex": null,
+      "hyperspaceDex": "053",
+      "name": "Purrloin",
+      "types": [
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Purrloin appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0509.png"
+    },
+    {
+      "nationalDex": "0510",
+      "lumioseDex": null,
+      "hyperspaceDex": "054",
+      "name": "Liepard",
+      "types": [
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Liepard appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0510.png"
+    },
+    {
+      "nationalDex": "0511",
+      "lumioseDex": "077",
+      "hyperspaceDex": null,
+      "name": "Pansage",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pansage appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0511.png"
+    },
+    {
+      "nationalDex": "0512",
+      "lumioseDex": "078",
+      "hyperspaceDex": null,
+      "name": "Simisage",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Simisage appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0512.png"
+    },
+    {
+      "nationalDex": "0513",
+      "lumioseDex": "079",
+      "hyperspaceDex": null,
+      "name": "Pansear",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pansear appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0513.png"
+    },
+    {
+      "nationalDex": "0514",
+      "lumioseDex": "080",
+      "hyperspaceDex": null,
+      "name": "Simisear",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Simisear appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0514.png"
+    },
+    {
+      "nationalDex": "0515",
+      "lumioseDex": "081",
+      "hyperspaceDex": null,
+      "name": "Panpour",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Panpour appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0515.png"
+    },
+    {
+      "nationalDex": "0516",
+      "lumioseDex": "082",
+      "hyperspaceDex": null,
+      "name": "Simipour",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Simipour appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0516.png"
+    },
+    {
+      "nationalDex": "0517",
+      "lumioseDex": null,
+      "hyperspaceDex": "055",
+      "name": "Munna",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Munna appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0517.png"
+    },
+    {
+      "nationalDex": "0518",
+      "lumioseDex": null,
+      "hyperspaceDex": "056",
+      "name": "Musharna",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Musharna appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0518.png"
+    },
+    {
+      "nationalDex": "0529",
+      "lumioseDex": "120",
+      "hyperspaceDex": null,
+      "name": "Drilbur",
+      "types": [
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Drilbur appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0529.png"
+    },
+    {
+      "nationalDex": "0530",
+      "lumioseDex": "121",
+      "hyperspaceDex": null,
+      "name": "Excadrill",
+      "types": [
+        "Ground",
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Excadrill appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0530.png"
+    },
+    {
+      "nationalDex": "0531",
+      "lumioseDex": "095",
+      "hyperspaceDex": null,
+      "name": "Audino",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Audino appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0531.png"
+    },
+    {
+      "nationalDex": "0538",
+      "lumioseDex": null,
+      "hyperspaceDex": "057",
+      "name": "Throh",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Throh appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0538.png"
+    },
+    {
+      "nationalDex": "0539",
+      "lumioseDex": null,
+      "hyperspaceDex": "058",
+      "name": "Sawk",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Sawk appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0539.png"
+    },
+    {
+      "nationalDex": "0543",
+      "lumioseDex": "068",
+      "hyperspaceDex": null,
+      "name": "Venipede",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Venipede appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0543.png"
+    },
+    {
+      "nationalDex": "0544",
+      "lumioseDex": "069",
+      "hyperspaceDex": null,
+      "name": "Whirlipede",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Whirlipede appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0544.png"
+    },
+    {
+      "nationalDex": "0545",
+      "lumioseDex": "070",
+      "hyperspaceDex": null,
+      "name": "Scolipede",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Scolipede appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0545.png"
+    },
+    {
+      "nationalDex": "0551",
+      "lumioseDex": "122",
+      "hyperspaceDex": null,
+      "name": "Sandile",
+      "types": [
+        "Ground",
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Sandile appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0551.png"
+    },
+    {
+      "nationalDex": "0552",
+      "lumioseDex": "123",
+      "hyperspaceDex": null,
+      "name": "Krokorok",
+      "types": [
+        "Ground",
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Krokorok appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0552.png"
+    },
+    {
+      "nationalDex": "0553",
+      "lumioseDex": "124",
+      "hyperspaceDex": null,
+      "name": "Krookodile",
+      "types": [
+        "Ground",
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Krookodile appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0553.png"
+    },
+    {
+      "nationalDex": "0559",
+      "lumioseDex": "184",
+      "hyperspaceDex": null,
+      "name": "Scraggy",
+      "types": [
+        "Dark",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Scraggy appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0559.png"
+    },
+    {
+      "nationalDex": "0560",
+      "lumioseDex": "185",
+      "hyperspaceDex": null,
+      "name": "Scrafty",
+      "types": [
+        "Dark",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Scrafty appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0560.png"
+    },
+    {
+      "nationalDex": "0562",
+      "lumioseDex": null,
+      "hyperspaceDex": "059",
+      "name": "Yamask",
+      "types": [
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Yamask appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0562.png"
+    },
+    {
+      "nationalDex": "0563",
+      "lumioseDex": null,
+      "hyperspaceDex": "060",
+      "name": "Cofagrigus",
+      "types": [
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Cofagrigus appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0563.png"
+    },
+    {
+      "nationalDex": "0568",
+      "lumioseDex": "049",
+      "hyperspaceDex": null,
+      "name": "Trubbish",
+      "types": [
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Trubbish appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0568.png"
+    },
+    {
+      "nationalDex": "0569",
+      "lumioseDex": "050",
+      "hyperspaceDex": null,
+      "name": "Garbodor",
+      "types": [
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Garbodor appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0569.png"
+    },
+    {
+      "nationalDex": "0582",
+      "lumioseDex": "113",
+      "hyperspaceDex": null,
+      "name": "Vanillite",
+      "types": [
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Vanillite appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0582.png"
+    },
+    {
+      "nationalDex": "0583",
+      "lumioseDex": "114",
+      "hyperspaceDex": null,
+      "name": "Vanillish",
+      "types": [
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Vanillish appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0583.png"
+    },
+    {
+      "nationalDex": "0584",
+      "lumioseDex": "115",
+      "hyperspaceDex": null,
+      "name": "Vanilluxe",
+      "types": [
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Vanilluxe appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0584.png"
+    },
+    {
+      "nationalDex": "0587",
+      "lumioseDex": "180",
+      "hyperspaceDex": null,
+      "name": "Emolga",
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Emolga appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0587.png"
+    },
+    {
+      "nationalDex": "0590",
+      "lumioseDex": null,
+      "hyperspaceDex": "111",
+      "name": "Foongus",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Foongus appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0590.png"
+    },
+    {
+      "nationalDex": "0591",
+      "lumioseDex": null,
+      "hyperspaceDex": "112",
+      "name": "Amoonguss",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Amoonguss appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0591.png"
+    },
+    {
+      "nationalDex": "0602",
+      "lumioseDex": "142",
+      "hyperspaceDex": null,
+      "name": "Tynamo",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Tynamo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0602.png"
+    },
+    {
+      "nationalDex": "0603",
+      "lumioseDex": "143",
+      "hyperspaceDex": null,
+      "name": "Eelektrik",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Eelektrik appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0603.png"
+    },
+    {
+      "nationalDex": "0604",
+      "lumioseDex": "144",
+      "hyperspaceDex": null,
+      "name": "Eelektross",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Eelektross appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0604.png"
+    },
+    {
+      "nationalDex": "0607",
+      "lumioseDex": "189",
+      "hyperspaceDex": null,
+      "name": "Litwick",
+      "types": [
+        "Ghost",
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Litwick appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0607.png"
+    },
+    {
+      "nationalDex": "0608",
+      "lumioseDex": "190",
+      "hyperspaceDex": null,
+      "name": "Lampent",
+      "types": [
+        "Ghost",
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Lampent appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0608.png"
+    },
+    {
+      "nationalDex": "0609",
+      "lumioseDex": "191",
+      "hyperspaceDex": null,
+      "name": "Chandelure",
+      "types": [
+        "Ghost",
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Chandelure appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0609.png"
+    },
+    {
+      "nationalDex": "0615",
+      "lumioseDex": null,
+      "hyperspaceDex": "029",
+      "name": "Cryogonal",
+      "types": [
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Cryogonal appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0615.png"
+    },
+    {
+      "nationalDex": "0618",
+      "lumioseDex": "157",
+      "hyperspaceDex": null,
+      "name": "Stunfisk",
+      "types": [
+        "Ground",
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Stunfisk appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0618.png"
+    },
+    {
+      "nationalDex": "0622",
+      "lumioseDex": null,
+      "hyperspaceDex": "071",
+      "name": "Golett",
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Golett appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0622.png"
+    },
+    {
+      "nationalDex": "0623",
+      "lumioseDex": null,
+      "hyperspaceDex": "072",
+      "name": "Golurk",
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Golurk appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0623.png"
+    },
+    {
+      "nationalDex": "0638",
+      "lumioseDex": null,
+      "hyperspaceDex": "115",
+      "name": "Cobalion",
+      "types": [
+        "Steel",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Cobalion appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0638.png"
+    },
+    {
+      "nationalDex": "0639",
+      "lumioseDex": null,
+      "hyperspaceDex": "116",
+      "name": "Terrakion",
+      "types": [
+        "Rock",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Terrakion appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0639.png"
+    },
+    {
+      "nationalDex": "0640",
+      "lumioseDex": null,
+      "hyperspaceDex": "117",
+      "name": "Virizion",
+      "types": [
+        "Grass",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Virizion appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0640.png"
+    },
+    {
+      "nationalDex": "0647",
+      "lumioseDex": null,
+      "hyperspaceDex": "118",
+      "name": "Keldeo",
+      "types": [
+        "Water",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Keldeo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0647.png"
+    },
+    {
+      "nationalDex": "0648",
+      "lumioseDex": null,
+      "hyperspaceDex": "119",
+      "name": "Meloetta",
+      "types": [
+        "Normal",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Meloetta appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0648.png"
+    },
+    {
+      "nationalDex": "0649",
+      "lumioseDex": null,
+      "hyperspaceDex": "120",
+      "name": "Genesect",
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Genesect appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0649.png"
+    },
+    {
+      "nationalDex": "0650",
+      "lumioseDex": "213",
+      "hyperspaceDex": null,
+      "name": "Chespin",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Chespin appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0650.png"
+    },
+    {
+      "nationalDex": "0651",
+      "lumioseDex": "214",
+      "hyperspaceDex": null,
+      "name": "Quilladin",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Quilladin appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0651.png"
+    },
+    {
+      "nationalDex": "0652",
+      "lumioseDex": "215",
+      "hyperspaceDex": null,
+      "name": "Chesnaught",
+      "types": [
+        "Grass",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Chesnaught appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0652.png"
+    },
+    {
+      "nationalDex": "0653",
+      "lumioseDex": "217",
+      "hyperspaceDex": null,
+      "name": "Fennekin",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Fennekin appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0653.png"
+    },
+    {
+      "nationalDex": "0654",
+      "lumioseDex": "218",
+      "hyperspaceDex": null,
+      "name": "Braixen",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Braixen appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0654.png"
+    },
+    {
+      "nationalDex": "0655",
+      "lumioseDex": "219",
+      "hyperspaceDex": null,
+      "name": "Delphox",
+      "types": [
+        "Fire",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Delphox appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0655.png"
+    },
+    {
+      "nationalDex": "0656",
+      "lumioseDex": "209",
+      "hyperspaceDex": null,
+      "name": "Froakie",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Froakie appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0656.png"
+    },
+    {
+      "nationalDex": "0657",
+      "lumioseDex": "210",
+      "hyperspaceDex": null,
+      "name": "Frogadier",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Frogadier appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0657.png"
+    },
+    {
+      "nationalDex": "0658",
+      "lumioseDex": "211",
+      "hyperspaceDex": null,
+      "name": "Greninja",
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Greninja appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0658.png"
+    },
+    {
+      "nationalDex": "0659",
+      "lumioseDex": "013",
+      "hyperspaceDex": null,
+      "name": "Bunnelby",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Bunnelby appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0659.png"
+    },
+    {
+      "nationalDex": "0660",
+      "lumioseDex": "014",
+      "hyperspaceDex": null,
+      "name": "Diggersby",
+      "types": [
+        "Normal",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Diggersby appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0660.png"
+    },
+    {
+      "nationalDex": "0661",
+      "lumioseDex": "010",
+      "hyperspaceDex": null,
+      "name": "Fletchling",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Fletchling appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0661.png"
+    },
+    {
+      "nationalDex": "0662",
+      "lumioseDex": "011",
+      "hyperspaceDex": null,
+      "name": "Fletchinder",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Fletchinder appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0662.png"
+    },
+    {
+      "nationalDex": "0663",
+      "lumioseDex": "012",
+      "hyperspaceDex": null,
+      "name": "Talonflame",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Talonflame appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0663.png"
+    },
+    {
+      "nationalDex": "0664",
+      "lumioseDex": "015",
+      "hyperspaceDex": null,
+      "name": "Scatterbug",
+      "types": [
+        "Bug"
+      ],
+      "normallyAvailable": true,
+      "detail": "Scatterbug appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0664.png"
+    },
+    {
+      "nationalDex": "0665",
+      "lumioseDex": "016",
+      "hyperspaceDex": null,
+      "name": "Spewpa",
+      "types": [
+        "Bug"
+      ],
+      "normallyAvailable": true,
+      "detail": "Spewpa appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0665.png"
+    },
+    {
+      "nationalDex": "0666",
+      "lumioseDex": "017",
+      "hyperspaceDex": null,
+      "name": "Vivillon",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Vivillon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0666.png"
+    },
+    {
+      "nationalDex": "0667",
+      "lumioseDex": "045",
+      "hyperspaceDex": null,
+      "name": "Litleo",
+      "types": [
+        "Fire",
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Litleo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0667.png"
+    },
+    {
+      "nationalDex": "0668",
+      "lumioseDex": "046",
+      "hyperspaceDex": null,
+      "name": "Pyroar",
+      "types": [
+        "Fire",
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pyroar appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0668.png"
+    },
+    {
+      "nationalDex": "0669",
+      "lumioseDex": "038",
+      "hyperspaceDex": null,
+      "name": "Flabébé",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Flabébé appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0669.png"
+    },
+    {
+      "nationalDex": "0670",
+      "lumioseDex": "039",
+      "hyperspaceDex": null,
+      "name": "Floette",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Floette appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0670.png"
+    },
+    {
+      "nationalDex": "0671",
+      "lumioseDex": "041",
+      "hyperspaceDex": null,
+      "name": "Florges",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Florges appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0671.png"
+    },
+    {
+      "nationalDex": "0672",
+      "lumioseDex": "041",
+      "hyperspaceDex": null,
+      "name": "Skiddo",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Skiddo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0672.png"
+    },
+    {
+      "nationalDex": "0673",
+      "lumioseDex": "042",
+      "hyperspaceDex": null,
+      "name": "Gogoat",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gogoat appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0673.png"
+    },
+    {
+      "nationalDex": "0674",
+      "lumioseDex": "047",
+      "hyperspaceDex": null,
+      "name": "Pancham",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pancham appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0674.png"
+    },
+    {
+      "nationalDex": "0675",
+      "lumioseDex": "048",
+      "hyperspaceDex": null,
+      "name": "Pangoro",
+      "types": [
+        "Fighting",
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pangoro appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0675.png"
+    },
+    {
+      "nationalDex": "0676",
+      "lumioseDex": "158",
+      "hyperspaceDex": null,
+      "name": "Furfrou",
+      "types": [
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Furfrou appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0676.png"
+    },
+    {
+      "nationalDex": "0677",
+      "lumioseDex": "043",
+      "hyperspaceDex": null,
+      "name": "Espurr",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Espurr appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0677.png"
+    },
+    {
+      "nationalDex": "0678",
+      "lumioseDex": "044",
+      "hyperspaceDex": null,
+      "name": "Meowstic",
+      "types": [
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Meowstic appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0678.png"
+    },
+    {
+      "nationalDex": "0679",
+      "lumioseDex": "071",
+      "hyperspaceDex": null,
+      "name": "Honedge",
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Honedge appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0679.png"
+    },
+    {
+      "nationalDex": "0680",
+      "lumioseDex": "072",
+      "hyperspaceDex": null,
+      "name": "Doublade",
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Doublade appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0680.png"
+    },
+    {
+      "nationalDex": "0681",
+      "lumioseDex": "073",
+      "hyperspaceDex": null,
+      "name": "Aegislash",
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Aegislash appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0681.png"
+    },
+    {
+      "nationalDex": "0682",
+      "lumioseDex": "096",
+      "hyperspaceDex": null,
+      "name": "Spritzee",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Spritzee appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0682.png"
+    },
+    {
+      "nationalDex": "0683",
+      "lumioseDex": "097",
+      "hyperspaceDex": null,
+      "name": "Aromatisse",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Aromatisse appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0683.png"
+    },
+    {
+      "nationalDex": "0684",
+      "lumioseDex": "098",
+      "hyperspaceDex": null,
+      "name": "Swirlix",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Swirlix appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0684.png"
+    },
+    {
+      "nationalDex": "0685",
+      "lumioseDex": "099",
+      "hyperspaceDex": null,
+      "name": "Slurpuff",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Slurpuff appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0685.png"
+    },
+    {
+      "nationalDex": "0686",
+      "lumioseDex": "159",
+      "hyperspaceDex": null,
+      "name": "Inkay",
+      "types": [
+        "Dark",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Inkay appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0686.png"
+    },
+    {
+      "nationalDex": "0687",
+      "lumioseDex": "160",
+      "hyperspaceDex": null,
+      "name": "Malamar",
+      "types": [
+        "Dark",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Malamar appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0687.png"
+    },
+    {
+      "nationalDex": "0688",
+      "lumioseDex": "034",
+      "hyperspaceDex": null,
+      "name": "Binacle",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Binacle appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0688.png"
+    },
+    {
+      "nationalDex": "0689",
+      "lumioseDex": "035",
+      "hyperspaceDex": null,
+      "name": "Barbaracle",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Barbaracle appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0689.png"
+    },
+    {
+      "nationalDex": "0690",
+      "lumioseDex": "161",
+      "hyperspaceDex": null,
+      "name": "Skrelp",
+      "types": [
+        "Poison",
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Skrelp appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0690.png"
+    },
+    {
+      "nationalDex": "0691",
+      "lumioseDex": "162",
+      "hyperspaceDex": null,
+      "name": "Dragalge",
+      "types": [
+        "Poison",
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Dragalge appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0691.png"
+    },
+    {
+      "nationalDex": "0692",
+      "lumioseDex": "163",
+      "hyperspaceDex": null,
+      "name": "Clauncher",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Clauncher appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0692.png"
+    },
+    {
+      "nationalDex": "0693",
+      "lumioseDex": "164",
+      "hyperspaceDex": null,
+      "name": "Clawitzer",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Clawitzer appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0693.png"
+    },
+    {
+      "nationalDex": "0694",
+      "lumioseDex": "202",
+      "hyperspaceDex": null,
+      "name": "Helioptile",
+      "types": [
+        "Electric",
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Helioptile appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0694.png"
+    },
+    {
+      "nationalDex": "0695",
+      "lumioseDex": "203",
+      "hyperspaceDex": null,
+      "name": "Heliolisk",
+      "types": [
+        "Electric",
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Heliolisk appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0695.png"
+    },
+    {
+      "nationalDex": "0696",
+      "lumioseDex": "193",
+      "hyperspaceDex": null,
+      "name": "Tyrunt",
+      "types": [
+        "Rock",
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Tyrunt appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0696.png"
+    },
+    {
+      "nationalDex": "0697",
+      "lumioseDex": "194",
+      "hyperspaceDex": null,
+      "name": "Tyrantrum",
+      "types": [
+        "Rock",
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Tyrantrum appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0697.png"
+    },
+    {
+      "nationalDex": "0698",
+      "lumioseDex": "195",
+      "hyperspaceDex": null,
+      "name": "Amaura",
+      "types": [
+        "Rock",
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Amaura appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0698.png"
+    },
+    {
+      "nationalDex": "0699",
+      "lumioseDex": "196",
+      "hyperspaceDex": null,
+      "name": "Aurorus",
+      "types": [
+        "Rock",
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Aurorus appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0699.png"
+    },
+    {
+      "nationalDex": "0700",
+      "lumioseDex": "108",
+      "hyperspaceDex": null,
+      "name": "Sylveon",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Sylveon appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0700.png"
+    },
+    {
+      "nationalDex": "0701",
+      "lumioseDex": "181",
+      "hyperspaceDex": null,
+      "name": "Hawlucha",
+      "types": [
+        "Fighting",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Hawlucha appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0701.png"
+    },
+    {
+      "nationalDex": "0702",
+      "lumioseDex": "051",
+      "hyperspaceDex": null,
+      "name": "Dedenne",
+      "types": [
+        "Electric",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Dedenne appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0702.png"
+    },
+    {
+      "nationalDex": "0703",
+      "lumioseDex": "131",
+      "hyperspaceDex": null,
+      "name": "Carbink",
+      "types": [
+        "Rock",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Carbink appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0703.png"
+    },
+    {
+      "nationalDex": "0704",
+      "lumioseDex": "165",
+      "hyperspaceDex": null,
+      "name": "Goomy",
+      "types": [
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Goomy appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0704.png"
+    },
+    {
+      "nationalDex": "0705",
+      "lumioseDex": "166",
+      "hyperspaceDex": null,
+      "name": "Sliggoo",
+      "types": [
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Sliggoo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0705.png"
+    },
+    {
+      "nationalDex": "0706",
+      "lumioseDex": "167",
+      "hyperspaceDex": null,
+      "name": "Goodra",
+      "types": [
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Goodra appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0706.png"
+    },
+    {
+      "nationalDex": "0707",
+      "lumioseDex": "188",
+      "hyperspaceDex": null,
+      "name": "Klefki",
+      "types": [
+        "Steel",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Klefki appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0707.png"
+    },
+    {
+      "nationalDex": "0708",
+      "lumioseDex": "182",
+      "hyperspaceDex": null,
+      "name": "Phantump",
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Phantump appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0708.png"
+    },
+    {
+      "nationalDex": "0709",
+      "lumioseDex": "183",
+      "hyperspaceDex": null,
+      "name": "Trevenant",
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Trevenant appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0709.png"
+    },
+    {
+      "nationalDex": "0710",
+      "lumioseDex": "204",
+      "hyperspaceDex": null,
+      "name": "Pumpkaboo",
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Pumpkaboo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0710.png"
+    },
+    {
+      "nationalDex": "0711",
+      "lumioseDex": "205",
+      "hyperspaceDex": null,
+      "name": "Gourgeist",
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gourgeist appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0711.png"
+    },
+    {
+      "nationalDex": "0712",
+      "lumioseDex": "174",
+      "hyperspaceDex": null,
+      "name": "Bergmite",
+      "types": [
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Bergmite appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0712.png"
+    },
+    {
+      "nationalDex": "0713",
+      "lumioseDex": "175",
+      "hyperspaceDex": null,
+      "name": "Avalugg",
+      "types": [
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Avalugg appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0713.png"
+    },
+    {
+      "nationalDex": "0714",
+      "lumioseDex": "186",
+      "hyperspaceDex": null,
+      "name": "Noibat",
+      "types": [
+        "Flying",
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Noibat appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0714.png"
+    },
+    {
+      "nationalDex": "0715",
+      "lumioseDex": "187",
+      "hyperspaceDex": null,
+      "name": "Noivern",
+      "types": [
+        "Flying",
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Noivern appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0715.png"
+    },
+    {
+      "nationalDex": "0716",
+      "lumioseDex": "228",
+      "hyperspaceDex": null,
+      "name": "Xerneas",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Xerneas appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0716.png"
+    },
+    {
+      "nationalDex": "0717",
+      "lumioseDex": "229",
+      "hyperspaceDex": null,
+      "name": "Yveltal",
+      "types": [
+        "Dark",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Yveltal appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0717.png"
+    },
+    {
+      "nationalDex": "0718",
+      "lumioseDex": "230",
+      "hyperspaceDex": null,
+      "name": "Zygarde",
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Zygarde appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0718.png"
+    },
+    {
+      "nationalDex": "0719",
+      "lumioseDex": "231",
+      "hyperspaceDex": null,
+      "name": "Diancie",
+      "types": [
+        "Rock",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Diancie appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0719.png"
+    },
+    {
+      "nationalDex": "0720",
+      "lumioseDex": null,
+      "hyperspaceDex": "121",
+      "name": "Hoopa",
+      "types": [
+        "Psychic",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Hoopa appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0720.png"
+    },
+    {
+      "nationalDex": "0721",
+      "lumioseDex": null,
+      "hyperspaceDex": "114",
+      "name": "Volcanion",
+      "types": [
+        "Fire",
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Volcanion appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0721.png"
+    },
+    {
+      "nationalDex": "0739",
+      "lumioseDex": null,
+      "hyperspaceDex": "087",
+      "name": "Crabrawler",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Crabrawler appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0739.png"
+    },
+    {
+      "nationalDex": "0740",
+      "lumioseDex": null,
+      "hyperspaceDex": "088",
+      "name": "Crabominable",
+      "types": [
+        "Fighting",
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Crabominable appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0740.png"
+    },
+    {
+      "nationalDex": "0767",
+      "lumioseDex": null,
+      "hyperspaceDex": "062",
+      "name": "Wimpod",
+      "types": [
+        "Bug",
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Wimpod appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0767.png"
+    },
+    {
+      "nationalDex": "0768",
+      "lumioseDex": null,
+      "hyperspaceDex": "063",
+      "name": "Golisopod",
+      "types": [
+        "Bug",
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Golisopod appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0768.png"
+    },
+    {
+      "nationalDex": "0769",
+      "lumioseDex": null,
+      "hyperspaceDex": "025",
+      "name": "Sandygast",
+      "types": [
+        "Ghost",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Sandygast appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0769.png"
+    },
+    {
+      "nationalDex": "0770",
+      "lumioseDex": null,
+      "hyperspaceDex": "026",
+      "name": "Palossand",
+      "types": [
+        "Ghost",
+        "Ground"
+      ],
+      "normallyAvailable": true,
+      "detail": "Palossand appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0770.png"
+    },
+    {
+      "nationalDex": "0778",
+      "lumioseDex": null,
+      "hyperspaceDex": "068",
+      "name": "Mimikyu",
+      "types": [
+        "Ghost",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mimikyu appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0778.png"
+    },
+    {
+      "nationalDex": "0780",
+      "lumioseDex": "224",
+      "hyperspaceDex": null,
+      "name": "Drampa",
+      "types": [
+        "Normal",
+        "Dragon"
+      ],
+      "normallyAvailable": true,
+      "detail": "Drampa appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0780.png"
+    },
+    {
+      "nationalDex": "0801",
+      "lumioseDex": null,
+      "hyperspaceDex": "131",
+      "name": "Magearna",
+      "types": [
+        "Steel",
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Magearna appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0801.png"
+    },
+    {
+      "nationalDex": "0802",
+      "lumioseDex": null,
+      "hyperspaceDex": "122",
+      "name": "Marshadow",
+      "types": [
+        "Fighting",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Marshadow appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0802.png"
+    },
+    {
+      "nationalDex": "0807",
+      "lumioseDex": null,
+      "hyperspaceDex": "132",
+      "name": "Zeraora",
+      "types": [
+        "Electric"
+      ],
+      "normallyAvailable": true,
+      "detail": "Zeraora appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0807.png"
+    },
+    {
+      "nationalDex": "0808",
+      "lumioseDex": null,
+      "hyperspaceDex": "123",
+      "name": "Meltan",
+      "types": [
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Meltan appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0808.png"
+    },
+    {
+      "nationalDex": "0809",
+      "lumioseDex": null,
+      "hyperspaceDex": "124",
+      "name": "Melmetal",
+      "types": [
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Melmetal appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0809.png"
+    },
+    {
+      "nationalDex": "0821",
+      "lumioseDex": null,
+      "hyperspaceDex": "073",
+      "name": "Rookidee",
+      "types": [
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Rookidee appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0821.png"
+    },
+    {
+      "nationalDex": "0822",
+      "lumioseDex": null,
+      "hyperspaceDex": "074",
+      "name": "Corvisquire",
+      "types": [
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Corvisquire appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0822.png"
+    },
+    {
+      "nationalDex": "0823",
+      "lumioseDex": null,
+      "hyperspaceDex": "075",
+      "name": "Corviknight",
+      "types": [
+        "Flying",
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Corviknight appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0823.png"
+    },
+    {
+      "nationalDex": "0827",
+      "lumioseDex": null,
+      "hyperspaceDex": "064",
+      "name": "Nickit",
+      "types": [
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Nickit appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0827.png"
+    },
+    {
+      "nationalDex": "0828",
+      "lumioseDex": null,
+      "hyperspaceDex": "065",
+      "name": "Thievul",
+      "types": [
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Thievul appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0828.png"
+    },
+    {
+      "nationalDex": "0848",
+      "lumioseDex": null,
+      "hyperspaceDex": "102",
+      "name": "Toxel",
+      "types": [
+        "Electric",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Toxel appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0848.png"
+    },
+    {
+      "nationalDex": "0849",
+      "lumioseDex": null,
+      "hyperspaceDex": "103",
+      "name": "Toxtricity",
+      "types": [
+        "Electric",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Toxtricity appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0849.png"
+    },
+    {
+      "nationalDex": "0852",
+      "lumioseDex": null,
+      "hyperspaceDex": "066",
+      "name": "Clobbopus",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Clobbopus appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0852.png"
+    },
+    {
+      "nationalDex": "0853",
+      "lumioseDex": null,
+      "hyperspaceDex": "067",
+      "name": "Grapploct",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Grapploct appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0853.png"
+    },
+    {
+      "nationalDex": "0863",
+      "lumioseDex": null,
+      "hyperspaceDex": "006",
+      "name": "Perrserker",
+      "types": [
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Perrserker appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0863.png"
+    },
+    {
+      "nationalDex": "0865",
+      "lumioseDex": null,
+      "hyperspaceDex": "008",
+      "name": "Sirfetch'd",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Sirfetch'd appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0865.png"
+    },
+    {
+      "nationalDex": "0866",
+      "lumioseDex": null,
+      "hyperspaceDex": "110",
+      "name": "Mr. Rime",
+      "types": [
+        "Ice",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mr. Rime appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0866.png"
+    },
+    {
+      "nationalDex": "0867",
+      "lumioseDex": null,
+      "hyperspaceDex": "061",
+      "name": "Runerigus",
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Runerigus appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0867.png"
+    },
+    {
+      "nationalDex": "0870",
+      "lumioseDex": "212",
+      "hyperspaceDex": null,
+      "name": "Falinks",
+      "types": [
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Falinks appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0870.png"
+    },
+    {
+      "nationalDex": "0876",
+      "lumioseDex": null,
+      "hyperspaceDex": "052",
+      "name": "Indeedee",
+      "types": [
+        "Psychic",
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Indeedee appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0876.png"
+    },
+    {
+      "nationalDex": "0877",
+      "lumioseDex": null,
+      "hyperspaceDex": "070",
+      "name": "Morpeko",
+      "types": [
+        "Electric",
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Morpeko appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0877.png"
+    },
+    {
+      "nationalDex": "0900",
+      "lumioseDex": null,
+      "hyperspaceDex": "069",
+      "name": "Kleavor",
+      "types": [
+        "Bug",
+        "Rock"
+      ],
+      "normallyAvailable": true,
+      "detail": "Kleavor appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0900.png"
+    },
+    {
+      "nationalDex": "0904",
+      "lumioseDex": null,
+      "hyperspaceDex": "038",
+      "name": "Overqwil",
+      "types": [
+        "Dark",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Overqwil appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0904.png"
+    },
+    {
+      "nationalDex": "0926",
+      "lumioseDex": null,
+      "hyperspaceDex": "079",
+      "name": "Fidough",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Fidough appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0926.png"
+    },
+    {
+      "nationalDex": "0927",
+      "lumioseDex": null,
+      "hyperspaceDex": "080",
+      "name": "Dachsbun",
+      "types": [
+        "Fairy"
+      ],
+      "normallyAvailable": true,
+      "detail": "Dachsbun appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0927.png"
+    },
+    {
+      "nationalDex": "0931",
+      "lumioseDex": null,
+      "hyperspaceDex": "086",
+      "name": "Squawkabilly",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "normallyAvailable": true,
+      "detail": "Squawkabilly appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0931.png"
+    },
+    {
+      "nationalDex": "0932",
+      "lumioseDex": null,
+      "hyperspaceDex": "089",
+      "name": "Nacli",
+      "types": [
+        "Rock"
+      ],
+      "normallyAvailable": true,
+      "detail": "Nacli appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0932.png"
+    },
+    {
+      "nationalDex": "0933",
+      "lumioseDex": null,
+      "hyperspaceDex": "090",
+      "name": "Naclstack",
+      "types": [
+        "Rock"
+      ],
+      "normallyAvailable": true,
+      "detail": "Naclstack appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0933.png"
+    },
+    {
+      "nationalDex": "0934",
+      "lumioseDex": null,
+      "hyperspaceDex": "091",
+      "name": "Garganacl",
+      "types": [
+        "Rock"
+      ],
+      "normallyAvailable": true,
+      "detail": "Garganacl appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0934.png"
+    },
+    {
+      "nationalDex": "0935",
+      "lumioseDex": null,
+      "hyperspaceDex": "097",
+      "name": "Charcadet",
+      "types": [
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Charcadet appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0935.png"
+    },
+    {
+      "nationalDex": "0936",
+      "lumioseDex": null,
+      "hyperspaceDex": "098",
+      "name": "Armarouge",
+      "types": [
+        "Fire",
+        "Psychic"
+      ],
+      "normallyAvailable": true,
+      "detail": "Armarouge appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0936.png"
+    },
+    {
+      "nationalDex": "0937",
+      "lumioseDex": null,
+      "hyperspaceDex": "099",
+      "name": "Ceruledge",
+      "types": [
+        "Fire",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Ceruledge appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0937.png"
+    },
+    {
+      "nationalDex": "0942",
+      "lumioseDex": null,
+      "hyperspaceDex": "100",
+      "name": "Maschiff",
+      "types": [
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Maschiff appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0942.png"
+    },
+    {
+      "nationalDex": "0943",
+      "lumioseDex": null,
+      "hyperspaceDex": "101",
+      "name": "Mabosstiff",
+      "types": [
+        "Dark"
+      ],
+      "normallyAvailable": true,
+      "detail": "Mabosstiff appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0943.png"
+    },
+    {
+      "nationalDex": "0944",
+      "lumioseDex": null,
+      "hyperspaceDex": "104",
+      "name": "Shroodle",
+      "types": [
+        "Poison",
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Shroodle appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0944.png"
+    },
+    {
+      "nationalDex": "0945",
+      "lumioseDex": null,
+      "hyperspaceDex": "105",
+      "name": "Grafaiai",
+      "types": [
+        "Poison",
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Grafaiai appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0945.png"
+    },
+    {
+      "nationalDex": "0951",
+      "lumioseDex": null,
+      "hyperspaceDex": "014",
+      "name": "Capsakid",
+      "types": [
+        "Grass"
+      ],
+      "normallyAvailable": true,
+      "detail": "Capsakid appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0951.png"
+    },
+    {
+      "nationalDex": "0952",
+      "lumioseDex": null,
+      "hyperspaceDex": "015",
+      "name": "Scovillain",
+      "types": [
+        "Grass",
+        "Fire"
+      ],
+      "normallyAvailable": true,
+      "detail": "Scovillain appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0952.png"
+    },
+    {
+      "nationalDex": "0957",
+      "lumioseDex": null,
+      "hyperspaceDex": "016",
+      "name": "Tinkatink",
+      "types": [
+        "Fairy",
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Tinkatink appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0957.png"
+    },
+    {
+      "nationalDex": "0958",
+      "lumioseDex": null,
+      "hyperspaceDex": "017",
+      "name": "Tinkatuff",
+      "types": [
+        "Fairy",
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Tinkatuff appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0958.png"
+    },
+    {
+      "nationalDex": "0959",
+      "lumioseDex": null,
+      "hyperspaceDex": "018",
+      "name": "Tinkaton",
+      "types": [
+        "Fairy",
+        "Steel"
+      ],
+      "normallyAvailable": true,
+      "detail": "Tinkaton appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0959.png"
+    },
+    {
+      "nationalDex": "0967",
+      "lumioseDex": null,
+      "hyperspaceDex": "019",
+      "name": "Cyclizar",
+      "types": [
+        "Dragon",
+        "Normal"
+      ],
+      "normallyAvailable": true,
+      "detail": "Cyclizar appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0967.png"
+    },
+    {
+      "nationalDex": "0969",
+      "lumioseDex": null,
+      "hyperspaceDex": "020",
+      "name": "Glimmet",
+      "types": [
+        "Rock",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Glimmet appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0969.png"
+    },
+    {
+      "nationalDex": "0970",
+      "lumioseDex": null,
+      "hyperspaceDex": "021",
+      "name": "Glimmora",
+      "types": [
+        "Rock",
+        "Poison"
+      ],
+      "normallyAvailable": true,
+      "detail": "Glimmora appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0970.png"
+    },
+    {
+      "nationalDex": "0971",
+      "lumioseDex": null,
+      "hyperspaceDex": "023",
+      "name": "Greavard",
+      "types": [
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Greavard appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0971.png"
+    },
+    {
+      "nationalDex": "0972",
+      "lumioseDex": null,
+      "hyperspaceDex": "024",
+      "name": "Houndstone",
+      "types": [
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Houndstone appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0972.png"
+    },
+    {
+      "nationalDex": "0973",
+      "lumioseDex": null,
+      "hyperspaceDex": "028",
+      "name": "Flamigo",
+      "types": [
+        "Flying",
+        "Fighting"
+      ],
+      "normallyAvailable": true,
+      "detail": "Flamigo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0973.png"
+    },
+    {
+      "nationalDex": "0977",
+      "lumioseDex": null,
+      "hyperspaceDex": "030",
+      "name": "Dondozo",
+      "types": [
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Dondozo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0977.png"
+    },
+    {
+      "nationalDex": "0978",
+      "lumioseDex": null,
+      "hyperspaceDex": "031",
+      "name": "Tatsugiri",
+      "types": [
+        "Dragon",
+        "Water"
+      ],
+      "normallyAvailable": true,
+      "detail": "Tatsugiri appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0978.png"
+    },
+    {
+      "nationalDex": "0979",
+      "lumioseDex": null,
+      "hyperspaceDex": "003",
+      "name": "Annihilape",
+      "types": [
+        "Fighting",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Annihilape appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0979.png"
+    },
+    {
+      "nationalDex": "0996",
+      "lumioseDex": null,
+      "hyperspaceDex": "032",
+      "name": "Frigibax",
+      "types": [
+        "Dragon",
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Frigibax appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0996.png"
+    },
+    {
+      "nationalDex": "0997",
+      "lumioseDex": null,
+      "hyperspaceDex": "033",
+      "name": "Arctibax",
+      "types": [
+        "Dragon",
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Arctibax appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0997.png"
+    },
+    {
+      "nationalDex": "0998",
+      "lumioseDex": null,
+      "hyperspaceDex": "034",
+      "name": "Baxcalibur",
+      "types": [
+        "Dragon",
+        "Ice"
+      ],
+      "normallyAvailable": true,
+      "detail": "Baxcalibur appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0998.png"
+    },
+    {
+      "nationalDex": "0999",
+      "lumioseDex": null,
+      "hyperspaceDex": "035",
+      "name": "Gimmighoul",
+      "types": [
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gimmighoul appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/0999.png"
+    },
+    {
+      "nationalDex": "1000",
+      "lumioseDex": null,
+      "hyperspaceDex": "036",
+      "name": "Gholdengo",
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "normallyAvailable": true,
+      "detail": "Gholdengo appears in Pokémon Legends: Z-A.",
+      "spriteAsset": "pokemon/sprites/1000.png"
+    }
+  ]
+}

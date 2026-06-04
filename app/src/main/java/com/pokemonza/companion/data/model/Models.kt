@@ -6,9 +6,10 @@ data class PokemonEntry(
     val hyperspaceDex: String?,
     val name: String,
     val types: List<String>,
-    val imageUrl: String?,
+    val imageUrl: String? = null,
+    val spriteAsset: String? = null,
     val normallyAvailable: Boolean,
-    val wikiUrl: String,
+    val wikiUrl: String = "",
     val detailSummary: String = ""
 )
 
@@ -26,6 +27,8 @@ data class FashionItem(
     val cost: String,
     val imageUrl: String? = null,
     val femaleImageUrl: String? = null,
+    val thumbAsset: String? = null,
+    val fullAsset: String? = null,
     val previewKey: String? = null,
     val feminineCut: Boolean = false,
     val masculineCut: Boolean = false

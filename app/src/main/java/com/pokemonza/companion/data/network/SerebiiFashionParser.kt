@@ -199,8 +199,10 @@ class FashionRepository(private val context: Context) {
                         style = o.getString("style"),
                         location = o.getString("location"),
                         cost = o.getString("cost"),
-                        imageUrl = o.optString("imageUrl").takeIf { it.isNotBlank() && it != "null" },
-                        femaleImageUrl = o.optString("femaleImageUrl").takeIf { it.isNotBlank() && it != "null" },
+                        imageUrl = null,
+                        femaleImageUrl = null,
+                        thumbAsset = o.optString("thumbAsset").takeIf { it.isNotBlank() && it != "null" },
+                        fullAsset = o.optString("fullAsset").takeIf { it.isNotBlank() && it != "null" },
                         previewKey = o.optString("previewKey").takeIf { it.isNotBlank() && it != "null" },
                         feminineCut = o.optBoolean("feminineCut", false),
                         masculineCut = o.optBoolean("masculineCut", false)

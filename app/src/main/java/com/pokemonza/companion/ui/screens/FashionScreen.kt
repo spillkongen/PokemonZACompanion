@@ -31,6 +31,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
@@ -38,6 +39,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.pokemonza.companion.data.model.FashionCategory
+import com.pokemonza.companion.data.network.OfflineAssets
 import com.pokemonza.companion.data.model.FashionItem
 import com.pokemonza.companion.data.model.FashionOutfitFilter
 import com.pokemonza.companion.ui.components.BackgroundScaffold
@@ -83,7 +85,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                     modifier = Modifier.weight(1f)
                 )
                 IconButton(onClick = { viewModel.loadFashion(forceRefresh = true) }) {
-                    Icon(Icons.Default.Refresh, "Reload", tint = Color.White)
+                    Icon(Icons.Default.Refresh, "Refresh from Serebii", tint = Color.White)
                 }
             }
 
@@ -121,7 +123,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
             }
 
             Text(
-                "Every outfit works on any character. Women's = blouse/skort/dress sets; Men's = other cuts.",
+                "Every outfit works on any character. Women's = blouse/skort/dress sets; Men's = other cuts. Serebii shows one preview model.",
                 color = Color.White.copy(0.55f),
                 fontSize = 10.sp,
                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 2.dp)
@@ -154,11 +156,12 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
         }
     }
 
+    val context = LocalContext.current
     selectedItem?.let { item ->
         DetailPopup(
             title = item.name,
             onDismiss = { selectedItem = null },
-            imageUrl = item.largePreviewUrl() ?: item.imageUrl,
+            imageUrl = OfflineAssets.fashionFullUri(context, item.previewKey, item.fullAsset, item.thumbAsset),
             imageMaxHeight = 300.dp
         ) {
             FashionDetailBody(item)
@@ -168,7 +171,12 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
 
 @Composable
 private fun FashionItemCard(item: FashionItem, useLargePreview: Boolean, onClick: () -> Unit) {
-    val previewUrl = if (useLargePreview) item.largePreviewUrl() else item.imageUrl
+    val context = LocalContext.current
+    val previewUrl = if (useLargePreview) {
+        OfflineAssets.fashionFullUri(context, item.previewKey, item.fullAsset, item.thumbAsset)
+    } else {
+        OfflineAssets.fashionThumbUri(context, item.previewKey, item.thumbAsset)
+    }
     GlassCard(
         modifier = Modifier
             .fillMaxWidth()
