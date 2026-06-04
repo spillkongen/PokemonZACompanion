@@ -26,7 +26,6 @@ import androidx.window.layout.WindowInfoTracker
 import com.pokemonza.companion.navigation.CompanionTab
 import com.pokemonza.companion.ui.components.AppUpdateHost
 import com.pokemonza.companion.ui.components.GlassBottomNavigation
-import com.pokemonza.companion.ui.components.GlassNavBarHeight
 import com.pokemonza.companion.ui.screens.FashionScreen
 import com.pokemonza.companion.ui.screens.GuidesScreen
 import com.pokemonza.companion.ui.screens.MapScreen
@@ -117,22 +116,10 @@ fun PokemonZACompanionApp(viewModel: CompanionViewModel = viewModel()) {
         val contentModifier = Modifier.fillMaxSize()
         when (tabs[selectedTab]) {
             CompanionTab.MAP -> MapScreen(contentModifier)
-            CompanionTab.POKEMON -> PokemonScreen(
-                viewModel,
-                contentModifier.padding(bottom = GlassNavBarHeight)
-            )
-            CompanionTab.FASHION -> FashionScreen(
-                viewModel,
-                contentModifier.padding(bottom = GlassNavBarHeight)
-            )
-            CompanionTab.MISSIONS -> MissionsScreen(
-                viewModel,
-                contentModifier.padding(bottom = GlassNavBarHeight)
-            )
-            CompanionTab.GUIDES -> GuidesScreen(
-                viewModel,
-                contentModifier.padding(bottom = GlassNavBarHeight)
-            )
+            CompanionTab.POKEMON -> PokemonScreen(viewModel, contentModifier)
+            CompanionTab.FASHION -> FashionScreen(viewModel, contentModifier)
+            CompanionTab.MISSIONS -> MissionsScreen(viewModel, contentModifier)
+            CompanionTab.GUIDES -> GuidesScreen(viewModel, contentModifier)
         }
 
         GlassBottomNavigation(

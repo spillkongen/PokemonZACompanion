@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
@@ -55,6 +56,15 @@ val GlassPanelLight = Color(0xFF1A1A2E).copy(alpha = 0.28f)
 /** Semi-transparent glass for bottom menu — content shows through. */
 val GlassNavBar = Color(0xFF1A1A2E).copy(alpha = 0.38f)
 val GlassNavBarHeight = 72.dp
+
+/** List padding so items stay above the glass nav while background fills behind it. */
+fun glassListContentPadding(horizontal: androidx.compose.ui.unit.Dp = 12.dp): PaddingValues =
+    PaddingValues(
+        start = horizontal,
+        top = horizontal,
+        end = horizontal,
+        bottom = GlassNavBarHeight + horizontal
+    )
 val GlassPopup = Color(0xFF1A1A2E).copy(alpha = 0.72f)
 val GlassField = Color(0xFF1A1A2E).copy(alpha = 0.35f)
 val GlassChipSelected = Color(0xFFE94560).copy(alpha = 0.45f)

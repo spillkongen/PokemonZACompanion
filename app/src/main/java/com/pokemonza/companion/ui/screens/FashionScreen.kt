@@ -45,6 +45,7 @@ import com.pokemonza.companion.ui.components.DetailPopup
 import com.pokemonza.companion.ui.components.GlassCard
 import com.pokemonza.companion.ui.components.GlassFilterChip
 import com.pokemonza.companion.ui.components.GlassSearchField
+import com.pokemonza.companion.ui.components.glassListContentPadding
 import com.pokemonza.companion.ui.components.LastUpdatedText
 import com.pokemonza.companion.ui.theme.ZAAccent
 import com.pokemonza.companion.ui.theme.ZAGold
@@ -135,7 +136,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                 else -> LazyColumn(
                     modifier = Modifier.fillMaxSize(),
                     verticalArrangement = Arrangement.spacedBy(8.dp),
-                    contentPadding = PaddingValues(12.dp)
+                    contentPadding = glassListContentPadding()
                 ) {
                     item {
                         Text(

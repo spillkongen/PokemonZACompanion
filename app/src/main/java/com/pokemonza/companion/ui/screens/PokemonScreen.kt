@@ -40,6 +40,7 @@ import com.pokemonza.companion.ui.components.BackgroundScaffold
 import com.pokemonza.companion.ui.components.DetailPopup
 import com.pokemonza.companion.ui.components.GlassCard
 import com.pokemonza.companion.ui.components.GlassSearchField
+import com.pokemonza.companion.ui.components.glassListContentPadding
 import com.pokemonza.companion.ui.components.LastUpdatedText
 import com.pokemonza.companion.ui.components.TypeBadge
 import com.pokemonza.companion.ui.viewmodel.CompanionViewModel
@@ -83,7 +84,7 @@ fun PokemonScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                 else -> LazyColumn(
                     Modifier.fillMaxSize(),
                     verticalArrangement = Arrangement.spacedBy(8.dp),
-                    contentPadding = androidx.compose.foundation.layout.PaddingValues(12.dp)
+                    contentPadding = glassListContentPadding()
                 ) {
                     items(filtered, key = { it.nationalDex + it.name }) { pokemon ->
                         PokemonCard(pokemon) {

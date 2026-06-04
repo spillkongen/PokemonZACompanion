@@ -46,6 +46,7 @@ import com.pokemonza.companion.data.network.AppConstants
 import com.pokemonza.companion.ui.components.BackgroundScaffold
 import com.pokemonza.companion.ui.components.GlassCard
 import com.pokemonza.companion.ui.components.LastUpdatedText
+import com.pokemonza.companion.ui.components.glassListContentPadding
 import com.pokemonza.companion.ui.theme.ZAAccent
 import com.pokemonza.companion.ui.viewmodel.CompanionViewModel
 
@@ -77,7 +78,7 @@ fun GuidesScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) {
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
                     verticalArrangement = Arrangement.spacedBy(8.dp),
-                    contentPadding = androidx.compose.foundation.layout.PaddingValues(12.dp)
+                    contentPadding = glassListContentPadding()
                 ) {
                     items(state.data, key = { it.title }) { guide ->
                         GuideCard(guide) { selectedGuide = guide }
