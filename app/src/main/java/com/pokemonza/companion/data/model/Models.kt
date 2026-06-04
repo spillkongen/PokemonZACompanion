@@ -18,9 +18,15 @@ data class PokemonEntry(
 )
 
 enum class FashionOutfitFilter(val label: String) {
-    ALL("All"),
-    WOMENS("Women's"),
-    MENS("Men's")
+    ALL("All styles"),
+    WOMENS("Women's styles"),
+    MENS("Men's styles")
+}
+
+enum class FashionPreviewGender(val label: String) {
+    AUTO("Auto preview"),
+    FEMALE("Female model"),
+    MALE("Male model")
 }
 
 data class FashionItem(
@@ -33,6 +39,7 @@ data class FashionItem(
     val femaleImageUrl: String? = null,
     val thumbAsset: String? = null,
     val fullAsset: String? = null,
+    val femaleThumbAsset: String? = null,
     val previewKey: String? = null,
     val feminineCut: Boolean = false,
     val masculineCut: Boolean = false

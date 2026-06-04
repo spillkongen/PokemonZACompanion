@@ -46,21 +46,13 @@ class SerebiiFashionParser {
         val items = mutableListOf<FashionItem>()
         val seen = mutableSetOf<String>()
 
-        for ((catId, header) in categoryHeaders) {
-            val table = findCategoryTable(doc, catId, header) ?: continue
-            parseTable(table, catId, items, seen)
-        }
-
-        if (items.isEmpty()) {
-            doc.select("h3").forEach { heading ->
-                val headerText = heading.text().trim()
-                val catId = categoryHeaders.entries.find { it.value.equals(headerText, true) }?.key ?: return@forEach
-                heading.nextElementSibling()?.let { next ->
-                    if (next.tagName() == "table" && next.hasClass("dextable")) {
-                        parseTable(next, catId, items, seen)
-                    }
-                }
-            }
+        for (heading in doc.select("h3")) {
+            val headerText = heading.text().trim()
+            val catId = categoryHeaders.entries.find { it.value.equals(headerText, true) }?.key ?: continue
+            val table = heading.nextElementSibling()?.takeIf {
+                it.tagName() == "table" && it.hasClass("dextable")
+            } ?: findCategoryTable(doc, catId, headerText)
+            table?.let { parseTable(it, catId, items, seen) }
         }
         return items
     }
@@ -99,15 +91,23 @@ class SerebiiFashionParser {
 
             val img = row.select("img").firstOrNull()?.attr("src")?.let { resolveUrl(it) }
             val previewKey = row.select("a[data-key]").firstOrNull()?.attr("data-key")
-            val texts = cells.map { it.text().trim() }.filter { it.isNotBlank() }
-
             val (name, style, location, cost) = when {
-                texts.size >= 5 -> Quad(texts[1], texts[2], texts[3], texts[4])
-                texts.size >= 4 -> Quad(texts[0], texts[1], texts[2], texts[3])
+                cells.size >= 5 -> Quad(
+                    cells[1].text().trim(),
+                    cells[2].text().trim(),
+                    cells[3].text().trim(),
+                    cells[4].text().trim()
+                )
+                cells.size >= 4 -> Quad(
+                    cells[0].text().trim(),
+                    cells[1].text().trim(),
+                    cells[2].text().trim(),
+                    cells[3].text().trim()
+                )
                 else -> continue
             }
 
-            if (name.equals("Name", ignoreCase = true) || name.equals("Picture", ignoreCase = true)) continue
+            if (name.isBlank() || name.equals("Name", ignoreCase = true) || name.equals("Picture", ignoreCase = true)) continue
 
             val key = "$category|$name|$style"
             if (!seen.add(key)) continue
@@ -131,14 +131,25 @@ class SerebiiFashionParser {
 
     private fun isFeminineCut(name: String): Boolean {
         val n = name.lowercase()
-        return n.contains("blouse") || n.contains("skort") || n.contains("dress") || n.contains("skirt") ||
-            n.contains("romper") || n.contains("ribbon blouse") || n.contains("off shoulder")
+        val markers = listOf(
+            "blouse", "skort", "dress", "skirt", "romper", "jumpsuit",
+            "off shoulder", "off-shoulder", "crop top", "tube top", "ribbon blouse",
+            "halter", "camisole", "bodysuit", "peplum", "wrap top", "corset",
+            "pinafore", "tiered skirt", "pleated skirt", "maxi skirt", "miniskirt",
+            "hot pants", "culottes", "overalls set"
+        )
+        return markers.any { n.contains(it) }
     }
 
     private fun isMasculineCut(name: String): Boolean {
-        val n = name.lowercase()
         if (isFeminineCut(name)) return false
-        return n.contains("shirt") || n.contains("cargo pants") || n.contains("biker jacket")
+        val n = name.lowercase()
+        val markers = listOf(
+            "biker jacket", "cargo pants", "blazer & shirt", "cardigan & shirt",
+            "shacket", "hoodie set", "track jacket", "polo", "suit pants",
+            "dress shirt", "denim jacket set"
+        )
+        return markers.any { n.contains(it) }
     }
 
     private fun femalePreviewUrl(maleUrl: String?): String? {
@@ -203,6 +214,7 @@ class FashionRepository(private val context: Context) {
                         femaleImageUrl = null,
                         thumbAsset = o.optString("thumbAsset").takeIf { it.isNotBlank() && it != "null" },
                         fullAsset = o.optString("fullAsset").takeIf { it.isNotBlank() && it != "null" },
+                        femaleThumbAsset = o.optString("femaleThumbAsset").takeIf { it.isNotBlank() && it != "null" },
                         previewKey = o.optString("previewKey").takeIf { it.isNotBlank() && it != "null" },
                         feminineCut = o.optBoolean("feminineCut", false),
                         masculineCut = o.optBoolean("masculineCut", false)

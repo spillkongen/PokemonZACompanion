@@ -1,6 +1,6 @@
 {
-  "versionCode": 32,
-  "versionName": "1.4.3",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.3/app-release.apk",
-  "releaseNotes": "Updates now restart and reopen the app automatically after install — no manual restart needed."
+  "versionCode": 33,
+  "versionName": "1.4.4",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.4.4/app-release.apk",
+  "releaseNotes": "Fashion: all 1,262 Serebii items, Women's styles filter (blouse/skort/dress), female preview mode, and clearer style labels."
 }

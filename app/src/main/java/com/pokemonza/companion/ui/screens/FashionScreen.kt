@@ -42,6 +42,7 @@ import com.pokemonza.companion.data.model.FashionCategory
 import com.pokemonza.companion.data.network.OfflineAssets
 import com.pokemonza.companion.data.model.FashionItem
 import com.pokemonza.companion.data.model.FashionOutfitFilter
+import com.pokemonza.companion.data.model.FashionPreviewGender
 import com.pokemonza.companion.ui.components.BackgroundScaffold
 import com.pokemonza.companion.ui.components.DetailPopup
 import com.pokemonza.companion.ui.components.GlassCard
@@ -59,6 +60,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
     var searchQuery by remember { mutableStateOf("") }
     var selectedCategory by remember { mutableStateOf(FashionCategory.TOPS) }
     var outfitFilter by remember { mutableStateOf(FashionOutfitFilter.ALL) }
+    var previewGender by remember { mutableStateOf(FashionPreviewGender.AUTO) }
     var useLargePreview by remember { mutableStateOf(false) }
     var selectedItem by remember { mutableStateOf<FashionItem?>(null) }
 
@@ -69,6 +71,12 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                 item.name.contains(searchQuery, ignoreCase = true) ||
                 item.style.contains(searchQuery, ignoreCase = true) ||
                 item.location.contains(searchQuery, ignoreCase = true))
+    }.let { list ->
+        if (outfitFilter == FashionOutfitFilter.WOMENS) {
+            list.sortedBy { it.name }
+        } else {
+            list
+        }
     }
 
     BackgroundScaffold(modifier = modifier) {
@@ -113,6 +121,19 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                         label = { Text(filter.label, fontSize = 11.sp) }
                     )
                 }
+            }
+
+            LazyRow(
+                contentPadding = PaddingValues(horizontal = 8.dp, vertical = 2.dp),
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                items(FashionPreviewGender.entries.toList()) { gender ->
+                    GlassFilterChip(
+                        selected = previewGender == gender,
+                        onClick = { previewGender = gender },
+                        label = { Text(gender.label, fontSize = 11.sp) }
+                    )
+                }
                 item {
                     GlassFilterChip(
                         selected = useLargePreview,
@@ -123,7 +144,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
             }
 
             Text(
-                "Every outfit works on any character. Women's = blouse/skort/dress sets; Men's = other cuts. Serebii shows one preview model.",
+                "All outfits work on any character. Tap Women's styles for blouse, skort, dress & similar cuts from Serebii. Use Female model for larger previews.",
                 color = Color.White.copy(0.55f),
                 fontSize = 10.sp,
                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 2.dp)
@@ -149,7 +170,7 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
                         )
                     }
                     items(filtered, key = { "${it.category}-${it.name}-${it.style}" }) { item ->
-                        FashionItemCard(item, useLargePreview) { selectedItem = item }
+                        FashionItemCard(item, useLargePreview, previewGender) { selectedItem = item }
                     }
                 }
             }
@@ -157,11 +178,12 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
     }
 
     val context = LocalContext.current
+    val popupPreviewGender = previewGender
     selectedItem?.let { item ->
         DetailPopup(
             title = item.name,
             onDismiss = { selectedItem = null },
-            imageUrl = OfflineAssets.fashionFullUri(context, item.previewKey, item.fullAsset, item.thumbAsset),
+            imageUrl = fashionPreviewUri(context, item, useLargePreview = true, previewGender = popupPreviewGender),
             imageMaxHeight = 300.dp
         ) {
             FashionDetailBody(item)
@@ -170,13 +192,39 @@ fun FashionScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) 
 }
 
 @Composable
-private fun FashionItemCard(item: FashionItem, useLargePreview: Boolean, onClick: () -> Unit) {
-    val context = LocalContext.current
-    val previewUrl = if (useLargePreview) {
-        OfflineAssets.fashionFullUri(context, item.previewKey, item.fullAsset, item.thumbAsset)
+private fun fashionPreviewUri(
+    context: android.content.Context,
+    item: FashionItem,
+    useLargePreview: Boolean,
+    previewGender: FashionPreviewGender
+): String? {
+    val preferFemale = when (previewGender) {
+        FashionPreviewGender.FEMALE -> true
+        FashionPreviewGender.MALE -> false
+        FashionPreviewGender.AUTO -> item.feminineCut
+    }
+    return if (useLargePreview || preferFemale) {
+        if (preferFemale) {
+            OfflineAssets.fashionFemaleThumbUri(
+                context, item.previewKey, item.femaleThumbAsset, item.fullAsset, item.thumbAsset
+            )
+        } else {
+            OfflineAssets.fashionFullUri(context, item.previewKey, item.fullAsset, item.thumbAsset)
+        }
     } else {
         OfflineAssets.fashionThumbUri(context, item.previewKey, item.thumbAsset)
     }
+}
+
+@Composable
+private fun FashionItemCard(
+    item: FashionItem,
+    useLargePreview: Boolean,
+    previewGender: FashionPreviewGender,
+    onClick: () -> Unit
+) {
+    val context = LocalContext.current
+    val previewUrl = fashionPreviewUri(context, item, useLargePreview, previewGender)
     GlassCard(
         modifier = Modifier
             .fillMaxWidth()
@@ -193,7 +241,18 @@ private fun FashionItemCard(item: FashionItem, useLargePreview: Boolean, onClick
                 Spacer(Modifier.width(10.dp))
             }
             Column(Modifier.weight(1f)) {
-                Text(item.name, color = Color.White, fontWeight = FontWeight.SemiBold, fontSize = 14.sp)
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(item.name, color = Color.White, fontWeight = FontWeight.SemiBold, fontSize = 14.sp)
+                    if (item.feminineCut) {
+                        Text(
+                            " Women's",
+                            color = ZAGold.copy(0.95f),
+                            fontSize = 10.sp,
+                            fontWeight = FontWeight.Bold,
+                            modifier = Modifier.padding(start = 6.dp)
+                        )
+                    }
+                }
                 Text(item.style, color = ZAAccent.copy(0.9f), fontSize = 12.sp)
                 Text(item.location, color = Color.White.copy(0.6f), fontSize = 11.sp, maxLines = 2)
             }
@@ -206,6 +265,11 @@ private fun FashionItemCard(item: FashionItem, useLargePreview: Boolean, onClick
 private fun FashionDetailBody(item: FashionItem) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         DetailRow("Category", item.categoryLabel)
+        if (item.feminineCut) {
+            DetailRow("Style cut", "Women's style (blouse, skort, dress, etc.)")
+        } else if (item.masculineCut) {
+            DetailRow("Style cut", "Men's style")
+        }
         DetailRow("Style / Color", item.style)
         DetailRow("Shop & Location", item.location)
         DetailRow("Cost", item.cost)

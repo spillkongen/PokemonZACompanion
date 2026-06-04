@@ -1,6 +1,6 @@
 {
   "source": "https://www.serebii.net/legendsz-a/customisation.shtml",
-  "note": "All outfits are wearable on any character gender in Z-A. Serebii uses one model per preview.",
+  "note": "All outfits work on any character. Women's/Men's filters match Serebii outfit names (blouse/skort vs shirt/cargo).",
   "items": [
     {
       "category": "all-in-one",
@@ -141,7 +141,7 @@
       "location": "Glammor Sporti · Passage Ombragé - Rouge District",
       "cost": "₽7000",
       "previewKey": "1039",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1039.jpg",
       "fullAsset": "fashion/full/1039.jpg"
@@ -153,7 +153,7 @@
       "location": "Glammor Sporti · Passage Ombragé - Rouge District",
       "cost": "₽7000",
       "previewKey": "1042",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1042.jpg",
       "fullAsset": "fashion/full/1042.jpg"
@@ -165,7 +165,7 @@
       "location": "Glammor Sporti · Passage Ombragé - Rouge District",
       "cost": "₽7000",
       "previewKey": "1041",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1041.jpg",
       "fullAsset": "fashion/full/1041.jpg"
@@ -177,7 +177,7 @@
       "location": "Glammor Sporti · Passage Ombragé - Rouge District",
       "cost": "₽7000",
       "previewKey": "1040",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1040.jpg",
       "fullAsset": "fashion/full/1040.jpg"
@@ -465,8 +465,8 @@
       "location": "SUBATOMIC 4Galerie de la Lune - Rouge District",
       "cost": "₽23000",
       "previewKey": "214",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/214.jpg",
       "fullAsset": "fashion/full/214.jpg"
     },
@@ -477,8 +477,8 @@
       "location": "Marché Bleu · Passage de la Félicitié - Bleu District",
       "cost": "₽8000",
       "previewKey": "181",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/181.jpg",
       "fullAsset": "fashion/full/181.jpg"
     },
@@ -489,8 +489,8 @@
       "location": "SUBATOMIC 4Galerie de la Lune - Rouge District",
       "cost": "₽23000",
       "previewKey": "217",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/217.jpg",
       "fullAsset": "fashion/full/217.jpg"
     },
@@ -501,8 +501,8 @@
       "location": "Le Pays des Vêtements · Galerie de la Lune - Rouge District",
       "cost": "₽25000",
       "previewKey": "244",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/244.jpg",
       "fullAsset": "fashion/full/244.jpg"
     },
@@ -513,8 +513,8 @@
       "location": "Marché Bleu · Passage de la Félicitié - Bleu District",
       "cost": "₽8000",
       "previewKey": "177",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/177.jpg",
       "fullAsset": "fashion/full/177.jpg"
     },
@@ -525,8 +525,8 @@
       "location": "Marché Bleu · Passage de la Félicitié - Bleu District",
       "cost": "₽8000",
       "previewKey": "176",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/176.jpg",
       "fullAsset": "fashion/full/176.jpg"
     },
@@ -537,8 +537,8 @@
       "location": "Marché Bleu · Passage de la Félicitié - Bleu District",
       "cost": "₽8000",
       "previewKey": "180",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/180.jpg",
       "fullAsset": "fashion/full/180.jpg"
     },
@@ -549,8 +549,8 @@
       "location": "Marché Bleu · Passage de la Félicitié - Bleu District",
       "cost": "₽8000",
       "previewKey": "182",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/182.jpg",
       "fullAsset": "fashion/full/182.jpg"
     },
@@ -561,8 +561,8 @@
       "location": "SUBATOMIC 4Galerie de la Lune - Rouge District",
       "cost": "₽23000",
       "previewKey": "216",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/216.jpg",
       "fullAsset": "fashion/full/216.jpg"
     },
@@ -573,8 +573,8 @@
       "location": "Le Pays des Vêtements · Galerie de la Lune - Rouge District",
       "cost": "₽25000",
       "previewKey": "243",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/243.jpg",
       "fullAsset": "fashion/full/243.jpg"
     },
@@ -585,8 +585,8 @@
       "location": "Marché Bleu · Passage de la Félicitié - Bleu District",
       "cost": "₽8000",
       "previewKey": "179",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/179.jpg",
       "fullAsset": "fashion/full/179.jpg"
     },
@@ -597,8 +597,8 @@
       "location": "Marché Bleu · Passage de la Félicitié - Bleu District",
       "cost": "₽8000",
       "previewKey": "178",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/178.jpg",
       "fullAsset": "fashion/full/178.jpg"
     },
@@ -609,8 +609,8 @@
       "location": "SUBATOMIC 4Galerie de la Lune - Rouge District",
       "cost": "₽23000",
       "previewKey": "215",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/215.jpg",
       "fullAsset": "fashion/full/215.jpg"
     },
@@ -621,7 +621,7 @@
       "location": "Kikonashi · Galerie de la Lune - Rouge District",
       "cost": "₽80000",
       "previewKey": "228",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/228.jpg",
       "fullAsset": "fashion/full/228.jpg"
@@ -633,7 +633,7 @@
       "location": "Kikonashi · Galerie de la Lune - Rouge District",
       "cost": "₽80000",
       "previewKey": "230",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/230.jpg",
       "fullAsset": "fashion/full/230.jpg"
@@ -645,7 +645,7 @@
       "location": "Kikonashi · Galerie de la Lune - Rouge District",
       "cost": "₽80000",
       "previewKey": "227",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/227.jpg",
       "fullAsset": "fashion/full/227.jpg"
@@ -657,7 +657,7 @@
       "location": "Kikonashi · Galerie de la Lune - Rouge District",
       "cost": "₽80000",
       "previewKey": "229",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/229.jpg",
       "fullAsset": "fashion/full/229.jpg"
@@ -922,7 +922,7 @@
       "cost": "₽9000",
       "previewKey": "810",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/810.jpg",
       "fullAsset": "fashion/full/810.jpg"
     },
@@ -934,7 +934,7 @@
       "cost": "₽9000",
       "previewKey": "808",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/808.jpg",
       "fullAsset": "fashion/full/808.jpg"
     },
@@ -946,7 +946,7 @@
       "cost": "₽9000",
       "previewKey": "811",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/811.jpg",
       "fullAsset": "fashion/full/811.jpg"
     },
@@ -958,7 +958,7 @@
       "cost": "₽9300",
       "previewKey": "840",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/840.jpg",
       "fullAsset": "fashion/full/840.jpg"
     },
@@ -970,7 +970,7 @@
       "cost": "₽9300",
       "previewKey": "842",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/842.jpg",
       "fullAsset": "fashion/full/842.jpg"
     },
@@ -982,7 +982,7 @@
       "cost": "₽9300",
       "previewKey": "841",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/841.jpg",
       "fullAsset": "fashion/full/841.jpg"
     },
@@ -994,7 +994,7 @@
       "cost": "₽9300",
       "previewKey": "843",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/843.jpg",
       "fullAsset": "fashion/full/843.jpg"
     },
@@ -1006,7 +1006,7 @@
       "cost": "₽9000",
       "previewKey": "809",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/809.jpg",
       "fullAsset": "fashion/full/809.jpg"
     },
@@ -1117,6 +1117,18 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/1060.jpg",
       "fullAsset": "fashion/full/1060.jpg"
+    },
+    {
+      "category": "all-in-one",
+      "name": "Trench Coat & Pants Set",
+      "style": "Beige",
+      "location": "Pre-Order Bonus",
+      "cost": "Free / Mission reward",
+      "previewKey": "1230",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1230.jpg",
+      "fullAsset": "fashion/full/1230.jpg"
     },
     {
       "category": "all-in-one",
@@ -1323,6 +1335,102 @@
       "fullAsset": "fashion/full/1179.jpg"
     },
     {
+      "category": "all-in-one",
+      "name": "Canari's Tracksuit Set",
+      "style": "Lemon Yellow",
+      "location": "Complete Hyperspatial Scuffle vs. DYN4MO",
+      "cost": "Free / Mission reward",
+      "previewKey": "1236",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1236.jpg",
+      "fullAsset": "fashion/full/1236.jpg"
+    },
+    {
+      "category": "all-in-one",
+      "name": "Canari's Tracksuit Set",
+      "style": "Dusk Blue",
+      "location": "Complete Hyperspatial Slugfest vs. DYN4MO!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1237",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1237.jpg",
+      "fullAsset": "fashion/full/1237.jpg"
+    },
+    {
+      "category": "all-in-one",
+      "name": "Ivor's Gi Set",
+      "style": "Black",
+      "location": "Complete Hyperspatial Scuffle vs. the Fist of Justice",
+      "cost": "Free / Mission reward",
+      "previewKey": "1238",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1238.jpg",
+      "fullAsset": "fashion/full/1238.jpg"
+    },
+    {
+      "category": "all-in-one",
+      "name": "Ivor's Gi Set",
+      "style": "White",
+      "location": "Complete Hyperspatial Slugfest vs. the Fist of Justice!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1239",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1239.jpg",
+      "fullAsset": "fashion/full/1239.jpg"
+    },
+    {
+      "category": "all-in-one",
+      "name": "Corbeau's Suit & Tie Set",
+      "style": "Raven Black",
+      "location": "Complete Hyperspatial Scuffle vs. the Rust Syndicate",
+      "cost": "Free / Mission reward",
+      "previewKey": "1240",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1240.jpg",
+      "fullAsset": "fashion/full/1240.jpg"
+    },
+    {
+      "category": "all-in-one",
+      "name": "Corbeau's Suit & Tie Set",
+      "style": "Mauve Gray",
+      "location": "Complete Hyperspatial Slugfest vs. the Rust Syndicate!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1241",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1241.jpg",
+      "fullAsset": "fashion/full/1241.jpg"
+    },
+    {
+      "category": "all-in-one",
+      "name": "Jacinthe's Dress",
+      "style": "Lilac",
+      "location": "Complete Hyperspatial Scuffle vs. the SBC",
+      "cost": "Free / Mission reward",
+      "previewKey": "1242",
+      "feminineCut": true,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1242.jpg",
+      "fullAsset": "fashion/full/1242.jpg"
+    },
+    {
+      "category": "all-in-one",
+      "name": "Jacinthe's Dress",
+      "style": "Shell Pink",
+      "location": "Complete Hyperspatial Slugfest vs. the SBC!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1243",
+      "feminineCut": true,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1243.jpg",
+      "fullAsset": "fashion/full/1243.jpg"
+    },
+    {
       "category": "tops",
       "name": "Biker Jacket Set",
       "style": "BRAVELY Brown",
@@ -1456,6 +1564,18 @@
     },
     {
       "category": "tops",
+      "name": "Blazer & Blouse Set",
+      "style": "Red Damask",
+      "location": "South Boulevard · During Mission",
+      "cost": "Free / Mission reward",
+      "previewKey": "2",
+      "feminineCut": true,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/2.jpg",
+      "fullAsset": "fashion/full/2.jpg"
+    },
+    {
+      "category": "tops",
       "name": "Blazer & Shirt Set",
       "style": "Beige",
       "location": "Boutique Couture · Vernal Avenue",
@@ -1581,7 +1701,7 @@
       "location": "Kickspin · Passage de la Félicitié - Bleu District",
       "cost": "₽6800",
       "previewKey": "121",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/121.jpg",
       "fullAsset": "fashion/full/121.jpg"
@@ -1593,7 +1713,7 @@
       "location": "Kickspin · Passage de la Félicitié - Bleu District",
       "cost": "₽6800",
       "previewKey": "119",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/119.jpg",
       "fullAsset": "fashion/full/119.jpg"
@@ -1605,7 +1725,7 @@
       "location": "Kickspin · Passage de la Félicitié - Bleu District",
       "cost": "₽6800",
       "previewKey": "120",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/120.jpg",
       "fullAsset": "fashion/full/120.jpg"
@@ -1617,7 +1737,7 @@
       "location": "SUBATOMIC · Galerie de la Lune - Rouge District",
       "cost": "₽20000",
       "previewKey": "339",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/339.jpg",
       "fullAsset": "fashion/full/339.jpg"
@@ -1629,7 +1749,7 @@
       "location": "SUBATOMIC · Galerie de la Lune - Rouge District",
       "cost": "₽20000",
       "previewKey": "341",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/341.jpg",
       "fullAsset": "fashion/full/341.jpg"
@@ -1641,7 +1761,7 @@
       "location": "SUBATOMIC · Galerie de la Lune - Rouge District",
       "cost": "₽20000",
       "previewKey": "340",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/340.jpg",
       "fullAsset": "fashion/full/340.jpg"
@@ -1653,7 +1773,7 @@
       "location": "Kickspin · Passage de la Félicitié - Bleu District",
       "cost": "₽6800",
       "previewKey": "116",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/116.jpg",
       "fullAsset": "fashion/full/116.jpg"
@@ -1665,7 +1785,7 @@
       "location": "Kickspin · Passage de la Félicitié - Bleu District",
       "cost": "₽6800",
       "previewKey": "117",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/117.jpg",
       "fullAsset": "fashion/full/117.jpg"
@@ -1677,7 +1797,7 @@
       "location": "Kickspin · Passage de la Félicitié - Bleu District",
       "cost": "₽6800",
       "previewKey": "118",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/118.jpg",
       "fullAsset": "fashion/full/118.jpg"
@@ -1689,7 +1809,7 @@
       "location": "SUBATOMIC · Galerie de la Lune - Rouge District",
       "cost": "₽20000",
       "previewKey": "338",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/338.jpg",
       "fullAsset": "fashion/full/338.jpg"
@@ -1753,6 +1873,18 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/335.jpg",
       "fullAsset": "fashion/full/335.jpg"
+    },
+    {
+      "category": "tops",
+      "name": "Blouson & V-Neck Set",
+      "style": "Team MZ Logo",
+      "location": "Hotel ZFrom Taunie/Urbain",
+      "cost": "Free / Mission reward",
+      "previewKey": "1",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1.jpg",
+      "fullAsset": "fashion/full/1.jpg"
     },
     {
       "category": "tops",
@@ -2121,7 +2253,7 @@
       "location": "Glammor Sporti · Passage Ombragé - Rouge District",
       "cost": "₽5000",
       "previewKey": "1035",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1035.jpg",
       "fullAsset": "fashion/full/1035.jpg"
@@ -2133,7 +2265,7 @@
       "location": "Glammor Sporti · Passage Ombragé - Rouge District",
       "cost": "₽5000",
       "previewKey": "1036",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1036.jpg",
       "fullAsset": "fashion/full/1036.jpg"
@@ -2145,7 +2277,7 @@
       "location": "Glammor Sporti · Passage Ombragé - Rouge District",
       "cost": "₽5000",
       "previewKey": "1037",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1037.jpg",
       "fullAsset": "fashion/full/1037.jpg"
@@ -2157,7 +2289,7 @@
       "location": "Glammor Sporti · Passage Ombragé - Rouge District",
       "cost": "₽5000",
       "previewKey": "1038",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1038.jpg",
       "fullAsset": "fashion/full/1038.jpg"
@@ -2169,7 +2301,7 @@
       "location": "SUBATOMIC 4Galerie de la Lune - Rouge District",
       "cost": "₽16000",
       "previewKey": "198",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/198.jpg",
       "fullAsset": "fashion/full/198.jpg"
@@ -2181,7 +2313,7 @@
       "location": "SUBATOMIC 4Galerie de la Lune - Rouge District",
       "cost": "₽16000",
       "previewKey": "201",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/201.jpg",
       "fullAsset": "fashion/full/201.jpg"
@@ -2193,7 +2325,7 @@
       "location": "SUBATOMIC 4Galerie de la Lune - Rouge District",
       "cost": "₽16000",
       "previewKey": "200",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/200.jpg",
       "fullAsset": "fashion/full/200.jpg"
@@ -2205,7 +2337,7 @@
       "location": "SUBATOMIC 4Galerie de la Lune - Rouge District",
       "cost": "₽16000",
       "previewKey": "199",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/199.jpg",
       "fullAsset": "fashion/full/199.jpg"
@@ -2217,7 +2349,7 @@
       "location": "Dessert du Moment · Vernal Avenue",
       "cost": "₽8000",
       "previewKey": "1102",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1102.jpg",
       "fullAsset": "fashion/full/1102.jpg"
@@ -2229,7 +2361,7 @@
       "location": "Dessert du Moment · Vernal Avenue",
       "cost": "₽8000",
       "previewKey": "1103",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/1103.jpg",
       "fullAsset": "fashion/full/1103.jpg"
@@ -2596,6 +2728,54 @@
     },
     {
       "category": "tops",
+      "name": "Holo-X Blouson & Off-Shoulder",
+      "style": "Holo Blue/White",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "6",
+      "feminineCut": true,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/6.jpg",
+      "fullAsset": "fashion/full/6.jpg"
+    },
+    {
+      "category": "tops",
+      "name": "Holo-X Blouson & V-Neck",
+      "style": "Holo Blue/White",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "4",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/4.jpg",
+      "fullAsset": "fashion/full/4.jpg"
+    },
+    {
+      "category": "tops",
+      "name": "Holo-Y Blouson & Off-Shoulder",
+      "style": "Holo Pink",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "7",
+      "feminineCut": true,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/7.jpg",
+      "fullAsset": "fashion/full/7.jpg"
+    },
+    {
+      "category": "tops",
+      "name": "Holo-Y Blouson & V-Neck",
+      "style": "Holo Pink",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "5",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/5.jpg",
+      "fullAsset": "fashion/full/5.jpg"
+    },
+    {
+      "category": "tops",
       "name": "Leather Mix Pullover",
       "style": "Black Leather",
       "location": "Triathlon Rouge · Galerie de la Lune - Rouge District",
@@ -2661,8 +2841,8 @@
       "location": "Pinceau · Passage du Palais - Rouge District",
       "cost": "₽1000",
       "previewKey": "369",
-      "feminineCut": false,
-      "masculineCut": true,
+      "feminineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/369.jpg",
       "fullAsset": "fashion/full/369.jpg"
     },
@@ -2782,7 +2962,7 @@
       "cost": "₽3000",
       "previewKey": "465",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/465.jpg",
       "fullAsset": "fashion/full/465.jpg"
     },
@@ -2794,7 +2974,7 @@
       "cost": "₽18000",
       "previewKey": "344",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/344.jpg",
       "fullAsset": "fashion/full/344.jpg"
     },
@@ -2806,7 +2986,7 @@
       "cost": "₽7000",
       "previewKey": "144",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/144.jpg",
       "fullAsset": "fashion/full/144.jpg"
     },
@@ -2818,7 +2998,7 @@
       "cost": "₽6300",
       "previewKey": "122",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/122.jpg",
       "fullAsset": "fashion/full/122.jpg"
     },
@@ -2830,7 +3010,7 @@
       "cost": "₽7000",
       "previewKey": "145",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/145.jpg",
       "fullAsset": "fashion/full/145.jpg"
     },
@@ -2842,7 +3022,7 @@
       "cost": "₽3000",
       "previewKey": "464",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/464.jpg",
       "fullAsset": "fashion/full/464.jpg"
     },
@@ -2854,7 +3034,7 @@
       "cost": "₽3000",
       "previewKey": "463",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/463.jpg",
       "fullAsset": "fashion/full/463.jpg"
     },
@@ -2866,7 +3046,7 @@
       "cost": "₽6300",
       "previewKey": "123",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/123.jpg",
       "fullAsset": "fashion/full/123.jpg"
     },
@@ -2878,7 +3058,7 @@
       "cost": "₽7000",
       "previewKey": "146",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/146.jpg",
       "fullAsset": "fashion/full/146.jpg"
     },
@@ -2890,7 +3070,7 @@
       "cost": "₽18000",
       "previewKey": "345",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/345.jpg",
       "fullAsset": "fashion/full/345.jpg"
     },
@@ -2902,7 +3082,7 @@
       "cost": "₽3000",
       "previewKey": "462",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/462.jpg",
       "fullAsset": "fashion/full/462.jpg"
     },
@@ -2914,7 +3094,7 @@
       "cost": "₽6300",
       "previewKey": "124",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/124.jpg",
       "fullAsset": "fashion/full/124.jpg"
     },
@@ -2926,7 +3106,7 @@
       "cost": "₽2500",
       "previewKey": "458",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/458.jpg",
       "fullAsset": "fashion/full/458.jpg"
     },
@@ -2938,7 +3118,7 @@
       "cost": "₽2500",
       "previewKey": "459",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/459.jpg",
       "fullAsset": "fashion/full/459.jpg"
     },
@@ -2950,7 +3130,7 @@
       "cost": "₽2500",
       "previewKey": "461",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/461.jpg",
       "fullAsset": "fashion/full/461.jpg"
     },
@@ -2962,7 +3142,7 @@
       "cost": "₽2500",
       "previewKey": "457",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/457.jpg",
       "fullAsset": "fashion/full/457.jpg"
     },
@@ -2974,7 +3154,7 @@
       "cost": "₽2500",
       "previewKey": "460",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/460.jpg",
       "fullAsset": "fashion/full/460.jpg"
     },
@@ -2986,7 +3166,7 @@
       "cost": "₽18000",
       "previewKey": "342",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/342.jpg",
       "fullAsset": "fashion/full/342.jpg"
     },
@@ -2998,7 +3178,7 @@
       "cost": "₽18000",
       "previewKey": "343",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/343.jpg",
       "fullAsset": "fashion/full/343.jpg"
     },
@@ -3010,7 +3190,7 @@
       "cost": "₽7000",
       "previewKey": "147",
       "feminineCut": false,
-      "masculineCut": false,
+      "masculineCut": true,
       "thumbAsset": "fashion/th/147.jpg",
       "fullAsset": "fashion/full/147.jpg"
     },
@@ -3298,7 +3478,7 @@
       "cost": "₽3000",
       "previewKey": "522",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/522.jpg",
       "fullAsset": "fashion/full/522.jpg"
     },
@@ -3310,7 +3490,7 @@
       "cost": "₽50000",
       "previewKey": "236",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/236.jpg",
       "fullAsset": "fashion/full/236.jpg"
     },
@@ -3322,7 +3502,7 @@
       "cost": "₽50000",
       "previewKey": "234",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/234.jpg",
       "fullAsset": "fashion/full/234.jpg"
     },
@@ -3334,7 +3514,7 @@
       "cost": "₽3000",
       "previewKey": "517",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/517.jpg",
       "fullAsset": "fashion/full/517.jpg"
     },
@@ -3346,7 +3526,7 @@
       "cost": "₽50000",
       "previewKey": "235",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/235.jpg",
       "fullAsset": "fashion/full/235.jpg"
     },
@@ -3358,7 +3538,7 @@
       "cost": "₽3000",
       "previewKey": "519",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/519.jpg",
       "fullAsset": "fashion/full/519.jpg"
     },
@@ -3370,7 +3550,7 @@
       "cost": "₽3000",
       "previewKey": "520",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/520.jpg",
       "fullAsset": "fashion/full/520.jpg"
     },
@@ -3382,7 +3562,7 @@
       "cost": "₽50000",
       "previewKey": "237",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/237.jpg",
       "fullAsset": "fashion/full/237.jpg"
     },
@@ -3394,7 +3574,7 @@
       "cost": "₽3000",
       "previewKey": "521",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/521.jpg",
       "fullAsset": "fashion/full/521.jpg"
     },
@@ -3406,7 +3586,7 @@
       "cost": "₽3000",
       "previewKey": "518",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/518.jpg",
       "fullAsset": "fashion/full/518.jpg"
     },
@@ -3418,7 +3598,7 @@
       "cost": "₽3000",
       "previewKey": "724",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/724.jpg",
       "fullAsset": "fashion/full/724.jpg"
     },
@@ -3430,7 +3610,7 @@
       "cost": "₽3000",
       "previewKey": "718",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/718.jpg",
       "fullAsset": "fashion/full/718.jpg"
     },
@@ -3442,7 +3622,7 @@
       "cost": "₽3000",
       "previewKey": "719",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/719.jpg",
       "fullAsset": "fashion/full/719.jpg"
     },
@@ -3454,7 +3634,7 @@
       "cost": "₽3000",
       "previewKey": "721",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/721.jpg",
       "fullAsset": "fashion/full/721.jpg"
     },
@@ -3466,7 +3646,7 @@
       "cost": "₽3000",
       "previewKey": "723",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/723.jpg",
       "fullAsset": "fashion/full/723.jpg"
     },
@@ -3478,7 +3658,7 @@
       "cost": "₽3000",
       "previewKey": "722",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/722.jpg",
       "fullAsset": "fashion/full/722.jpg"
     },
@@ -3490,7 +3670,7 @@
       "cost": "₽3000",
       "previewKey": "717",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/717.jpg",
       "fullAsset": "fashion/full/717.jpg"
     },
@@ -3502,7 +3682,7 @@
       "cost": "₽3000",
       "previewKey": "725",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/725.jpg",
       "fullAsset": "fashion/full/725.jpg"
     },
@@ -3514,7 +3694,7 @@
       "cost": "₽3000",
       "previewKey": "720",
       "feminineCut": false,
-      "masculineCut": true,
+      "masculineCut": false,
       "thumbAsset": "fashion/th/720.jpg",
       "fullAsset": "fashion/full/720.jpg"
     },
@@ -3765,7 +3945,7 @@
       "location": "Triathlon Rouge · Galerie de la Lune - Rouge District",
       "cost": "₽18000",
       "previewKey": "256",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/256.jpg",
       "fullAsset": "fashion/full/256.jpg"
@@ -3777,7 +3957,7 @@
       "location": "Triathlon Rouge · Galerie de la Lune - Rouge District",
       "cost": "₽18000",
       "previewKey": "253",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/253.jpg",
       "fullAsset": "fashion/full/253.jpg"
@@ -3789,7 +3969,7 @@
       "location": "Triathlon Rouge · Galerie de la Lune - Rouge District",
       "cost": "₽18000",
       "previewKey": "254",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/254.jpg",
       "fullAsset": "fashion/full/254.jpg"
@@ -3801,7 +3981,7 @@
       "location": "Triathlon Rouge · Galerie de la Lune - Rouge District",
       "cost": "₽18000",
       "previewKey": "255",
-      "feminineCut": false,
+      "feminineCut": true,
       "masculineCut": false,
       "thumbAsset": "fashion/th/255.jpg",
       "fullAsset": "fashion/full/255.jpg"
@@ -3985,6 +4165,42 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/1115.jpg",
       "fullAsset": "fashion/full/1115.jpg"
+    },
+    {
+      "category": "tops",
+      "name": "V-Neck T-Short",
+      "style": "White",
+      "location": "Start the game",
+      "cost": "Free / Mission reward",
+      "previewKey": "3",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/3.jpg",
+      "fullAsset": "fashion/full/3.jpg"
+    },
+    {
+      "category": "tops",
+      "name": "Grisham's Chef Top Set",
+      "style": "Gray / White",
+      "location": "Complete Hyperspatial Scuffle vs. Team Flare Nouveau",
+      "cost": "Free / Mission reward",
+      "previewKey": "1232",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1232.jpg",
+      "fullAsset": "fashion/full/1232.jpg"
+    },
+    {
+      "category": "tops",
+      "name": "Grisham's Chef Top Set",
+      "style": "White / Gray",
+      "location": "Complete Hyperspatial Slugfest vs. Team Flare Nouveau!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1233",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1233.jpg",
+      "fullAsset": "fashion/full/1233.jpg"
     },
     {
       "category": "bottoms",
@@ -4421,6 +4637,18 @@
     {
       "category": "bottoms",
       "name": "Chino Pants Set",
+      "style": "Red Damask",
+      "location": "South Boulevard · During Mission",
+      "cost": "Free / Mission reward",
+      "previewKey": "9",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/9.jpg",
+      "fullAsset": "fashion/full/9.jpg"
+    },
+    {
+      "category": "bottoms",
+      "name": "Chino Pants Set",
       "style": "Wine Red",
       "location": "Boutique Couture · Vernal Avenue",
       "cost": "₽8000",
@@ -4609,6 +4837,54 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/1092.jpg",
       "fullAsset": "fashion/full/1092.jpg"
+    },
+    {
+      "category": "bottoms",
+      "name": "Holo-X Skinny Jeans",
+      "style": "Holo Blue",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "10",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/10.jpg",
+      "fullAsset": "fashion/full/10.jpg"
+    },
+    {
+      "category": "bottoms",
+      "name": "Holo-X Wide-Leg Pants",
+      "style": "Holo Blue",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "12",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/12.jpg",
+      "fullAsset": "fashion/full/12.jpg"
+    },
+    {
+      "category": "bottoms",
+      "name": "Holo-Y Skinny Jeans",
+      "style": "Holo Pink",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "11",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/11.jpg",
+      "fullAsset": "fashion/full/11.jpg"
+    },
+    {
+      "category": "bottoms",
+      "name": "Holo-Y Wide-Leg Pants",
+      "style": "Holo Pink",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "13",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/13.jpg",
+      "fullAsset": "fashion/full/13.jpg"
     },
     {
       "category": "bottoms",
@@ -5065,6 +5341,18 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/1107.jpg",
       "fullAsset": "fashion/full/1107.jpg"
+    },
+    {
+      "category": "bottoms",
+      "name": "Skinny Jeans Set",
+      "style": "Black Denim",
+      "location": "Start the game",
+      "cost": "Free / Mission reward",
+      "previewKey": "8",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/8.jpg",
+      "fullAsset": "fashion/full/8.jpg"
     },
     {
       "category": "bottoms",
@@ -6027,6 +6315,30 @@
       "fullAsset": "fashion/full/543.jpg"
     },
     {
+      "category": "bottoms",
+      "name": "Grisham's Aproned Pants",
+      "style": "Light Gray",
+      "location": "Complete Hyperspatial Scuffle vs. Team Flare Nouveau",
+      "cost": "Free / Mission reward",
+      "previewKey": "1234",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1234.jpg",
+      "fullAsset": "fashion/full/1234.jpg"
+    },
+    {
+      "category": "bottoms",
+      "name": "Grisham's Aproned Pants",
+      "style": "White",
+      "location": "Complete Hyperspatial Slugfest vs. Team Flare Nouveau!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1235",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1235.jpg",
+      "fullAsset": "fashion/full/1235.jpg"
+    },
+    {
       "category": "headwear",
       "name": "Arabesque Bucket Hat",
       "style": "Black",
@@ -6709,6 +7021,30 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/940.jpg",
       "fullAsset": "fashion/full/940.jpg"
+    },
+    {
+      "category": "headwear",
+      "name": "Holo-X Striped Trilby",
+      "style": "Black / Holo Blue",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "15",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/15.jpg",
+      "fullAsset": "fashion/full/15.jpg"
+    },
+    {
+      "category": "headwear",
+      "name": "Holo-Y Striped Trilby",
+      "style": "Black / Holo Pink",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "16",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/16.jpg",
+      "fullAsset": "fashion/full/16.jpg"
     },
     {
       "category": "headwear",
@@ -8019,6 +8355,30 @@
       "fullAsset": "fashion/full/662.jpg"
     },
     {
+      "category": "headwear",
+      "name": "Jacinthe's Pillbox Hat",
+      "style": "Lilac",
+      "location": "Complete Hyperspatial Scuffle vs. the SBC",
+      "cost": "Free / Mission reward",
+      "previewKey": "1244",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1244.jpg",
+      "fullAsset": "fashion/full/1244.jpg"
+    },
+    {
+      "category": "headwear",
+      "name": "Jacinthe's Pillbox Hat",
+      "style": "Shell Pink",
+      "location": "Complete Hyperspatial Slugfest vs. the SBC!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1245",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1245.jpg",
+      "fullAsset": "fashion/full/1245.jpg"
+    },
+    {
       "category": "eyewear",
       "name": "Cool Bridge Glasses",
       "style": "Black Frames",
@@ -8065,6 +8425,30 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/306.jpg",
       "fullAsset": "fashion/full/306.jpg"
+    },
+    {
+      "category": "eyewear",
+      "name": "Holo-X Visor",
+      "style": "Holo Blue",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "17",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/17.jpg",
+      "fullAsset": "fashion/full/17.jpg"
+    },
+    {
+      "category": "eyewear",
+      "name": "Holo-Y Visor",
+      "style": "Holo Pink",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "18",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/18.jpg",
+      "fullAsset": "fashion/full/18.jpg"
     },
     {
       "category": "eyewear",
@@ -8499,6 +8883,54 @@
       "fullAsset": "fashion/full/65.jpg"
     },
     {
+      "category": "eyewear",
+      "name": "Corbeau's Glasses",
+      "style": "Magenta Drops",
+      "location": "Complete Hyperspatial Scuffle vs. the Rust Syndicate",
+      "cost": "Free / Mission reward",
+      "previewKey": "1246",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1246.jpg",
+      "fullAsset": "fashion/full/1246.jpg"
+    },
+    {
+      "category": "eyewear",
+      "name": "Corbeau's Glasses",
+      "style": "Purple Drops",
+      "location": "Complete Hyperspatial Slugfest vs. the Rust Syndicate!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1247",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1247.jpg",
+      "fullAsset": "fashion/full/1247.jpg"
+    },
+    {
+      "category": "eyewear",
+      "name": "Grisham's Glasses",
+      "style": "White Frames",
+      "location": "Complete Hyperspatial Scuffle vs. Team Flare Nouveau",
+      "cost": "Free / Mission reward",
+      "previewKey": "1248",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1248.jpg",
+      "fullAsset": "fashion/full/1248.jpg"
+    },
+    {
+      "category": "eyewear",
+      "name": "Grisham's Glasses",
+      "style": "Flare Lenses",
+      "location": "Complete Hyperspatial Slugfest vs. Team Flare Nouveau!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1249",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1249.jpg",
+      "fullAsset": "fashion/full/1249.jpg"
+    },
+    {
       "category": "gloves",
       "name": "Budew Knit Gloves",
       "style": "Black",
@@ -8845,6 +9277,54 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/219.jpg",
       "fullAsset": "fashion/full/219.jpg"
+    },
+    {
+      "category": "gloves",
+      "name": "Ivor's Training Gloves",
+      "style": "Orange / Black",
+      "location": "Complete Hyperspatial Scuffle vs. the Fist of Justice",
+      "cost": "Free / Mission reward",
+      "previewKey": "1250",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1250.jpg",
+      "fullAsset": "fashion/full/1250.jpg"
+    },
+    {
+      "category": "gloves",
+      "name": "Ivor's Training Gloves",
+      "style": "Red / White",
+      "location": "Complete Hyperspatial Slugfest vs. the Fist of Justice!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1251",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1251.jpg",
+      "fullAsset": "fashion/full/1251.jpg"
+    },
+    {
+      "category": "gloves",
+      "name": "Jacinthe's Beribboned Gloves",
+      "style": "Yellow Ribbon",
+      "location": "Complete Hyperspatial Scuffle vs. the SBC",
+      "cost": "Free / Mission reward",
+      "previewKey": "1252",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1252.jpg",
+      "fullAsset": "fashion/full/1252.jpg"
+    },
+    {
+      "category": "gloves",
+      "name": "Jacinthe's Beribboned Gloves",
+      "style": "Pink Ribbon",
+      "location": "Complete Hyperspatial Slugfest vs. the SBC!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1253",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1253.jpg",
+      "fullAsset": "fashion/full/1253.jpg"
     },
     {
       "category": "legwear",
@@ -9869,6 +10349,18 @@
     {
       "category": "legwear",
       "name": "Simple Knee-High Socks",
+      "style": "Black",
+      "location": "Start the game",
+      "cost": "Free / Mission reward",
+      "previewKey": "19",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/19.jpg",
+      "fullAsset": "fashion/full/19.jpg"
+    },
+    {
+      "category": "legwear",
+      "name": "Simple Knee-High Socks",
       "style": "Blue",
       "location": "Soil and Sneaks · Passage du Palais - Rouge District",
       "cost": "₽500",
@@ -10719,6 +11211,30 @@
       "fullAsset": "fashion/full/893.jpg"
     },
     {
+      "category": "legwear",
+      "name": "Jacinthe's Mesh Tights",
+      "style": "White",
+      "location": "Complete Hyperspatial Scuffle vs. the SBC",
+      "cost": "Free / Mission reward",
+      "previewKey": "1254",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1254.jpg",
+      "fullAsset": "fashion/full/1254.jpg"
+    },
+    {
+      "category": "legwear",
+      "name": "Jacinthe's Mesh Tights",
+      "style": "Black",
+      "location": "Complete Hyperspatial Slugfest vs. the SBC!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1255",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1255.jpg",
+      "fullAsset": "fashion/full/1255.jpg"
+    },
+    {
       "category": "footwear",
       "name": "Canvas Sneakers",
       "style": "Black",
@@ -11344,6 +11860,54 @@
     },
     {
       "category": "footwear",
+      "name": "Holo-X Mid-Top Sneakers",
+      "style": "Holo Blue",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "23",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/23.jpg",
+      "fullAsset": "fashion/full/23.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Holo-X Sock Sneakers",
+      "style": "Holo Blue",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "25",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/25.jpg",
+      "fullAsset": "fashion/full/25.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Holo-Y Mid-Top Sneakers",
+      "style": "Holo Pink",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "24",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/24.jpg",
+      "fullAsset": "fashion/full/24.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Holo-Y Sock Sneakers",
+      "style": "Holo Pink",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "26",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/26.jpg",
+      "fullAsset": "fashion/full/26.jpg"
+    },
+    {
+      "category": "footwear",
       "name": "Lace-Up Shoes",
       "style": "Gray",
       "location": "Énergie · Passage du Palais - Rouge District",
@@ -11849,6 +12413,18 @@
     {
       "category": "footwear",
       "name": "Mid-Top Sneakers",
+      "style": "Red",
+      "location": "Start the game",
+      "cost": "Free / Mission reward",
+      "previewKey": "20",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/20.jpg",
+      "fullAsset": "fashion/full/20.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Mid-Top Sneakers",
       "style": "Red / Black",
       "location": "DENSOKU Lumiose · Passage Ombragé - Rouge District",
       "cost": "₽4000",
@@ -11989,6 +12565,18 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/1196.jpg",
       "fullAsset": "fashion/full/1196.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Opera Shoes",
+      "style": "Dark Brown",
+      "location": "South Boulevard · During Mission",
+      "cost": "Free / Mission reward",
+      "previewKey": "22",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/22.jpg",
+      "fullAsset": "fashion/full/22.jpg"
     },
     {
       "category": "footwear",
@@ -12205,6 +12793,18 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/109.jpg",
       "fullAsset": "fashion/full/109.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Performance Sneakers",
+      "style": "Yellow / Blue",
+      "location": "From Naveen",
+      "cost": "Free / Mission reward",
+      "previewKey": "21",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/21.jpg",
+      "fullAsset": "fashion/full/21.jpg"
     },
     {
       "category": "footwear",
@@ -12975,6 +13575,78 @@
       "fullAsset": "fashion/full/451.jpg"
     },
     {
+      "category": "footwear",
+      "name": "Ivor's Geta Sandals",
+      "style": "Black / Orange",
+      "location": "Complete Hyperspatial Scuffle vs. the Fist of Justice",
+      "cost": "Free / Mission reward",
+      "previewKey": "1256",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1256.jpg",
+      "fullAsset": "fashion/full/1256.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Ivor's Geta Sandals",
+      "style": "Red / Yellow",
+      "location": "Complete Hyperspatial Slugfest vs. the Fist of Justice!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1257",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1257.jpg",
+      "fullAsset": "fashion/full/1257.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Jacinthe's Bejeweled Pumps",
+      "style": "Lilac",
+      "location": "Complete Hyperspatial Scuffle vs. the SBC",
+      "cost": "Free / Mission reward",
+      "previewKey": "1258",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1258.jpg",
+      "fullAsset": "fashion/full/1258.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Jacinthe's Bejeweled Pumps",
+      "style": "Shell Pink",
+      "location": "Complete Hyperspatial Slugfest vs. the SBC!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1259",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1259.jpg",
+      "fullAsset": "fashion/full/1259.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Grisham's Leather Shoes",
+      "style": "Navy / Black",
+      "location": "Complete Hyperspatial Scuffle vs. Team Flare Nouveau",
+      "cost": "Free / Mission reward",
+      "previewKey": "1260",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1260.jpg",
+      "fullAsset": "fashion/full/1260.jpg"
+    },
+    {
+      "category": "footwear",
+      "name": "Grisham's Leather Shoes",
+      "style": "Red / White",
+      "location": "Complete Hyperspatial Slugfest vs. Team Flare Nouveau!",
+      "cost": "Free / Mission reward",
+      "previewKey": "1261",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1261.jpg",
+      "fullAsset": "fashion/full/1261.jpg"
+    },
+    {
       "category": "satchels",
       "name": "Aura Square Satchel",
       "style": "White",
@@ -13081,6 +13753,30 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/929.jpg",
       "fullAsset": "fashion/full/929.jpg"
+    },
+    {
+      "category": "satchels",
+      "name": "Holo-X Round Satchel",
+      "style": "Holo Blue",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "28",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/28.jpg",
+      "fullAsset": "fashion/full/28.jpg"
+    },
+    {
+      "category": "satchels",
+      "name": "Holo-Y Round Satchel",
+      "style": "Holo Pink",
+      "location": "Purchase the Mega Dimension DLC",
+      "cost": "Free / Mission reward",
+      "previewKey": "29",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/29.jpg",
+      "fullAsset": "fashion/full/29.jpg"
     },
     {
       "category": "satchels",
@@ -13505,6 +14201,18 @@
     {
       "category": "satchels",
       "name": "Simple Round Satchel",
+      "style": "Red",
+      "location": "Hotel ZFrom Taunie/Urbain",
+      "cost": "Free / Mission reward",
+      "previewKey": "27",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/27.jpg",
+      "fullAsset": "fashion/full/27.jpg"
+    },
+    {
+      "category": "satchels",
+      "name": "Simple Round Satchel",
       "style": "White",
       "location": "Marquage · Passage du Palais - Rouge District",
       "cost": "₽1700",
@@ -13705,6 +14413,18 @@
       "masculineCut": false,
       "thumbAsset": "fashion/th/78.jpg",
       "fullAsset": "fashion/full/78.jpg"
+    },
+    {
+      "category": "satchels",
+      "name": "Canari's Satchel",
+      "style": "Regular Color",
+      "location": "Complete Hyperspatial Scuffle vs. DYN4MO",
+      "cost": "Free / Mission reward",
+      "previewKey": "1262",
+      "feminineCut": false,
+      "masculineCut": false,
+      "thumbAsset": "fashion/th/1262.jpg",
+      "fullAsset": "fashion/full/1262.jpg"
     },
     {
       "category": "earrings",

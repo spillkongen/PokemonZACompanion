@@ -1,24 +1,36 @@
 import urllib.request
 
-def exists(url):
-    try:
-        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=10) as r:
-            return r.status
-    except Exception as e:
-        return str(e)[:40]
+BASE = "https://www.serebii.net/legendsz-a/custom/th"
+KEYS = ["1066", "805", "1"]  # blouse, romper, maybe first top
 
-base = "https://www.serebii.net/legendsz-a/custom/th/1088"
+def ok(url):
+    try:
+        r = urllib.request.urlopen(
+            urllib.request.Request(url, headers={"User-Agent": "x"}), timeout=8
+        )
+        d = r.read()
+        return len(d) if r.status == 200 and len(d) > 500 else 0
+    except Exception:
+        return 0
+
 patterns = [
-    f"{base}.jpg",
-    f"{base}_f.jpg",
-    f"{base}_m.jpg",
-    f"{base}f.jpg",
-    "https://www.serebii.net/legendsz-a/custom/th/f/1088.jpg",
-    "https://www.serebii.net/legendsz-a/custom/th/m/1088.jpg",
-    "https://www.serebii.net/legendsz-a/custom/th/1088_f.jpg",
-    "https://www.serebii.net/legendsz-a/custom/th/1088-2.jpg",
-    "https://www.serebii.net/legendsz-a/custom/th/2088.jpg",
+    "{k}.jpg",
+    "{k}m.jpg",
+    "{k}f.jpg",
+    "m{k}.jpg",
+    "f{k}.jpg",
+    "{k}_m.jpg",
+    "{k}_f.jpg",
+    "male/{k}.jpg",
+    "female/{k}.jpg",
+    "m/{k}.jpg",
+    "f/{k}.jpg",
 ]
-for p in patterns:
-    print(p, exists(p))
+
+for k in KEYS:
+    print(f"\nkey {k}")
+    for p in patterns:
+        url = f"{BASE}/{p.format(k=k)}"
+        n = ok(url)
+        if n:
+            print(f"  {n:6} {url}")

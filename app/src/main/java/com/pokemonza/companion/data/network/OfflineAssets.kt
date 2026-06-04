@@ -31,6 +31,23 @@ object OfflineAssets {
         return fashionThumbUri(context, previewKey, thumbAsset)
     }
 
+    fun fashionFemaleThumbUri(
+        context: Context,
+        previewKey: String?,
+        femaleThumbAsset: String?,
+        fullAsset: String?,
+        thumbAsset: String?
+    ): String? {
+        femaleThumbAsset?.takeIf { it.isNotBlank() }?.let { if (exists(context, it)) return assetUri(it) }
+        previewKey?.takeIf { it.isNotBlank() }?.let { key ->
+            val path = "fashion/th_f/$key.jpg"
+            if (exists(context, path)) return assetUri(path)
+        }
+        // Serebii has no separate female thumbs for most items; full preview is clearer.
+        return fashionFullUri(context, previewKey, fullAsset, thumbAsset)
+            ?: fashionThumbUri(context, previewKey, thumbAsset)
+    }
+
     fun pokemonSpriteUri(context: Context, spriteAsset: String?, nationalDex: String): String? {
         spriteAsset?.takeIf { it.isNotBlank() }?.let { if (exists(context, it)) return assetUri(it) }
         val path = "pokemon/sprites/${nationalDex.padStart(4, '0')}.png"
