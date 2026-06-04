@@ -10,7 +10,10 @@ class InstallResultReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         val status = intent.getIntExtra(PackageInstaller.EXTRA_STATUS, PackageInstaller.STATUS_FAILURE)
         when (status) {
-            PackageInstaller.STATUS_SUCCESS -> UpdateInstallNotifier.onSuccess()
+            PackageInstaller.STATUS_SUCCESS -> {
+                UpdateInstallNotifier.onSuccess()
+                AppUpdateInstaller(context.applicationContext).restartApp()
+            }
             PackageInstaller.STATUS_PENDING_USER_ACTION -> {
                 val confirm = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
                     intent.getParcelableExtra(Intent.EXTRA_INTENT, Intent::class.java)

@@ -1,11 +1,16 @@
 package com.pokemonza.companion.update
 
+import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageInstaller
 import android.net.Uri
 import android.os.Build
+import android.os.Handler
+import android.os.Looper
+import android.os.Process
+import android.os.SystemClock
 import android.provider.Settings
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -13,6 +18,7 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.File
 import java.util.concurrent.TimeUnit
+import kotlin.system.exitProcess
 
 class AppUpdateInstaller(
     private val context: Context,
@@ -103,14 +109,46 @@ class AppUpdateInstaller(
         }
     }
 
+    /** Relaunch the app after an in-place APK install (new version is on disk; this process is still old). */
     fun restartApp() {
-        val launch = context.packageManager.getLaunchIntentForPackage(context.packageName) ?: return
-        launch.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-        context.startActivity(launch)
-        Runtime.getRuntime().exit(0)
+        val appContext = context.applicationContext
+        val launch = appContext.packageManager.getLaunchIntentForPackage(appContext.packageName) ?: return
+        launch.addFlags(
+            Intent.FLAG_ACTIVITY_NEW_TASK or
+                Intent.FLAG_ACTIVITY_CLEAR_TASK or
+                Intent.FLAG_ACTIVITY_CLEAR_TOP
+        )
+
+        val restartPending = PendingIntent.getActivity(
+            appContext,
+            RESTART_REQUEST_CODE,
+            launch,
+            PendingIntent.FLAG_ONE_SHOT or PendingIntent.FLAG_CANCEL_CURRENT or PendingIntent.FLAG_IMMUTABLE
+        )
+
+        // Alarm backup: some devices kill the process before startActivity finishes.
+        val alarmManager = appContext.getSystemService(Context.ALARM_SERVICE) as AlarmManager
+        alarmManager.set(
+            AlarmManager.ELAPSED_REALTIME_WAKEUP,
+            SystemClock.elapsedRealtime() + RESTART_DELAY_MS,
+            restartPending
+        )
+
+        try {
+            appContext.startActivity(launch)
+        } catch (_: Exception) {
+            restartPending.send()
+        }
+
+        Handler(Looper.getMainLooper()).postDelayed({
+            Process.killProcess(Process.myPid())
+            exitProcess(0)
+        }, 250)
     }
 
     companion object {
         const val ACTION_INSTALL_RESULT = "com.pokemonza.companion.INSTALL_RESULT"
+        private const val RESTART_REQUEST_CODE = 9102
+        private const val RESTART_DELAY_MS = 600L
     }
 }
