@@ -44,6 +44,7 @@ import androidx.compose.ui.window.DialogProperties
 import com.pokemonza.companion.BuildConfig
 import com.pokemonza.companion.data.model.GuideEntry
 import com.pokemonza.companion.ui.components.BackgroundScaffold
+import com.pokemonza.companion.ui.components.DetailPopup
 import com.pokemonza.companion.ui.components.GlassCard
 import com.pokemonza.companion.update.LocalUpdateActions
 import com.pokemonza.companion.ui.components.LastUpdatedText
@@ -55,6 +56,7 @@ import com.pokemonza.companion.ui.viewmodel.CompanionViewModel
 fun GuidesScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) {
     val state by viewModel.guideState.collectAsState()
     var selectedGuide by remember { mutableStateOf<GuideEntry?>(null) }
+    var inAppGuide by remember { mutableStateOf<GuideEntry?>(null) }
     val updateActions = LocalUpdateActions.current
 
     BackgroundScaffold(modifier = modifier) {
@@ -106,7 +108,9 @@ fun GuidesScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) {
                         }
                     }
                     items(state.data, key = { it.title }) { guide ->
-                        GuideCard(guide) { selectedGuide = guide }
+                        GuideCard(guide) {
+                            if (guide.url.isBlank()) inAppGuide = guide else selectedGuide = guide
+                        }
                     }
                 }
             }
@@ -116,6 +120,13 @@ fun GuidesScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier) {
     selectedGuide?.let { guide ->
         GuideWebDialog(url = guide.url, title = guide.title) {
             selectedGuide = null
+        }
+    }
+
+    inAppGuide?.let { guide ->
+        DetailPopup(title = guide.title, onDismiss = { inAppGuide = null }) {
+            Text(guide.category, color = ZAAccent, fontSize = 12.sp, fontWeight = FontWeight.Bold)
+            Text(guide.summary, color = Color.White.copy(0.9f), fontSize = 13.sp, lineHeight = 18.sp)
         }
     }
 }

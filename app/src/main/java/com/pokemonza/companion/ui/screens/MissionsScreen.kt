@@ -65,10 +65,19 @@ fun MissionsScreen(viewModel: CompanionViewModel, modifier: Modifier = Modifier)
                     GlassFilterChip(selected = filter == null, onClick = { filter = null }, label = { Text("All") })
                     GlassFilterChip(selected = filter == MissionType.MAIN, onClick = { filter = MissionType.MAIN }, label = { Text("Main") })
                     GlassFilterChip(selected = filter == MissionType.SIDE, onClick = { filter = MissionType.SIDE }, label = { Text("Side") })
+                    GlassFilterChip(selected = filter == MissionType.HYPERSPACE, onClick = { filter = MissionType.HYPERSPACE }, label = { Text("Hyper") })
                 }
                 IconButton(onClick = { viewModel.loadMissions(forceRefresh = true) }) {
                     Icon(Icons.Default.Refresh, null, tint = Color.White)
                 }
+            }
+            if (state.data.isNotEmpty()) {
+                Text(
+                    "${state.data.size} missions from Serebii",
+                    color = Color.White.copy(0.55f),
+                    fontSize = 11.sp,
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 2.dp)
+                )
             }
             LastUpdatedText(state.lastUpdated)
             when {
@@ -122,6 +131,7 @@ private fun MissionCard(mission: MissionEntry, onClick: () -> Unit) {
     val badgeColor = when (mission.type) {
         MissionType.MAIN -> ZAAccent
         MissionType.SIDE -> ZAGold
+        MissionType.HYPERSPACE -> Color(0xFF9C6BFF)
         else -> Color.Gray
     }
     GlassCard(modifier = Modifier.fillMaxWidth().clickable(onClick = onClick)) {

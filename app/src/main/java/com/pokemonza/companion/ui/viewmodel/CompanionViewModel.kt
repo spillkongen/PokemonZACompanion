@@ -10,7 +10,7 @@ import com.pokemonza.companion.data.model.PokemonEntry
 import com.pokemonza.companion.data.model.TabLoadState
 import com.pokemonza.companion.data.network.FashionRepository
 import com.pokemonza.companion.data.repository.GuideRepository
-import com.pokemonza.companion.data.repository.MissionRepository
+import com.pokemonza.companion.data.network.MissionRepository
 import com.pokemonza.companion.data.repository.PokemonRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -21,7 +21,7 @@ class CompanionViewModel(application: Application) : AndroidViewModel(applicatio
 
     private val pokemonRepo = PokemonRepository()
     private val fashionRepo = FashionRepository(application)
-    private val missionRepo = MissionRepository()
+    private val missionRepo = MissionRepository(application)
     private val guideRepo = GuideRepository()
 
     private val _pokemonState = MutableStateFlow(TabLoadState<PokemonEntry>())
@@ -80,7 +80,7 @@ class CompanionViewModel(application: Application) : AndroidViewModel(applicatio
         viewModelScope.launch {
             _missionState.value = _missionState.value.copy(isLoading = true, error = null)
             try {
-                val data = missionRepo.fetchMissions()
+                val data = missionRepo.fetchMissions(forceLive = forceRefresh)
                 _missionState.value = TabLoadState(data = data, lastUpdated = System.currentTimeMillis())
                 missionsLoaded = true
             } catch (e: Exception) {
@@ -117,7 +117,7 @@ class CompanionViewModel(application: Application) : AndroidViewModel(applicatio
     fun loadMissionDetail(mission: MissionEntry) {
         viewModelScope.launch {
             _missionDetail.value = "Loading guide..."
-            _missionDetail.value = missionRepo.fetchMissionGuide(mission.title, mission.guide.ifBlank { mission.description })
+            _missionDetail.value = missionRepo.fetchMissionGuide(mission)
         }
     }
 

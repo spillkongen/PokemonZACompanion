@@ -1,14 +1,10 @@
 package com.pokemonza.companion.data.repository
 
 import com.pokemonza.companion.data.model.GuideEntry
-import com.pokemonza.companion.data.model.MissionEntry
-import com.pokemonza.companion.data.model.MissionType
 import com.pokemonza.companion.data.model.PokemonEntry
 import com.pokemonza.companion.data.network.AppConstants
 import com.pokemonza.companion.data.network.BulbapediaClient
 import com.pokemonza.companion.data.network.WikiParsers
-import kotlinx.coroutines.async
-import kotlinx.coroutines.coroutineScope
 class PokemonRepository(private val client: BulbapediaClient = BulbapediaClient()) {
     suspend fun fetchPokemon(): List<PokemonEntry> {
         val doc = client.fetchPageHtml("List of Pokémon in Pokémon Legends: Z-A")
@@ -52,60 +48,11 @@ class PokemonRepository(private val client: BulbapediaClient = BulbapediaClient(
         )
 }
 
-class MissionRepository(private val client: BulbapediaClient = BulbapediaClient()) {
-    suspend fun fetchMissions(): List<MissionEntry> = coroutineScope {
-        val main = async {
-            runCatching {
-                WikiParsers.parseMissionTables(
-                    client.fetchPageHtml("List of missions in Pokémon Legends: Z-A"),
-                    MissionType.MAIN
-                )
-            }.getOrDefault(emptyList())
-        }
-        val side = async {
-            runCatching {
-                WikiParsers.parseMissionTables(
-                    client.fetchPageHtml("List of side missions in Pokémon Legends: Z-A"),
-                    MissionType.SIDE
-                )
-            }.getOrDefault(emptyList())
-        }
-        val combined = main.await() + side.await()
-        if (combined.isNotEmpty()) combined.map { it.copy(guide = missionGuide(it)) } else fallbackMissions()
-    }
-
-    suspend fun fetchMissionGuide(title: String, existing: String): String {
-        if (existing.length > 80) return existing
-        return try {
-            val doc = client.fetchPageHtml(title)
-            doc.select("p").map { it.text().trim() }
-                .filter { it.length > 30 }
-                .take(4)
-                .joinToString("\n\n")
-                .ifBlank { existing }
-        } catch (_: Exception) {
-            existing.ifBlank { "Complete this mission in Lumiose City. Check the interactive map for the exact location marker." }
-        }
-    }
-
-    private fun missionGuide(m: MissionEntry): String = when {
-        m.description.length > 60 -> m.description
-        m.type == MissionType.MAIN -> "Main story mission in Pokémon Legends: Z-A. Follow the objective marker on your map and talk to NPCs in the area."
-        else -> "Optional side mission. Explore the marked district in Lumiose City and interact with characters to progress."
-    }
-
-    private fun fallbackMissions() = listOf(
-        MissionEntry("1", "Welcome to Lumiose City", MissionType.MAIN, "Begin your adventure in Lumiose.", AppConstants.BULBAPEDIA_BASE, "Start the game and follow the tutorial markers through the city center."),
-        MissionEntry("2", "The Z-A Royale", MissionType.MAIN, "Enter the nightly battle tournament.", AppConstants.BULBAPEDIA_BASE, "Return to your hotel at night and register for the Z-A Royale battles."),
-        MissionEntry("S1", "Fashion Forward", MissionType.SIDE, "Visit clothing shops in Lumiose.", AppConstants.BULBAPEDIA_BASE, "Explore shopping arcades and buy outfits at in-game boutiques listed in the Fashion tab.")
-    )
-}
-
 class GuideRepository {
     fun fetchGuides(): List<GuideEntry> = listOf(
         GuideEntry("Lumiose City Map", "Interactive Map", "MapGenie map with collectibles, missions, and Pokémon.", AppConstants.MAP_GENIE_LUMIOSE),
-        GuideEntry("Trainer Fashion", "In-Game", "All 1,100+ clothing items from Serebii.", AppConstants.SEREBII_FASHION_URL),
-        GuideEntry("Main Missions", "Story", "Main story mission locations.", "${AppConstants.MAP_GENIE_BASE}/guides/main-missions"),
-        GuideEntry("Mega Stones", "Items", "Every Mega Stone location.", "${AppConstants.MAP_GENIE_BASE}/guides/mega-stones")
+        GuideEntry("Trainer Fashion", "In-App", "1,100+ outfits — open the Fashion tab (scraped from Serebii, no browser).", ""),
+        GuideEntry("All Missions", "In-App", "259 missions (main, side, hyperspace) — open the Missions tab.", ""),
+        GuideEntry("Mega Stones", "Items", "Every Mega Stone location on MapGenie.", "${AppConstants.MAP_GENIE_BASE}/guides/mega-stones")
     )
 }

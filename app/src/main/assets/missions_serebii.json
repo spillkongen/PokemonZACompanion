@@ -1,0 +1,1820 @@
+{
+  "source": "https://www.serebii.net/legendsz-a/",
+  "updated": "2026-06-04",
+  "count": 259,
+  "missions": [
+    {
+      "number": "1",
+      "title": "Get Your Travel Bag Back",
+      "type": "MAIN",
+      "description": "After a long journey, you've arrived in Lumiose City! But a Pokémon named Pancham has run off with your bag... Chase after it to reclaim your belongings",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/getyourtravelbagback.shtml"
+    },
+    {
+      "number": "2",
+      "title": "Escape from the Battle Zone",
+      "type": "MAIN",
+      "description": "The city changes a lot when the sun goes down. Find your way out of this \"battle zone\" and retreat to the safety of Hotel Z with the help of your new friend Taunie/Urbain.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/escapefromthebattlezone.shtml"
+    },
+    {
+      "number": "3",
+      "title": "A New Life in Lumiose City",
+      "type": "MAIN",
+      "description": "It's been one unexpected development after another, but your new life in Lumiose is off to an exciting start. Have your new friend Taunie/Urbain show you the ropes.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/anewlifeinlumiosecity.shtml"
+    },
+    {
+      "number": "4",
+      "title": "Battling in the Z-A Royale",
+      "type": "MAIN",
+      "description": "To take part in a promotion match, you must first take on other Trainers in the battle zone and earn yourself a ticket. Clear this initial hurdle, then reach Rank Y",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/battlinginthez-aroyale.shtml"
+    },
+    {
+      "number": "5",
+      "title": "The City in the Shadow of Prism Tower",
+      "type": "MAIN",
+      "description": "Taunie/Urbain is here to show you more facets of Lumiose City. What kinds of experiences await you in this lively metropolis?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/thecityintheshadowofprismtower.shtml"
+    },
+    {
+      "number": "6",
+      "title": "Reaching Rank X",
+      "type": "MAIN",
+      "description": "Your opponent for your next promotion match has been decided: an office worker named Yvon. Earn points and get yourself a ticket so you can aim for Rank X",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/reachingrankx.shtml"
+    },
+    {
+      "number": "7",
+      "title": "Reaching Rank W",
+      "type": "MAIN",
+      "description": "Your next goal will be to reach Rank W. For now, you'll have to wait to find out who you'll be pitted against in your next promotion match. Your opponent for your next promotion match has been decided: a grade-schooler named Xavi. Earn points and get yourself a ticket so you can aim for Rank W!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/reachingrankw.shtml"
+    },
+    {
+      "number": "8",
+      "title": "Reaching Rank V",
+      "type": "MAIN",
+      "description": "Your next goal will be to reach Rank V. For now, you'll have to wait to find out who you'll be pitted against in your next promotion match. Your opponent for your next promotion match has been decided: a waiter named Rintaro. Earn points and get yourself a ticket so you can aim for Rank V!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/reachingrankv.shtml"
+    },
+    {
+      "number": "9",
+      "title": "Chase That Mysterious Pokémon",
+      "type": "MAIN",
+      "description": "A mysterious Pokémon appeared before you, and it seems to want you to follow it...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/chasethatmysteriouspokemon.shtml"
+    },
+    {
+      "number": "10",
+      "title": "The Secrets of Mega Evolution",
+      "type": "MAIN",
+      "description": "Mega Rings, Mega Stones, and bonds with your Pokémon... It seems there is much for you to learn before you'll truly understand Mega Evolution.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/thesecretsofmegaevolution.shtml"
+    },
+    {
+      "number": "11",
+      "title": "A Rogue Mega Slowbro",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Slowbro in the Bleu District. Use your new Mega Ring and face this Slowbro in battle",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegaslowbro.shtml"
+    },
+    {
+      "number": "12",
+      "title": "A Rogue Mega Camerupt",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Camerupt in the Jaune District. Use your new Mega Ring and face this Camerupt in battle",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegacamerupt.shtml"
+    },
+    {
+      "number": "13",
+      "title": "A Rogue Mega Victreebel",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Victreebel in the Magenta District. Use your new Mega Ring and face this Victreebel in battle",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegavictreebel.shtml"
+    },
+    {
+      "number": "14",
+      "title": "Reaching Rank E",
+      "type": "MAIN",
+      "description": "Your opponent for your next promotion match has been decided: the wildly popular streamer Canari. You'll have to track her down and defeat her to move up a rank",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/reachingranke.shtml"
+    },
+    {
+      "number": "15",
+      "title": "A Job for Team MZ",
+      "type": "MAIN",
+      "description": "Vinnie has alerted you to three more cases of Rogue Mega Evolution. Take care of them all to keep Lumiose City safe",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/ajobforteammz.shtml"
+    },
+    {
+      "number": "16",
+      "title": "A Rogue Mega Beedrill",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Beedrill in the Vert District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegabeedrill.shtml"
+    },
+    {
+      "number": "17",
+      "title": "A Rogue Mega Hawlucha",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Hawlucha in the Magenta District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegahawlucha.shtml"
+    },
+    {
+      "number": "18",
+      "title": "A Rogue Mega Banette",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Banette in the Jaune District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegabanette.shtml"
+    },
+    {
+      "number": "19",
+      "title": "Reaching Rank D",
+      "type": "MAIN",
+      "description": "This is no time for a promotion match— Ivor's younger sister, Gwynn, has gone missing! You should focus on helping locate her first. Now that Gwynn has been located, it's time to get back to work on your real goal: defeating Ivor in a promotion match",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/reachingrankd.shtml"
+    },
+    {
+      "number": "20",
+      "title": "A Request from the Rust Syndicate",
+      "type": "MAIN",
+      "description": "The Rust Syndicate's requests have started to arrive, leaving you little choice but to do as they ask. And you'd better complete their tasks well if you hope to get rid of that debt",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/arequestfromtherustsyndicate.shtml"
+    },
+    {
+      "number": "21",
+      "title": "A Rogue Mega Mawile",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Mawile in the Magenta District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegamawile.shtml"
+    },
+    {
+      "number": "22",
+      "title": "A Rogue Mega Barbaracle",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Barbaracle in the Bleu District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegabarbaracle.shtml"
+    },
+    {
+      "number": "23",
+      "title": "A Rogue Mega Ampharos",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around an Ampharos in the Rouge District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegaampharos.shtml"
+    },
+    {
+      "number": "24",
+      "title": "Reaching Rank C",
+      "type": "MAIN",
+      "description": "Your opponent for your next promotion match has been decided: Corbeau, the boss of the Rust Syndicate. Get a Challenger's Ticket, then take him on to move up a rank",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/reachingrankc.shtml"
+    },
+    {
+      "number": "25",
+      "title": "A Showdown on the Battle Court",
+      "type": "MAIN",
+      "description": "With the crisis over Taunie/Urbain's debt settled, you and the rest of the team finally have a quiet moment. Why not take a break and enjoy a Pokémon battle on a real battle court",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/ashowdownonthebattlecourt.shtml"
+    },
+    {
+      "number": "26",
+      "title": "An Invitation from the SBC",
+      "type": "MAIN",
+      "description": "Vinnie has alerted you to three more cases of Rogue Mega Evolution, and keeping the city safe must come before Jacinthe's tournament. Get these three taken care of",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aninvitationfromthesbc.shtml"
+    },
+    {
+      "number": "27",
+      "title": "A Rogue Mega Froslass",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Froslass in the Bleu District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegafroslass.shtml"
+    },
+    {
+      "number": "28",
+      "title": "A Rogue Mega Altaria",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around an Altaria in the Magenta District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegaaltaria.shtml"
+    },
+    {
+      "number": "29",
+      "title": "A Rogue Mega Venusaur",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Venusaur in the Jaune District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegavenusaur.shtml"
+    },
+    {
+      "number": "30",
+      "title": "Reaching Rank B",
+      "type": "MAIN",
+      "description": "Your opponent for your next promotion match has been decided: the SBC's own Jacinthe. Get a Challenger's Ticket, then take her on to move up a rank",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/reachingrankb.shtml"
+    },
+    {
+      "number": "31",
+      "title": "A Summons from Vinnie",
+      "type": "MAIN",
+      "description": "Vinnie has tasked you with handling three more cases of Rogue Mega Evolution. Take care of them all to keep Lumiose City safe",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/asummonsfromvinnie.shtml"
+    },
+    {
+      "number": "32",
+      "title": "A Rogue Mega Dragonite",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Dragonite in the Vert District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegadragonite.shtml"
+    },
+    {
+      "number": "33",
+      "title": "A Rogue Mega Tyranitar",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Tyranitar in the Jaune District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegatyranitar.shtml"
+    },
+    {
+      "number": "34",
+      "title": "A Rogue Mega Starmie",
+      "type": "MAIN",
+      "description": "A high concentration of Mega Power has been detected around a Starmie in the Bleu District. Face it in battle using the Mega Ring you were granted",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/aroguemegastarmie.shtml"
+    },
+    {
+      "number": "35",
+      "title": "Reaching Rank A",
+      "type": "MAIN",
+      "description": "Your opponent for your next promotion match has been decided, and it's...someone called Grisham? The photo doesn't tell you much—finding them is going to be tough",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/reachingranka.shtml"
+    },
+    {
+      "number": "36",
+      "title": "Prism Tower's Dark Turn",
+      "type": "MAIN",
+      "description": "A strange light emanates from Prism Tower. The time to act has come, even sooner than you'd thought it might. What can you and your friends do to protect Lumiose City?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/prismtower'sdarkturn.shtml"
+    },
+    {
+      "number": "37",
+      "title": "Operation Protect Lumiose",
+      "type": "MAIN",
+      "description": "Throw aside past rivalries and work together to save the city and your friends! You know your destination—now go find Zygarde where it waits for you",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/operationprotectlumiose.shtml"
+    },
+    {
+      "number": "38",
+      "title": "The Future of Lumiose City",
+      "type": "MAIN",
+      "description": "Things are beginning to return to normal in Lumiose after the trouble at the tower. What will you and Taunie/Urbain decide to do with the wishes you earned by reaching Rank A?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/thefutureoflumiosecity.shtml"
+    },
+    {
+      "number": "39",
+      "title": "The Infinite Z-A Royale",
+      "type": "MAIN",
+      "description": "The curtains have drawn back on the Infinite Z-A Royale! Collect Challenger's Tickets so you can take part in reward matches for the fabulous prizes they offer",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/theinfinitez-aroyale.shtml"
+    },
+    {
+      "number": "40",
+      "title": "The One That Gives",
+      "type": "MAIN",
+      "description": "Work together with Mable, who was once a member of Team Flare, to protect Lumiose City from the threat of \"the one that gives.\"",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/theonethatgives.shtml"
+    },
+    {
+      "number": "41",
+      "title": "The One That Takes",
+      "type": "MAIN",
+      "description": "Work together with Grisham and Vinnie to protect Lumiose City from the threat of \"the one that takes.\"",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/theonethattakes.shtml"
+    },
+    {
+      "number": "42",
+      "title": "To Keep the World in Balance",
+      "type": "MAIN",
+      "description": "What is it that people and Pokémon ought to do to preserve the world's beauty? What does Zygarde think? What do you believe?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/mainmissions/tokeeptheworldinbalance.shtml"
+    },
+    {
+      "number": "1",
+      "title": "A Big Ol' Bunnelby",
+      "type": "SIDE",
+      "description": "The requester says he saw a giant Bunnelby in an alleyway outside of the wild zones. Meet the requester at the location.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/abigol'bunnelby.shtml"
+    },
+    {
+      "number": "2",
+      "title": "A Use for an Evolution Stone",
+      "type": "SIDE",
+      "description": "A Trainer wants a Pikachu she can use a Thunder Stone on. She's offered to trade you her Heracross in exchange.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/auseforanevolutionstone.shtml"
+    },
+    {
+      "number": "3",
+      "title": "Sableye in the Cemetery",
+      "type": "SIDE",
+      "description": "The requester dropped something precious in the cemetery, which has now become a wild zone. Your job is to retrieve the item.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/sableyeinthecemetery.shtml"
+    },
+    {
+      "number": "4",
+      "title": "A Break Time Battle",
+      "type": "SIDE",
+      "description": "This worker's on his break, but he says he'll happily get back to work and have the Holovator up and running right away if you'll have a Pokémon battle with him.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/abreaktimebattle.shtml"
+    },
+    {
+      "number": "5",
+      "title": "I'd Like to See an Ekans",
+      "type": "SIDE",
+      "description": "A young girl wants to see the Snake Pokémon Ekans up close. Catch an Ekans and show it to her.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/i'dliketoseeanekans.shtml"
+    },
+    {
+      "number": "6",
+      "title": "Long-Range Moves Have Style",
+      "type": "SIDE",
+      "description": "Distan seems to think that attacking from a distance with long-range moves is the most stylish strategy. Take him on in a Pokémon battle to see if he's right.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/long-rangemoveshavestyle.shtml"
+    },
+    {
+      "number": "7",
+      "title": "A Feisty Chespin",
+      "type": "SIDE",
+      "description": "A wild Chespin has decided to pick a fight with a taxi cab. The driver can't move the cab with Chespin in the way-see if you can help her out.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/afeistychespin.shtml"
+    },
+    {
+      "number": "8",
+      "title": "Get Well, Fennekin",
+      "type": "SIDE",
+      "description": "You came across a wild Fennekin that seems lethargic and listless. It apparently refuses to eat food, and even taking it to a Pokémon Center did nothing. What else can you do",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/getwell,fennekin.shtml"
+    },
+    {
+      "number": "9",
+      "title": "A Challenge from Froakie",
+      "type": "SIDE",
+      "description": "A Froakie currently reigns as the fastest to complete a scaffolding course. Try to beat its time to show it how fast humans can be.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/achallengefromfroakie.shtml"
+    },
+    {
+      "number": "10",
+      "title": "Skiddo's Fragrant Leaves",
+      "type": "SIDE",
+      "description": "The requester says she wants to make perfume using Skiddo leaves. What kind of aroma will this perfume have",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/skiddo'sfragrantleaves.shtml"
+    },
+    {
+      "number": "11",
+      "title": "The Kakuna Master",
+      "type": "SIDE",
+      "description": "A young girl is training hard to become the strongest Kakuna user. Let her show off her Kakuna in battle.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thekakunamaster.shtml"
+    },
+    {
+      "number": "12",
+      "title": "The Many Flowers of Flabébé",
+      "type": "SIDE",
+      "description": "A hairstylist wants to expand her hair-color palette by seeing every color of flower that a Flabébé might adopt.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/themanyflowersofflabebe.shtml"
+    },
+    {
+      "number": "13",
+      "title": "Stumped at the Fountain",
+      "type": "SIDE",
+      "description": "The requester is an artist working on a painting for a contest. As she was doing some sketches, however, some brambles showed up, ruining the scenery.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/stumpedatthefountain.shtml"
+    },
+    {
+      "number": "14",
+      "title": "Slurpuff's Café Visit",
+      "type": "SIDE",
+      "description": "You've been roped into chaperoning a grumpy Slurpuff. Take it to Café Soleil and hang out there until Slurpuff is satisfied.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/slurpuff'scafevisit.shtml"
+    },
+    {
+      "number": "15",
+      "title": "A Sensitive Audino",
+      "type": "SIDE",
+      "description": "The requester says she is worried about her Audino, which is behaving strangely. Maybe a Pokémon battle will calm Audino down...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/asensitiveaudino.shtml"
+    },
+    {
+      "number": "16",
+      "title": "The Budew Show",
+      "type": "SIDE",
+      "description": "An old gentleman has invited you to join what seems to be an event showcasing Budew. Bring a Budew with you to participate.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thebudewshow.shtml"
+    },
+    {
+      "number": "17",
+      "title": "A Shiny Mareep",
+      "type": "SIDE",
+      "description": "The requester says she saw a Shiny Mareep in Wild Zone 1! Or at least she thinks she did, but she's not sure. Help her discover the truth.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/ashinymareep.shtml"
+    },
+    {
+      "number": "18",
+      "title": "A Pan-tastic Pot of Tea",
+      "type": "SIDE",
+      "description": "The requester says he needs Pansage, Pansear, and Panpour to create the perfect cup of tea. Find all three Pokémon and bring them to the requester.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/apan-tasticpotoftea.shtml"
+    },
+    {
+      "number": "19",
+      "title": "Poisonous, Paralyzing Strategies",
+      "type": "SIDE",
+      "description": "Paralysis will slow your Pokémon down, while poison will gradually drain their HP. Which is stronger? Find out for yourself",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/poisonous,paralyzingstrategies.shtml"
+    },
+    {
+      "number": "20",
+      "title": "A Berry Clever Plan",
+      "type": "SIDE",
+      "description": "The requester has come up with a battle plan in which he gives his Pokémon Berries to hold. He seems very confident, but do his skills measure up",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/aberrycleverplan.shtml"
+    },
+    {
+      "number": "21",
+      "title": "Spewpa in the Museum",
+      "type": "SIDE",
+      "description": "Find all the Spewpa hiding throughout the museum. Apparently there are 12 in total.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/spewpainthemuseum.shtml"
+    },
+    {
+      "number": "22",
+      "title": "A Call from Mable",
+      "type": "SIDE",
+      "description": "Mable called and asked you to come to the Pokémon Research Lab. What is she up to now",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/acallfrommable.shtml"
+    },
+    {
+      "number": "23",
+      "title": "Underneath the Holovator",
+      "type": "SIDE",
+      "description": "A Pokémon has made its home in the ground under a Holovator, causing it to malfunction. Unfortunately for the Pokémon, you'll have to get it to move...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/underneaththeholovator.shtml"
+    },
+    {
+      "number": "24",
+      "title": "An Abra Playmate",
+      "type": "SIDE",
+      "description": "The requester has asked for an Abra to play tag with. He's offered to trade you his Riolu in exchange.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/anabraplaymate.shtml"
+    },
+    {
+      "number": "25",
+      "title": "Trubblesome Patrons",
+      "type": "SIDE",
+      "description": "Wild Trubbish are gathering at Café Pokémon-Amie, causing the business to lose customers! Save the café by taking the Trubbish somewhere else.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/trubblesomepatrons.shtml"
+    },
+    {
+      "number": "26",
+      "title": "Burn, Litleo, Burn",
+      "type": "SIDE",
+      "description": "Litleo's fire is absolutely essential for this restaurant's delicious food. Help Litleo get fired up for cooking with a battle.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/burn,litleo,burn.shtml"
+    },
+    {
+      "number": "27",
+      "title": "Restored from a Fossil",
+      "type": "SIDE",
+      "description": "A researcher who has a fossil restoration device has given you some money to buy a fossil. Pick up either a Jaw Fossil or a Sail Fossil from the Stone Emporium.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/restoredfromafossil.shtml"
+    },
+    {
+      "number": "28",
+      "title": "Who Says Normal Is Weak",
+      "type": "SIDE",
+      "description": "Unexceptional, ordinary-these are the traits of the Normal type. But ordinary doesn't mean weak! See for yourself what Normal types can do.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/whosaysnormalisweak.shtml"
+    },
+    {
+      "number": "29",
+      "title": "Full Course of Battles: One Star",
+      "type": "SIDE",
+      "description": "Enjoy a relaxing full course of battles at Restaurant Le Nah. Please note it is considered poor etiquette to heal your Pokémon while the course is being served.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/fullcourseofbattles:onestar.shtml"
+    },
+    {
+      "number": "30",
+      "title": "Show Me a Mega Camerupt",
+      "type": "SIDE",
+      "description": "A designer of color contacts wants to see a Mega Camerupt to get some inspiration. Mega Evolve a Camerupt during your battle with her.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/showmeamegacamerupt.shtml"
+    },
+    {
+      "number": "31",
+      "title": "Show Me a Mega Sableye",
+      "type": "SIDE",
+      "description": "A designer of color contacts wants to see a Mega Sableye to get some inspiration. Mega Evolve a Sableye during your battle with her.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/showmeamegasableye.shtml"
+    },
+    {
+      "number": "32",
+      "title": "Show Me a Mega Medicham",
+      "type": "SIDE",
+      "description": "A designer of color contacts wants to see a Mega Medicham to get some inspiration. Mega Evolve a Medicham during your battle with her.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/showmeamegamedicham.shtml"
+    },
+    {
+      "number": "33",
+      "title": "Who Has the Bigger Magikarp",
+      "type": "SIDE",
+      "description": "The requester is very proud of the massive Magikarp he caught. Find a Magikarp even larger than one with a size classification of XL to show him there's always a bigger fish",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/whohasthebiggermagikarp.shtml"
+    },
+    {
+      "number": "34",
+      "title": "Moves That Put Up a Wall",
+      "type": "SIDE",
+      "description": "There are moves that reduce damage to your Pokémon by creating barriers around them. The requester wants to battle you to show off strategies centered on these moves.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/movesthatputupawall.shtml"
+    },
+    {
+      "number": "35",
+      "title": "Guidance from a Yoga Master",
+      "type": "SIDE",
+      "description": "The requester's Meditite is apparently having trouble focusing. Find the legendary yoga master to see if they can help.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/guidancefromayogamaster.shtml"
+    },
+    {
+      "number": "36",
+      "title": "Some Friendly Competition",
+      "type": "SIDE",
+      "description": "Some Pokémon don't evolve unless you become very close with them. Battle the Pokémon that the requester has raised with tender loving care",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/somefriendlycompetition.shtml"
+    },
+    {
+      "number": "37",
+      "title": "Binacle by the Boatload",
+      "type": "SIDE",
+      "description": "Binacle are swarming the requester's prized boat, preventing him from taking it out for a ride. Chase away the Binacle for him.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/binaclebytheboatload.shtml"
+    },
+    {
+      "number": "38",
+      "title": "Chasing Status",
+      "type": "SIDE",
+      "description": "Status moves can power up your Pokémon or hinder the opponent. Two Trainers who are skilled in using both kinds of status moves have challenged you to a battle.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/chasingstatus.shtml"
+    },
+    {
+      "number": "39",
+      "title": "Slowpoke for Slowpoke",
+      "type": "SIDE",
+      "description": "Galarian Slowpoke apparently look different compared to Slowpoke from other regions. Trade your own Slowpoke for the requester's Galarian Slowpoke.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/slowpokeforslowpoke.shtml"
+    },
+    {
+      "number": "40",
+      "title": "A Holovator Without Power",
+      "type": "SIDE",
+      "description": "The requester is having trouble getting a Holovator up and running, as apparently there isn't enough electric power. Maybe you can give it a zap",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/aholovatorwithoutpower.shtml"
+    },
+    {
+      "number": "41",
+      "title": "Watch Out for Traps",
+      "type": "SIDE",
+      "description": "Moves that leave a lingering effect on the battlefield are commonly known as traps. Experience their nasty effects for yourself in a Pokémon battle.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/watchoutfortraps.shtml"
+    },
+    {
+      "number": "42",
+      "title": "A Fan of Fairy Types",
+      "type": "SIDE",
+      "description": "The requester says Fairy-type Pokémon are her favorites. Take her on in battle using your own favorite Pokémon.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/afanoffairytypes.shtml"
+    },
+    {
+      "number": "43",
+      "title": "A Big Weedle Problem",
+      "type": "SIDE",
+      "description": "An alpha Weedle is ruining the requester's garden by gnawing on all the plants. It keeps coming back even if it gets chased away, so try catching it with a Poké Ball instead.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/abigweedleproblem.shtml"
+    },
+    {
+      "number": "44",
+      "title": "Vanillite's Fragrant Snow",
+      "type": "SIDE",
+      "description": "The requester says she now wants to make perfume using snow from Vanillite. What aroma will the perfume have this time",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/vanillite'sfragrantsnow.shtml"
+    },
+    {
+      "number": "45",
+      "title": "On Maintenance Duty",
+      "type": "SIDE",
+      "description": "Durstin is a maintenance worker who takes his job very seriously, but now he's so thirsty that nothing seems to be getting done. Maybe a drink will get him back on track",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/onmaintenanceduty.shtml"
+    },
+    {
+      "number": "46",
+      "title": "Pidgeot Soaring High",
+      "type": "SIDE",
+      "description": "The Courier Colis is a huge fan of the Bird Pokémon Pidgeot. He's particularly fond of the move Fly and wants to share his enthusiasm with you.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/pidgeotsoaringhigh.shtml"
+    },
+    {
+      "number": "47",
+      "title": "Becoming a Furfrou Trimmer",
+      "type": "SIDE",
+      "description": "The requester wants to open up a Pokémon salon where Furfrou can have their fur trimmed. Help her improve her skill by showing her Scyther a move",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/becomingafurfroutrimmer.shtml"
+    },
+    {
+      "number": "48",
+      "title": "All Tied Up",
+      "type": "SIDE",
+      "description": "A man is wrapped up in Pokémon webbing and dangling from a tree. How did he even end up there? Have your Pokémon use a move to get him down.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/alltiedup.shtml"
+    },
+    {
+      "number": "49",
+      "title": "Hit and Heal",
+      "type": "SIDE",
+      "description": "Some moves deal damage to the opponent while also restoring the user's HP. Battle the requester to get a glimpse of these moves in action.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hitandheal.shtml"
+    },
+    {
+      "number": "50",
+      "title": "Just a Few Questions for You...",
+      "type": "SIDE",
+      "description": "You ran into a Goomy out and about at night. After a moment, someone called out-a police officer. Seems she's got some questions for you...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/justafewquestionsforyou....shtml"
+    },
+    {
+      "number": "51",
+      "title": "Floette Frolicking with Flowers",
+      "type": "SIDE",
+      "description": "A hairstylist wants you to battle all five of her Floette at once so she can get new ideas for hair colors.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/floettefrolickingwithflowers.shtml"
+    },
+    {
+      "number": "52",
+      "title": "Numel Frozen Solid",
+      "type": "SIDE",
+      "description": "The requester wants you to help her Numel, which has been frozen solid. Hit it with a high-powered Fire-type attack to thaw it out",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/numelfrozensolid.shtml"
+    },
+    {
+      "number": "53",
+      "title": "The Most Electrifying Eelektrik",
+      "type": "SIDE",
+      "description": "Inspired by Canari, the requester is raising a whole bunch of Eelektrik. He says he'll evolve the strongest one into Eelektross, but will his plan work out",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/themostelectrifyingeelektrik.shtml"
+    },
+    {
+      "number": "54",
+      "title": "Get ENERGIZED",
+      "type": "SIDE",
+      "description": "The move Focus Energy makes a Pokémon's moves more likely to land as critical hits. Face the requester, who isn't afraid to use this frightening move",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/getenergized.shtml"
+    },
+    {
+      "number": "55",
+      "title": "Carvanha, Menace of the Deep",
+      "type": "SIDE",
+      "description": "A certain movie director is making a thriller film. He needs a Carvanha for an important scene-lend him one so he can complete his work.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/carvanha,menaceofthedeep.shtml"
+    },
+    {
+      "number": "56",
+      "title": "We'll Just Muscle Our Way Through",
+      "type": "SIDE",
+      "description": "A Holovator seems to have a poor connection to the power grid. The requester claims that giving it a good whack will get it working. Hit it with a Fighting-type physical move.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/we'lljustmuscleourwaythrough.shtml"
+    },
+    {
+      "number": "57",
+      "title": "The Camerupt Entrepreneur",
+      "type": "SIDE",
+      "description": "The requester says he's going to start a new business with the help of his Camerupt. What exactly is he scheming",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thecameruptentrepreneur.shtml"
+    },
+    {
+      "number": "58",
+      "title": "Better to Detect Than to Protect",
+      "type": "SIDE",
+      "description": "Protect and Detect both prevent the user from taking damage, but apparently there is a slight difference between the two.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/bettertodetectthantoprotect.shtml"
+    },
+    {
+      "number": "59",
+      "title": "A Rematch with Hawlucha",
+      "type": "SIDE",
+      "description": "Hawlucha gazes over the city, hungering for an intense battle. Satisfy its desire by facing it once more.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/arematchwithhawlucha.shtml"
+    },
+    {
+      "number": "60",
+      "title": "Full Course of Battles: Two Stars",
+      "type": "SIDE",
+      "description": "Enjoy a satisfying full course of battles at Restaurant Le Yeah. Please note it is considered poor etiquette to heal your Pokémon while the course is being served.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/fullcourseofbattles:twostars.shtml"
+    },
+    {
+      "number": "61",
+      "title": "My Favorite Holovator",
+      "type": "SIDE",
+      "description": "A Rust Syndicate grunt has chosen one particular Holovator as his favorite, for some reason. Beat him in a battle to get him out of the way.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/myfavoriteholovator.shtml"
+    },
+    {
+      "number": "62",
+      "title": "Becoming a Pro Furfrou Trimmer",
+      "type": "SIDE",
+      "description": "The requester wants to add to her repertoire of Furfrou styles. Help out by showing her Scyther another move",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/becomingaprofurfroutrimmer.shtml"
+    },
+    {
+      "number": "63",
+      "title": "An Extra-Large Gogoat",
+      "type": "SIDE",
+      "description": "The requester has recently started a courier business. He says he needs an extra-large Gogoat in order to haul bigger loads. See if you can find one for him.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/anextra-largegogoat.shtml"
+    },
+    {
+      "number": "64",
+      "title": "Let It Rain, Let It Pour",
+      "type": "SIDE",
+      "description": "The requester claims her Pokémon are stronger when it's raining. Have a battle in the rain so you can witness their might.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/letitrain,letitpour.shtml"
+    },
+    {
+      "number": "65",
+      "title": "Apartment Block Eeriness",
+      "type": "SIDE",
+      "description": "It seems a certain apartment building has become haunted. The requester reports hearing strange noises from the rooftop and wants you to go check it out.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/apartmentblockeeriness.shtml"
+    },
+    {
+      "number": "66",
+      "title": "Investigating with Shuppet",
+      "type": "SIDE",
+      "description": "A police officer says that he needs a Shuppet to help with his investigations. Do your part in keeping the peace of Lumiose by bringing him one.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/investigatingwithshuppet.shtml"
+    },
+    {
+      "number": "67",
+      "title": "Sylveon the Soother",
+      "type": "SIDE",
+      "description": "Sylveon's soothing powers should put a stop to fighting! That's what the requester thinks, anyway. Help her bring the nearby squabbles to a peaceful conclusion.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/sylveonthesoother.shtml"
+    },
+    {
+      "number": "68",
+      "title": "The Best Use for Leftovers",
+      "type": "SIDE",
+      "description": "What happens when you have a Pokémon hold Leftovers? Have a battle with the hard- working waitress and see for yourself.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thebestuseforleftovers.shtml"
+    },
+    {
+      "number": "69",
+      "title": "A Sky Battle, for Old Times' Sake",
+      "type": "SIDE",
+      "description": "Apparently Sky Battles were a bit of a fad in Kalos until just a few years ago. Try having a battle using only Flying-type Pokémon.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/askybattle,foroldtimes'sake.shtml"
+    },
+    {
+      "number": "70",
+      "title": "Who's the Strongest, Huh",
+      "type": "SIDE",
+      "description": "Some Rust Syndicate grunts are arguing about whose Pokémon is the strongest. Help them come to a conclusion.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/who'sthestrongest,huh.shtml"
+    },
+    {
+      "number": "71",
+      "title": "The Burning Gaze of Watchog",
+      "type": "SIDE",
+      "description": "The alpha Watchog is a menace, staring down anyone who dares approach with its glowing red eyes. Defeat it to make the Holovator safe to approach.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/theburninggazeofwatchog.shtml"
+    },
+    {
+      "number": "72",
+      "title": "Find My Galarian Stunfisk",
+      "type": "SIDE",
+      "description": "The requester's Galarian Stunfisk has gone missing. Head to Wild Zone 11 and look for a Stunfisk that's disguised as a Poké Ball.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/findmygalarianstunfisk.shtml"
+    },
+    {
+      "number": "73",
+      "title": "Full Course of Battles: High Rolling",
+      "type": "SIDE",
+      "description": "Have an exciting experience with spectacular Pokémon battles that only Sushi High Roller can offer! Don't go healing your Pokémon in the middle of things, though",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/fullcourseofbattles:highrolling.shtml"
+    },
+    {
+      "number": "74",
+      "title": "Delibird Gets in a Flap",
+      "type": "SIDE",
+      "description": "A Delibird is running around as if in a panic. As it turns out, a wild Garbodor is menacing it...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/delibirdgetsinaflap.shtml"
+    },
+    {
+      "number": "75",
+      "title": "Some Unusual Pokémon",
+      "type": "SIDE",
+      "description": "A girl says she has some unusual Pokémon on her team no one else around has, and she wants to show them off in battle. What kind of Pokémon could she have",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/someunusualpokemon.shtml"
+    },
+    {
+      "number": "76",
+      "title": "Let's Learn About Mega Evolution",
+      "type": "SIDE",
+      "description": "The kids in the school courtyard want you to teach them all about Mega Evolution. Let the class begin",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/let'slearnaboutmegaevolution.shtml"
+    },
+    {
+      "number": "77",
+      "title": "Catch Mawile If You Can",
+      "type": "SIDE",
+      "description": "Apparently there is a Mawile that can never be caught, no matter what kind of Poké Ball you use or how many you throw at it.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/catchmawileifyoucan.shtml"
+    },
+    {
+      "number": "78",
+      "title": "Inkay's Fragrant Ink",
+      "type": "SIDE",
+      "description": "The requester says she wants to make a perfume using Inkay ink. What kind of aroma will an ink-based perfume have",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/inkay'sfragrantink.shtml"
+    },
+    {
+      "number": "79",
+      "title": "A Fateful Swing of a Metronome",
+      "type": "SIDE",
+      "description": "The move Metronome causes a Pokémon to use another random move. It could change the tide of battle...or maybe the Pokémon will just use Splash. Test your fortunes",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/afatefulswingofametronome.shtml"
+    },
+    {
+      "number": "80",
+      "title": "A Shocking Territorial Dispute",
+      "type": "SIDE",
+      "description": "Electric-type Pokémon are having a standoff right in front of a Holovator. It'd be great if they could take their shocking disagreement elsewhere.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/ashockingterritorialdispute.shtml"
+    },
+    {
+      "number": "81",
+      "title": "Pancham the Courier",
+      "type": "SIDE",
+      "description": "A familiar Trainer and her partner Pancham seem to be having trouble with a customer. See if you can help them out.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/panchamthecourier.shtml"
+    },
+    {
+      "number": "82",
+      "title": "Clauncher Launching Water Gun",
+      "type": "SIDE",
+      "description": "The requester wants to make a business out of having his Clauncher wash away sludge around Lumiose using Water Gun. Clauncher, however, seems unenthusiastic.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/clauncherlaunchingwatergun.shtml"
+    },
+    {
+      "number": "83",
+      "title": "Honedge's Cutting Edge",
+      "type": "SIDE",
+      "description": "The secret to helping a Honedge feel better is to have it battle a Pupitar...? How is that even supposed to work",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/honedge'scuttingedge.shtml"
+    },
+    {
+      "number": "84",
+      "title": "Strike First to Make 'Em Flinch",
+      "type": "SIDE",
+      "description": "If a Pokémon flinches, it won't be able to use the move it was trying to unleash. Flynn uses moves that are likely to make opponents flinch, and he wants to face you in battle.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/strikefirsttomake'emflinch.shtml"
+    },
+    {
+      "number": "85",
+      "title": "Follow Litwick",
+      "type": "SIDE",
+      "description": "The requester says his younger sister has gone missing after following a wild Litwick. Just as you were about to hear his full story, you noticed a Litwick staring at you...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/followlitwick.shtml"
+    },
+    {
+      "number": "86",
+      "title": "Who Messed Up the Garden",
+      "type": "SIDE",
+      "description": "You discovered a large hole in the Rust Syndicate office's garden. Find the true culprit if you don't want to take the blame.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/whomessedupthegarden.shtml"
+    },
+    {
+      "number": "87",
+      "title": "Becoming a Peerless Furfrou Trimmer",
+      "type": "SIDE",
+      "description": "The requester wants to add even more Furfrou styles to her repertoire. Help out by showing her Scyther yet another move",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/becomingapeerlessfurfroutrimmer.shtml"
+    },
+    {
+      "number": "88",
+      "title": "The Nervous Novice Cabbie",
+      "type": "SIDE",
+      "description": "The requester is a taxi driver who's new to the job. She wants you to help her get adjusted by being her first fare.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thenervousnovicecabbie.shtml"
+    },
+    {
+      "number": "89",
+      "title": "Up, Up, and Away After Emolga",
+      "type": "SIDE",
+      "description": "A wild Emolga is apparently causing trouble by stealing things from people. Chase after it using Roto-Glide and retrieve the requester's Berries.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/up,up,andawayafteremolga.shtml"
+    },
+    {
+      "number": "90",
+      "title": "Froslass's Unfinished Business",
+      "type": "SIDE",
+      "description": "A Froslass revealed itself and stared intently at you, as if urging you to follow it.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/froslass'sunfinishedbusiness.shtml"
+    },
+    {
+      "number": "91",
+      "title": "Dragon You into Battle",
+      "type": "SIDE",
+      "description": "The requester, an SBC member who's particularly fond of Dragon types, wants to have a battle with you. Use type matchups to your advantage.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/dragonyouintobattle.shtml"
+    },
+    {
+      "number": "92",
+      "title": "The Beldum Blockade",
+      "type": "SIDE",
+      "description": "Wild Beldum have gathered at a Holovator for some reason, making it so nobody can use it even after it was just repaired...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thebeldumblockade.shtml"
+    },
+    {
+      "number": "93",
+      "title": "Finding a Place for Heliolisk",
+      "type": "SIDE",
+      "description": "The requester is looking for a place to share with his Heliolisk. Help him find the perfect spot based on his exacting conditions.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/findingaplaceforheliolisk.shtml"
+    },
+    {
+      "number": "94",
+      "title": "Full Course of Battles: Three Stars",
+      "type": "SIDE",
+      "description": "Enjoy an exquisite full course of battles at Restaurant Le Wow. Please note it is considered poor etiquette to heal your Pokémon while the course is being served.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/fullcourseofbattles:threestars.shtml"
+    },
+    {
+      "number": "95",
+      "title": "A Haunting Experience",
+      "type": "SIDE",
+      "description": "Ghost-type Pokémon are weak to Ghost-type moves. The requester wants to have a battle using only Ghost types to determine who uses them better.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/ahauntingexperience.shtml"
+    },
+    {
+      "number": "96",
+      "title": "Let Us Battle...Artistically",
+      "type": "SIDE",
+      "description": "The requester says she wants to battle “artistically.” How can a battle be artistic? Face her, and maybe you'll find out...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/letusbattle...artistically.shtml"
+    },
+    {
+      "number": "97",
+      "title": "Stop the Runaway Whirlipede",
+      "type": "SIDE",
+      "description": "The requester wants you to stop his runaway Whirlipede. Chase after the Whirlipede and battle it to get it to stop.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/stoptherunawaywhirlipede.shtml"
+    },
+    {
+      "number": "98",
+      "title": "Jumbo Variety Pumpkaboo",
+      "type": "SIDE",
+      "description": "It seems that Pumpkaboo come in different varieties that determine their size. The requester wants a Jumbo Variety Pumpkaboo.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/jumbovarietypumpkaboo.shtml"
+    },
+    {
+      "number": "99",
+      "title": "Pleasing Aron's Palate",
+      "type": "SIDE",
+      "description": "Some wild Aron have grown tired of eating the same old scrap metal every day. Maybe you can find some seasoning that will make their meals more appealing",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/pleasingaron'spalate.shtml"
+    },
+    {
+      "number": "100",
+      "title": "Starmie on High",
+      "type": "SIDE",
+      "description": "You've been invited to a gathering of people who send messages into space through their Starmie. It would be rude to decline, so join them with a Starmie of your own.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/starmieonhigh.shtml"
+    },
+    {
+      "number": "101",
+      "title": "Steadfast as Steel",
+      "type": "SIDE",
+      "description": "A Rust Syndicate grunt has challenged you to a battle. She seems to be particularly attached to Steel-type Pokémon.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/steadfastassteel.shtml"
+    },
+    {
+      "number": "102",
+      "title": "A Chilling Challenge",
+      "type": "SIDE",
+      "description": "Ice-type moves have a chance of freezing the opponent solid. Beware of Glace's Ice-type Pokémon as you battle her.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/achillingchallenge.shtml"
+    },
+    {
+      "number": "103",
+      "title": "Facing the Furfrou League",
+      "type": "SIDE",
+      "description": "Apparently there is a Furfrou League in Lumiose, complete with Elite Four members all awaiting challengers. Defeat them to become the strongest Furfrou Trainer",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/facingthefurfrouleague.shtml"
+    },
+    {
+      "number": "104",
+      "title": "Abuzz About Bug Types",
+      "type": "SIDE",
+      "description": "Constance battles using only her favorite type of Pokémon: Bug types. We're at our best when we like what we're working with, so face her with your favorite Pokémon too",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/abuzzaboutbugtypes.shtml"
+    },
+    {
+      "number": "105",
+      "title": "Trevenant, the Haunted Elder Tree",
+      "type": "SIDE",
+      "description": "A certain movie director is making a horror film. He needs a Trevenant for an important scene—lend him one so he can complete his work.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/trevenant,thehauntedeldertree.shtml"
+    },
+    {
+      "number": "106",
+      "title": "Klefki's Lost Key",
+      "type": "SIDE",
+      "description": "The requester's Klefki apparently misplaced a key. The requester let you know where they went on the day it happened, so see if you can hunt down the key based on that info.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/klefki'slostkey.shtml"
+    },
+    {
+      "number": "107",
+      "title": "The World's Greatest Pikachu",
+      "type": "SIDE",
+      "description": "A Trainer is saying he has the strongest Pikachu—and he wants to prove it. Battle him using a single Pikachu against his, and see whose is mightier",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/theworld'sgreatestpikachu.shtml"
+    },
+    {
+      "number": "108",
+      "title": "Alola, Raichu",
+      "type": "SIDE",
+      "description": "Alolan Raichu apparently look different from Raichu of other regions. Trade your own Raichu for the requester's Alolan Raichu.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/alola,raichu.shtml"
+    },
+    {
+      "number": "109",
+      "title": "Wondrous Self-Healing Pokémon",
+      "type": "SIDE",
+      "description": "Pokémon Center clerks are experts at healing Pokémon. For this requester, that apparently extends to having her Pokémon use healing moves in battle.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/wondrousself-healingpokemon.shtml"
+    },
+    {
+      "number": "110",
+      "title": "A Tune That Beckons Doom",
+      "type": "SIDE",
+      "description": "What did the woman mean when she muttered “in 30 seconds”? If you want to find out, you'll have to face her in battle.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/atunethatbeckonsdoom.shtml"
+    },
+    {
+      "number": "111",
+      "title": "My Adorable, Adorable Babies",
+      "type": "SIDE",
+      "description": "In battle, looks can be deceiving. Battle the requester and her formidable Pokémon.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/myadorable,adorablebabies.shtml"
+    },
+    {
+      "number": "112",
+      "title": "Exploring the Scents of Spritzee",
+      "type": "SIDE",
+      "description": "Spritzee's fragrance changes depending on what it eats. The requester wants lots of Berries in order to search for new aromas.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/exploringthescentsofspritzee.shtml"
+    },
+    {
+      "number": "113",
+      "title": "Bergmite sur un Avalugg",
+      "type": "SIDE",
+      "description": "The requester wants to put four Bergmite on the back of a giant Avalugg for some photos. You'll need an extra-large Avalugg for that.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/bergmitesurunavalugg.shtml"
+    },
+    {
+      "number": "114",
+      "title": "A Feather from Skarmory",
+      "type": "SIDE",
+      "description": "The requester wants a Skarmory feather to craft a chef's knife. You should be able to find a Skarmory feather in Wild Zone 17.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/afeatherfromskarmory.shtml"
+    },
+    {
+      "number": "115",
+      "title": "Tyrantrum's Furious Jaws",
+      "type": "SIDE",
+      "description": "A certain movie director is making a kaiju film. He needs a Tyrantrum for an important scene—lend him one so he can complete his work.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/tyrantrum'sfuriousjaws.shtml"
+    },
+    {
+      "number": "116",
+      "title": "Show the Power of Aurorus",
+      "type": "SIDE",
+      "description": "Two children are arguing over which fossil to buy with their pocket money. The girl wants to buy a Sail Fossil, but her brother seems intent on getting a Jaw Fossil.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/showthepowerofaurorus.shtml"
+    },
+    {
+      "number": "117",
+      "title": "Josée's Training",
+      "type": "SIDE",
+      "description": "Josée of the Fist of Justice has requested that you battle her. She seems to have something on her mind—an all-out battle might help clear her head.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/josee'straining.shtml"
+    },
+    {
+      "number": "118",
+      "title": "Goodbye Gengar",
+      "type": "SIDE",
+      "description": "The requester wants you to help him find a Gengar that has gone missing. Perhaps Gwynn can help you, since she is very knowledgeable about Ghost-type Pokémon.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/goodbyegengar.shtml"
+    },
+    {
+      "number": "119",
+      "title": "Le Super-Tournoi de Jacinthe O",
+      "type": "SIDE",
+      "description": "Le Super-Tournoi de Jacinthe is back and even better than before! It will be you against Jacinthe—and ONLY Jacinthe",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/lesuper-tournoidejacintheo.shtml"
+    },
+    {
+      "number": "120",
+      "title": "Donuts of Unworldly Deliciousness",
+      "type": "SIDE",
+      "description": "A girl named Ansha suddenly showed up with the Pokémon Hoopa and asked you to help her make a donut. What could be behind this curious request?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/donutsofunworldlydeliciousness.shtml"
+    },
+    {
+      "number": "121",
+      "title": "A Big Ol' Battle",
+      "type": "SIDE",
+      "description": "Trevelle once quaked in fear at the sight of an alpha Pokémon, but now he's back and ready for battle himself! Take him on to see the big ol' bonds he's built with his team.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/abigol'battle.shtml"
+    },
+    {
+      "number": "122",
+      "title": "Let's Golden Goooooo",
+      "type": "SIDE",
+      "description": "If you have 999 Gimmighoul Coins, then you can evolve Gimmighoul into Gholdengo. Collect enough coins in Hyperspace Lumiose and show the requester a Gholdengo",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/let'sgoldengoooooo.shtml"
+    },
+    {
+      "number": "123",
+      "title": "Charging Toward Victory",
+      "type": "SIDE",
+      "description": "Some moves require a Pokémon to charge up all its strength into one mighty blow. This requester is all about those moves. Battle him and see why",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/chargingtowardvictory.shtml"
+    },
+    {
+      "number": "124",
+      "title": "Multistrike, Multistrike, Multistrike Moves",
+      "type": "SIDE",
+      "description": "Wham! Bam! Pow! Multistrike moves hit one after the other. You'll have to deal with the requester's flurries of blows if you want to claim a marvelous victory.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/multistrike,multistrike,multistrikemoves.shtml"
+    },
+    {
+      "number": "125",
+      "title": "My Hasty Jolteon",
+      "type": "SIDE",
+      "description": "The requester's Jolteon has a Hasty Nature, and it simply can't wait to battle! Catch up to it and give it the match it's been so eager for.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/myhastyjolteon.shtml"
+    },
+    {
+      "number": "126",
+      "title": "Cyclizoom",
+      "type": "SIDE",
+      "description": "The requester and his Cyclizar love moves that make Pokémon move faster. See if you can keep up in a battle of speed.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/cyclizoom.shtml"
+    },
+    {
+      "number": "127",
+      "title": "Mime Jr.'s First Big Job",
+      "type": "SIDE",
+      "description": "A newly hired Mime Jr. is about to set out on its first big job alone. Look after it-hopefully without being too obvious!-until it reaches the postbox across the bridge.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/mimejr.'sfirstbigjob.shtml"
+    },
+    {
+      "number": "128",
+      "title": "A Novel Adventure",
+      "type": "SIDE",
+      "description": "Crivain is writing an adventure novel, but he's struggling to create characters that really leap from the page. He wants you and your Pokémon to serve as his inspiration.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/anoveladventure.shtml"
+    },
+    {
+      "number": "129",
+      "title": "A Work of Great Love",
+      "type": "SIDE",
+      "description": "Crivain is writing a romance novel, but he's struggling to create characters that really leap from the page. He wants you and your Pokémon to serve as his inspiration.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/aworkofgreatlove.shtml"
+    },
+    {
+      "number": "130",
+      "title": "A Tale of Mystery",
+      "type": "SIDE",
+      "description": "Crivain is writing a mystery novel, but he's struggling to create characters that really leap from the page. He wants you and your Pokémon to serve as his inspiration.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/ataleofmystery.shtml"
+    },
+    {
+      "number": "131",
+      "title": "Rouge District's Utility Hole Covers",
+      "type": "SIDE",
+      "description": "Do you know which Pokémon is depicted on utility hole covers in the Rouge District? Bring the Pokémon you believe to be the right answer, and show it to the requester.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/rougedistrict'sutilityholecovers.shtml"
+    },
+    {
+      "number": "132",
+      "title": "Bitter Blue Flames vs. Blazing Crimson",
+      "type": "SIDE",
+      "description": "Two rivals meet on a fateful field of battle. Armarouge and Ceruledge must face their destinies and see who emerges the victor! Think you can give Adver his dream battle?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/bitterblueflamesvs.blazingcrimson.shtml"
+    },
+    {
+      "number": "133",
+      "title": "Farfetch'd Ambush!",
+      "type": "SIDE",
+      "description": "There's a rumor that if you walk down a certain street at night with just a Farfetch'd holding a Leek, you'll be ambushed. Lure out the culprit or culprits and punish them!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/farfetch'dambush!.shtml"
+    },
+    {
+      "number": "134",
+      "title": "Squawking, Squabbling Squawkabilly!",
+      "type": "SIDE",
+      "description": "A group of four squabbling Squawkabilly are squawking up a storm, and folks nearby just want them to scram! So help stop their squabbling with a show of strength!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/squawking,squabblingsquawkabilly!.shtml"
+    },
+    {
+      "number": "135",
+      "title": "Cubone's Survey",
+      "type": "SIDE",
+      "description": "You spotted a Cubone standing alone-it was actually helping with a street survey! No amount of saying no could get you out of it, so you did your best to answer the survey.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/cubone'ssurvey.shtml"
+    },
+    {
+      "number": "136",
+      "title": "Fidough Loves Walks",
+      "type": "SIDE",
+      "description": "The baker, Promme, has asked you to take her Fidough for a walk. Take a stroll with Fidough along their usual route.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/fidoughloveswalks.shtml"
+    },
+    {
+      "number": "137",
+      "title": "Fungi-ble Goods",
+      "type": "SIDE",
+      "description": "Bene, who works at a Pokémon Center, has asked you to bring her a Foongus. She says its resemblance to a Poké Ball will help drum up sales.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/fungi-blegoods.shtml"
+    },
+    {
+      "number": "138",
+      "title": "Octolock Away the Pain!",
+      "type": "SIDE",
+      "description": "The requester can't even stand, due to the pain from his bad back. Will the Pokémon move Octolock really make it better? Save this poor fellow from his spinal suffering!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/octolockawaythepain!.shtml"
+    },
+    {
+      "number": "139",
+      "title": "The Dauntless Raichu Duo",
+      "type": "SIDE",
+      "description": "Two of your former trade partners have joined forces and are seeking the chance to battle you! Try to seize victory against their two dauntless Raichu in one battle!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thedauntlessraichuduo.shtml"
+    },
+    {
+      "number": "140",
+      "title": "A Message from Across Dimensions",
+      "type": "SIDE",
+      "description": "You've been entrusted with a letter by a man you met in hyperspace. He says that it must be delivered to Académie étoile's director...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/amessagefromacrossdimensions.shtml"
+    },
+    {
+      "number": "141",
+      "title": "Rogue Mega Showdown",
+      "type": "SIDE",
+      "description": "Two Mega Crabominable are fighting in Hyperspace Lumiose. In other words, it's a Rogue Mega Showdown! Break up the fight before things get out of hand.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/roguemegashowdown.shtml"
+    },
+    {
+      "number": "142",
+      "title": "That's Some Nacli Coffee",
+      "type": "SIDE",
+      "description": "How strange-the coffee at Café Introversion is coming out salty! You also spotted a suspicious Pokémon on the roof. What's really going on here?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/that'ssomenaclicoffee.shtml"
+    },
+    {
+      "number": "143",
+      "title": "Which Meowth Do You Purrfer",
+      "type": "SIDE",
+      "description": "Felina says that she'll let you choose one of three different-looking Meowth as a special reward if you can beat her in a battle.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/whichmeowthdoyoupurrfer.shtml"
+    },
+    {
+      "number": "144",
+      "title": "Imitation Is the Sincerest Form of Flattery",
+      "type": "SIDE",
+      "description": "A passionate Canatic wants to reproduce a photo of Canari chillin' on a bench. Help the fan find the bench to complete her quest!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/imitationisthesincerestformofflattery.shtml"
+    },
+    {
+      "number": "145",
+      "title": "My Neighbor Tinkatuff",
+      "type": "SIDE",
+      "description": "The requester has a new neighbor, who just moved to Lumiose from another region. He's feeling a bit uneasy dealing with this stranger, so help play go-between for him.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/myneighbortinkatuff.shtml"
+    },
+    {
+      "number": "146",
+      "title": "Terror in the Sands",
+      "type": "SIDE",
+      "description": "The Pokémon living in Wild Zone 8 are behaving oddly, and now you've been tasked with having a look around to see if you can find out the cause.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/terrorinthesands.shtml"
+    },
+    {
+      "number": "147",
+      "title": "Our Gluttonous Gulpin",
+      "type": "SIDE",
+      "description": "A Gulpin appeared at Hotel Z out of nowhere, probably lured in by the delicious smell of all the donuts. Try feeding it one to satisfy its hunger!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/ourgluttonousgulpin.shtml"
+    },
+    {
+      "number": "148",
+      "title": "A Sorta Scary Cemetery Story",
+      "type": "SIDE",
+      "description": "Horace told you about a strange rumor: A gravestone in the Dormez Bien Cemetery moves around night after night under certain conditions. Go see if it's true!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/asortascarycemeterystory.shtml"
+    },
+    {
+      "number": "149",
+      "title": "Scovillain's Spice-Off",
+      "type": "SIDE",
+      "description": "One of the staff at Restaurant Le Yeah is planning a special event focused on spicy dishes. Help make it a rousing success with Scovillain's Spicy Extract move!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/scovillain'sspice-off.shtml"
+    },
+    {
+      "number": "150",
+      "title": "Corvisquire's Search",
+      "type": "SIDE",
+      "description": "A Corvisquire has flown all the way across the sea from far-off Galar to reach Lumiose, in search of someone. But the only clue you've got is a single scarf...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/corvisquire'ssearch.shtml"
+    },
+    {
+      "number": "151",
+      "title": "Hyperspatial Scuffle vs. DYN4MO",
+      "type": "SIDE",
+      "description": "You ran into DYN4MO's Canari and Tarragon in Hyperspace Lumiose-and now you've somehow gotten dragged into a two-on-two battle! Seize victory together with Naveen",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialscufflevs.dyn4mo.shtml"
+    },
+    {
+      "number": "152",
+      "title": "Hyperspatial Scuffle vs. the Fist of Justice",
+      "type": "SIDE",
+      "description": "You ran into the Fist of Justice's Ivor and Gwynn in Hyperspace Lumiose-and now you've gotten dragged into a two-on-two battle! Seize victory together with Korrina",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialscufflevs.thefistofjustice.shtml"
+    },
+    {
+      "number": "153",
+      "title": "Hyperspatial Scuffle vs. the Rust Syndicate",
+      "type": "SIDE",
+      "description": "You ran into the Rust Syndicate's Corbeau and Philippe in Hyperspace Lumiose-and you've gotten dragged into a two-on-two battle! Seize victory together with Taunie/Urbain",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialscufflevs.therustsyndicate.shtml"
+    },
+    {
+      "number": "154",
+      "title": "Hyperspatial Scuffle vs. the SBC",
+      "type": "SIDE",
+      "description": "You ran into the SBC's Jacinthe and Lebanne in Hyperspace Lumiose-and you've gotten dragged into a two-on-two battle! Seize victory together with Lida",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialscufflevs.thesbc.shtml"
+    },
+    {
+      "number": "155",
+      "title": "Hyperspatial Scuffle vs. Team Flare Nouveau",
+      "type": "SIDE",
+      "description": "You ran into Team Flare Nouveau's Grisham and Griselle in Hyperspace Lumiose-and you've gotten dragged into a two-on-two battle! Seize victory together with Emma",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialscufflevs.teamflarenouveau.shtml"
+    },
+    {
+      "number": "156",
+      "title": "A Special Seviper",
+      "type": "SIDE",
+      "description": "The requester is proud of his Seviper-a rare catch in Lumiose City. But the Pokémon beside him is 100 percent an Arbok. Can you catch and show him a real Seviper",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/aspecialseviper.shtml"
+    },
+    {
+      "number": "157",
+      "title": "What's Wafting from Wigglytuff",
+      "type": "SIDE",
+      "description": "The requester's Wigglytuff hates showers. It gets enraged if Bain tries to wash it, so he wants you to pretend to battle him so you can hit Wigglytuff with a good Bubble Beam",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/what'swaftingfromwigglytuff.shtml"
+    },
+    {
+      "number": "158",
+      "title": "The Trainer Tipster",
+      "type": "SIDE",
+      "description": "Avise, who puts up Trainer Tips around town, wants to craft new helpful tips to share. Share some wisdom with him-for the public good",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thetrainertipster.shtml"
+    },
+    {
+      "number": "159",
+      "title": "Who Nicked That Snack",
+      "type": "SIDE",
+      "description": "The requester had just given her Toxel a treat and looked away for a moment-and then the snack disappeared! Where did it go? Help track down that treat",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/whonickedthatsnack.shtml"
+    },
+    {
+      "number": "160",
+      "title": "Feebas's New Friends",
+      "type": "SIDE",
+      "description": "Feebas is categorized as a Fish Pokémon, just like Magikarp, right? So the requester wants a Feebas of her own as well.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/feebas'snewfriends.shtml"
+    },
+    {
+      "number": "161",
+      "title": "Frigibax's Friend-Finding",
+      "type": "SIDE",
+      "description": "The requester wants to find friends for her Frigibax, but she can't bring herself to talk to people. Talk to the Trainers in Wild Zone 10 for her.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/frigibax'sfriend-finding.shtml"
+    },
+    {
+      "number": "162",
+      "title": "Maybe Morpeko Guards",
+      "type": "SIDE",
+      "description": "Since Quasartico's guard Dedenne were defeated, some at the company are thinking about finding new guard Pokémon. Help test whether Morpeko might be up to the task.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/maybemorpekoguards.shtml"
+    },
+    {
+      "number": "163",
+      "title": "Help Us Pick a Name",
+      "type": "SIDE",
+      "description": "This unremarkable street needs a name that will really make people remember it. Put an end to this trio's endless debate once and for all by picking a candidate for them.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/helpuspickaname.shtml"
+    },
+    {
+      "number": "164",
+      "title": "Kiosk Conundrum",
+      "type": "SIDE",
+      "description": "The requester wants you to look after her kiosk in the Magenta District while she's gone. Listen carefully to customers' orders and make sure you charge the correct price.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/kioskconundrum.shtml"
+    },
+    {
+      "number": "165",
+      "title": "The Lumiose Museum Heist",
+      "type": "SIDE",
+      "description": "A robber has targeted the Lumiose Museum! Or that's the premise of Officer Licier's police training scenario, anyway. Think you're up to playing the thief and stealing an exhibit",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thelumiosemuseumheist.shtml"
+    },
+    {
+      "number": "166",
+      "title": "The Joy of Mimicry",
+      "type": "SIDE",
+      "description": "Mike the master mimic and his partner, Mr. Rime, are hard at work on their act. Get a load of their mimicry chops through- what else?-a Pokémon battle.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thejoyofmimicry.shtml"
+    },
+    {
+      "number": "167",
+      "title": "Porygon's Polygon Count",
+      "type": "SIDE",
+      "description": "A game developer named Trian wants to tell you all about polygons. He hopes to illustrate the concept in a fun way, if you'll only agree to trade Porygon with him.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/porygon'spolygoncount.shtml"
+    },
+    {
+      "number": "168",
+      "title": "Reve de Musharna",
+      "type": "SIDE",
+      "description": "“Welcome to Rêve de Musharna! We offer a very special service for those plagued with bad dreams, so stop on by and allow us to ease you into a restful sleep at once!”",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/revedemusharna.shtml"
+    },
+    {
+      "number": "169",
+      "title": "A Gallant Indeedee",
+      "type": "SIDE",
+      "description": "Manny at Café Gallant is looking for a gallant Pokémon to help out with his work. Help him get the Indeedee of his dreams.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/agallantindeedee.shtml"
+    },
+    {
+      "number": "170",
+      "title": "Rotom Showcase",
+      "type": "SIDE",
+      "description": "A Pokémon called Rotom infiltrates appliances and electronic devices and changes into various forms. The requester will showcase all the forms for you",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/rotomshowcase.shtml"
+    },
+    {
+      "number": "171",
+      "title": "Awaken, Cofagrigus",
+      "type": "SIDE",
+      "description": "Screams echo eerily from a sewer in the Saison Canalside area. A brave and definitely not scared Rust Syndicate grunt requested a hand investigating this phenomenon.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/awaken,cofagrigus.shtml"
+    },
+    {
+      "number": "172",
+      "title": "Sawk vs. Throh",
+      "type": "SIDE",
+      "description": "Looks like you'll be the deciding fighter in this Sawk-versus-Throh fandom war. Join one of the two teams and prepare to grapple for victory!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/sawkvs.throh.shtml"
+    },
+    {
+      "number": "173",
+      "title": "Be a Defenseless Dodger",
+      "type": "SIDE",
+      "description": "Canari's come up with an ultra-hardcore game: the Defenseless Dodger challenge! Dodge wild Pokémon's attacks for as long as you can-no catching or fighting back!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/beadefenselessdodger.shtml"
+    },
+    {
+      "number": "174",
+      "title": "I Still Remember the Taste...",
+      "type": "SIDE",
+      "description": "The requester has returned to Lumiose after a long time away. He still remembers the fine coffee he had at Lysandre Café years ago, but is there a way he could enjoy it once more?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/istillrememberthetaste....shtml"
+    },
+    {
+      "number": "175",
+      "title": "Romance avec Purrloin",
+      "type": "SIDE",
+      "description": "The requester's going on a first date, and he wants to tell the lucky lady how he feels about her...but he's got the jitters! Help him keep the conversation afloat.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/romanceavecpurrloin.shtml"
+    },
+    {
+      "number": "176",
+      "title": "Ultimate Beans of Supreme Ultimacy",
+      "type": "SIDE",
+      "description": "The barista at Café Ultimo has managed to obtain the ultimate beans of supreme ultimacy-the best coffee beans in existence. But the price is as astounding as the flavor.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/ultimatebeansofsupremeultimacy.shtml"
+    },
+    {
+      "number": "177",
+      "title": "Triste Dreams of Tatsugiri",
+      "type": "SIDE",
+      "description": "The waitress at Café Triste insists that they need to serve sushi. She wants you to show her Tatsugiri-sushi-like Pokémon-in hopes that if she sees them, she can make sushi.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/tristedreamsoftatsugiri.shtml"
+    },
+    {
+      "number": "178",
+      "title": "Dondozo Down in the Dumps",
+      "type": "SIDE",
+      "description": "It sounds like a large Pokémon is stuck in a pipe in the sewer. Better rescue the stuck Pokémon before anything bursts and floods!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/dondozodowninthedumps.shtml"
+    },
+    {
+      "number": "179",
+      "title": "A Sub-30-Second Loss",
+      "type": "SIDE",
+      "description": "The requester is bursting with confidence that his Palossand can take some serious hits. Why don't you see if you can make him accept a loss in 30 seconds or less?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/asub-30-secondloss.shtml"
+    },
+    {
+      "number": "180",
+      "title": "A Wild Rosebud",
+      "type": "SIDE",
+      "description": "The requester has a carefree Pokémon named Rosebud that wanders off a lot. This time, it strayed into Wild Zone 6. Bring it back to the requester.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/awildrosebud.shtml"
+    },
+    {
+      "number": "181",
+      "title": "Hyperspatial Slugfest vs. DYN4MO",
+      "type": "SIDE",
+      "description": "You ran into DYN4MO's Canari and Tarragon in Hyperspace Lumiose again-meaning it's time for another two-on-two battle! Seize victory together with Gwynn!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialslugfestvs.dyn4mo.shtml"
+    },
+    {
+      "number": "182",
+      "title": "Hyperspatial Slugfest vs. the Fist of Justice",
+      "type": "SIDE",
+      "description": "You ran into the Fist of Justice's Ivor and Gwynn in Hyperspace Lumiose again- meaning it's time for another two-on-two battle! Seize victory together with Lebanne!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialslugfestvs.thefistofjustice.shtml"
+    },
+    {
+      "number": "183",
+      "title": "Hyperspatial Slugfest vs. the Rust Syndicate",
+      "type": "SIDE",
+      "description": "You ran into the Rust Syndicate's Corbeau and Philippe in Hyperspace Lumiose again- meaning it's time for another two-on-two battle! Seize victory together with Vinnie!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialslugfestvs.therustsyndicate.shtml"
+    },
+    {
+      "number": "184",
+      "title": "Hyperspatial Slugfest vs. the SBC",
+      "type": "SIDE",
+      "description": "You ran into the SBC's Jacinthe and Lebanne in Hyperspace Lumiose again- meaning it's time for another two-on-two battle! Seize victory together with...Jacinthe?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialslugfestvs.thesbc.shtml"
+    },
+    {
+      "number": "185",
+      "title": "Hyperspatial Slugfest vs. Team Flare Nouveau",
+      "type": "SIDE",
+      "description": "You ran into Team Flare Nouveau's Grisham and Griselle in Hyperspace Lumiose again- meaning it's time for another two-on-two battle! Seize victory together with Philippe!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hyperspatialslugfestvs.teamflarenouveau.shtml"
+    },
+    {
+      "number": "186",
+      "title": "The Ultimate Techniques",
+      "type": "SIDE",
+      "description": "You'll need to overcome three tough trials using only a Meganium, an Emboar, and a Feraligatr respectively if you want to learn the requester's \"ultimate moves.\"",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/theultimatetechniques.shtml"
+    },
+    {
+      "number": "187",
+      "title": "The Dauntless Dragalge Trainer",
+      "type": "SIDE",
+      "description": "You met Marcia, who seems to be searching far and wide for a Trainer she once battled. This Trainer apparently uses a Dragalge. Could they be somewhere in Lumiose?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thedauntlessdragalgetrainer.shtml"
+    },
+    {
+      "number": "188",
+      "title": "Start Special Scanning",
+      "type": "SIDE",
+      "description": "You got a call from Corbeau about this new “special scan” system. Sounds interesting... Head to Corbeau's office to hear more.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/startspecialscanning.shtml"
+    },
+    {
+      "number": "189",
+      "title": "Siblings of the Sky",
+      "type": "SIDE",
+      "description": "The siblings you met in hyperspace had the Legendary Pokémon Latios and Latias with them. Accept their request to battle you.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/siblingsofthesky.shtml"
+    },
+    {
+      "number": "190",
+      "title": "A Mimikyu for My Cutie",
+      "type": "SIDE",
+      "description": "Vinnie is in a spot of trouble. His young daughter is begging for a Mimikyu, but that Pokémon isn't usually found in the Kalos region. Help catch one for him.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/amimikyuformycutie.shtml"
+    },
+    {
+      "number": "191",
+      "title": "Collecting Four Drives",
+      "type": "SIDE",
+      "description": "The requester is willing to trade you four one-of-a-kind drives in exchange for Mega Shards. Collect all four, and he'll share some special information with you.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/collectingfourdrives.shtml"
+    },
+    {
+      "number": "192",
+      "title": "The Stealthy Shadow",
+      "type": "SIDE",
+      "description": "The requester wants you to check if a rumor being spread by an occult-focused account is true. Follow the instructions and see if the ghostly child is for real",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thestealthyshadow.shtml"
+    },
+    {
+      "number": "193",
+      "title": "Dreams of Meltan",
+      "type": "SIDE",
+      "description": "A strange, not often seen Pokémon appeared near the entrance to a bank. The requester wants you to catch it so it doesn't bother the customers.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/dreamsofmeltan.shtml"
+    },
+    {
+      "number": "194",
+      "title": "Volcanion Unleashed",
+      "type": "SIDE",
+      "description": "A Mythical Pokémon is sealed up tight in a Poké Ball that can't be opened. Help Mable open it up, and catch the Volcanion in your own Poké Ball",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/volcanionunleashed.shtml"
+    },
+    {
+      "number": "195",
+      "title": "Restarting Magearna",
+      "type": "SIDE",
+      "description": "A very old mechanical Pokémon was recovered during some urban redevelopment work. Gather up the many Mega Shards needed to help awaken Magearna.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/restartingmagearna.shtml"
+    },
+    {
+      "number": "196",
+      "title": "The Djinn Unbound",
+      "type": "SIDE",
+      "description": "Just as Taunie/Urbain was telling you about the Prison Bottle they found, a strange distortion appeared-and it seems linked to Hoopa. Something tells you this is no coincidence...",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/thedjinnunbound.shtml"
+    },
+    {
+      "number": "197",
+      "title": "Ultra-Hardcore Lucario Showdown",
+      "type": "SIDE",
+      "description": "Korrina has challenged you to a battle using traditional Tower of Mastery rules-one Lucario versus one Lucario. Take her on",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/ultra-hardcorelucarioshowdown.shtml"
+    },
+    {
+      "number": "198",
+      "title": "Lida's Lament",
+      "type": "SIDE",
+      "description": "Lida seems to be feeling a little sad that she hasn't made it as a dancer yet, while other people she knows are achieving their dreams. Lend her a friendly ear.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/lida'slament.shtml"
+    },
+    {
+      "number": "199",
+      "title": "Naveen's Newfound Determination",
+      "type": "SIDE",
+      "description": "Naveen's family doesn't approve of his dream to be a designer, and now he doesn't seem interested in repairing his relationship with them. Can you do anything to help?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/naveen'snewfounddetermination.shtml"
+    },
+    {
+      "number": "200",
+      "title": "Here in Lumiose City",
+      "type": "SIDE",
+      "description": "Taunie/Urbain has been splitting their time between helping Jett at Quasartico and working with Team MZ, and they's been run ragged. Maybe they could use a hand from a friend like you.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/hereinlumiosecity.shtml"
+    },
+    {
+      "number": "EX1",
+      "title": "Shine Bright like a Gemstone",
+      "type": "SIDE",
+      "description": "After picking up on some sort of psychic energy from one of your Mega Stones, Mimi got up and headed out. Where could Mimi be off to",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/shinebrightlikeagemstone.shtml"
+    },
+    {
+      "number": "EX2",
+      "title": "Project M",
+      "type": "SIDE",
+      "description": "The systems at the old Lysandre Labs have reactivated, unleashing a dangerous Pokémon that was once a research subject. This is an emergency—catch Mewtwo",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/projectm.shtml"
+    },
+    {
+      "number": "EX3",
+      "title": "Raging Lightning",
+      "type": "SIDE",
+      "description": "Emma got in touch about a hyperspace distortion in front of the Gare de Lumiose that's giving off a mysterious energy. What in the world could await beyond it?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/sidemissions/raginglightning.shtml"
+    },
+    {
+      "number": "1",
+      "title": "Hyperspace Lumiose Survey No. 1",
+      "type": "HYPERSPACE",
+      "description": "What was that weird place you ended up in while you were chasing after Ansha? You're still processing what happened when a call comes from Corbeau, asking you to stop by... It's decided! You are to survey Hyperspace Lumiose for the Rust Syndicate. It seems Hoopa-the Pokémon that travels with Ansha-holds the key to your success.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/hyperspacelumiosesurveyno.1.shtml"
+    },
+    {
+      "number": "2",
+      "title": "Lebanne Arrives with a Bang!",
+      "type": "HYPERSPACE",
+      "description": "Your quiet morning was interrupted by the front door opening with a furious bang- followed by an equally furious Lebanne! Looks like you'll need to talk her down.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/lebannearriveswithabang!.shtml"
+    },
+    {
+      "number": "3",
+      "title": "Hyperspace Lumiose Survey No. 2",
+      "type": "HYPERSPACE",
+      "description": "Hotel Z is feeling quite lively with the recent addition of Ansha and Korrina. And it looks like your survey work in Hyperspace Lumiose has a long way to go before it's wrapped up.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/hyperspacelumiosesurveyno.2.shtml"
+    },
+    {
+      "number": "4",
+      "title": "Le Musée et le Café",
+      "type": "HYPERSPACE",
+      "description": "Finally-a break from surveying Hyperspace Lumiose! Take this chance to join Ansha and Korrina for some sightseeing around the city before Corbeau inevitably calls you up again.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/lemuseeetlecafe.shtml"
+    },
+    {
+      "number": "5",
+      "title": "A Boom from the Strategy Room",
+      "type": "HYPERSPACE",
+      "description": "What was that loud sound you heard in Team MZ's strategy meeting room? Could it be an intruder? Go search the room and see if you can find the source of the noise!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/aboomfromthestrategyroom.shtml"
+    },
+    {
+      "number": "6",
+      "title": "Hyperspace Lumiose Survey No. 3",
+      "type": "HYPERSPACE",
+      "description": "Your investigation of Hyperspace Lumiose is slowly making progress, which has helped to calibrate the tools that detect distortions and unlock even more dangerous areas.",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/hyperspacelumiosesurveyno.3.shtml"
+    },
+    {
+      "number": "7",
+      "title": "Naveen's Not OK",
+      "type": "HYPERSPACE",
+      "description": "Breakfast time has come and gone, yet there is still no sign of Naveen-only his Scrafty, who seems to want your attention. Time to go check on Naveen in his room!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/naveen'snotok.shtml"
+    },
+    {
+      "number": "8",
+      "title": "Hyperspace Lumiose Survey No. 4",
+      "type": "HYPERSPACE",
+      "description": "The large distortion over the tower seems to be causing more and more trouble for Lumiose. This mystery must be solved before something terrible befalls the city!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/hyperspacelumiosesurveyno.4.shtml"
+    },
+    {
+      "number": "9",
+      "title": "Hyperspace Lumiose Survey No. 5",
+      "type": "HYPERSPACE",
+      "description": "There seems to be a troubling possibility that Hyperspace Lumiose could simply swallow up the real Lumiose. Is there any way to stop it from expanding before it's too late?",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/hyperspacelumiosesurveyno.5.shtml"
+    },
+    {
+      "number": "10",
+      "title": "Mayhem at Midnight",
+      "type": "HYPERSPACE",
+      "description": "Just when you thought you could finally get some rest, Lida's shouting roused the whole hotel! What is going on? Better check it out!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/mayhematmidnight.shtml"
+    },
+    {
+      "number": "11",
+      "title": "Hyperspace Lumiose Survey No. 6",
+      "type": "HYPERSPACE",
+      "description": "It sounds like the data you've been gathering finally led to a breakthrough. At last you can solve the mystery and stop Hyperspace Lumiose from fusing with the city!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/hyperspacelumiosesurveyno.6.shtml"
+    },
+    {
+      "number": "12",
+      "title": "The Greatest Gift",
+      "type": "HYPERSPACE",
+      "description": "The mysteries of hyperspace have been unraveled, but Ansha's original goal still remains unfulfilled. More survey work may be needed to find that Legendary Pokémon! Rayquaza, the Legendary Pokémon Ansha seeks, should be waiting on the other side of the emerald distortion that has appeared. Make a special donut and prepare to catch it!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/thegreatestgift.shtml"
+    },
+    {
+      "number": "13",
+      "title": "A Ruby-Red Legend",
+      "type": "HYPERSPACE",
+      "description": "You've learned that Groudon dwells on the other side of the ruby distortion. Make the special donut needed to enter Groudon's pocket of hyperspace, then go and catch it!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/aruby-redlegend.shtml"
+    },
+    {
+      "number": "14",
+      "title": "A Sapphire-Blue Legend",
+      "type": "HYPERSPACE",
+      "description": "You've learned that Kyogre dwells on the other side of the sapphire distortion. Make the special donut needed to enter Kyogre's pocket of hyperspace, then go and catch it!",
+      "detailUrl": "https://www.serebii.net/legendsz-a/hyperspacemissions/asapphire-bluelegend.shtml"
+    }
+  ]
+}

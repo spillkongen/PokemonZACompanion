@@ -66,13 +66,14 @@ data class MissionEntry(
     val title: String,
     val type: MissionType,
     val description: String,
-    val wikiUrl: String,
+    val detailUrl: String,
     val guide: String = ""
 )
 
 enum class MissionType(val label: String) {
     MAIN("Main Mission"),
     SIDE("Side Mission"),
+    HYPERSPACE("Hyperspace"),
     MEGA("Mega Stone"),
     TM("TM Location")
 }

@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "1.2.7",
-  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.2.7/app-release.apk",
-  "releaseNotes": "Fixes auto-update checks. Go to Guides tab and tap Check for updates if no popup appears."
+  "versionCode": 23,
+  "versionName": "1.2.8",
+  "apkUrl": "https://github.com/spillkongen/PokemonZACompanion/releases/download/v1.2.8/app-release.apk",
+  "releaseNotes": "All 259 Serebii missions (main, side, hyperspace) with scraped walkthroughs. No Serebii iframe in Guides."
 }

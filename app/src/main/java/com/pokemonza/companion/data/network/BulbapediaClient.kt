@@ -117,38 +117,6 @@ object WikiParsers {
         return results.distinctBy { it.nationalDex + it.name }
     }
 
-    fun parseMissionTables(doc: Document, type: com.pokemonza.companion.data.model.MissionType): List<com.pokemonza.companion.data.model.MissionEntry> {
-        val results = mutableListOf<com.pokemonza.companion.data.model.MissionEntry>()
-
-        for (table in doc.select("table.roundy, table.sortable, table.wikitable")) {
-            for (row in table.select("tr").drop(1)) {
-                val cells = row.select("td")
-                if (cells.size < 2) continue
-
-                val titleLink = row.select("a[href*=/wiki/]").firstOrNull()
-                val title = titleLink?.text()?.trim() ?: cells.getOrNull(1)?.text()?.trim() ?: continue
-                if (title.length < 3) continue
-
-                val number = cells.first()?.text()?.trim()?.replace("#", "") ?: results.size.plus(1).toString()
-                val description = cells.drop(1).joinToString(" · ") { it.text().trim() }.take(200)
-
-                results.add(
-                    com.pokemonza.companion.data.model.MissionEntry(
-                        number = number,
-                        title = title,
-                        type = type,
-                        description = description.ifBlank { "See Bulbapedia for full details." },
-                        wikiUrl = titleLink?.let { "${AppConstants.BULBAPEDIA_BASE}${it.attr("href")}" }
-                            ?: AppConstants.BULBAPEDIA_BASE
-                    )
-                )
-            }
-            if (results.size >= 5) break
-        }
-
-        return results.distinctBy { it.title }.take(100)
-    }
-
     private fun extractDexNumber(row: Element, kind: String): String? {
         val text = row.text()
         return null
